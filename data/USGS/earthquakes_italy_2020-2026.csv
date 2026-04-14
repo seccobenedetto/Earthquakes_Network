@@ -1,0 +1,695 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2020-01-01T02:53:41.778Z,41.569,19.3395,16.06,4.1,mb,,51,0.862,0.8,us,us70006t1w,2020-03-21T17:13:29.040Z,"28 km NNW of Durrës, Albania",earthquake,2.9,7.3,0.185,8,reviewed,us,us
+2020-01-03T11:10:50.052Z,38.4449,15.4606,149.11,4,mb,,52,0.387,0.73,us,us7000714i,2020-03-21T17:13:22.040Z,"17 km NNW of Sparta', Italy",earthquake,6.7,5.5,0.134,15,reviewed,us,us
+2020-01-06T22:55:52.404Z,37.5511,20.6836,10,4.7,mb,,52,1.056,1.04,us,us70006vgg,2020-03-21T17:13:40.040Z,"22 km SW of Lithakiá, Greece",earthquake,3.7,1.8,0.085,42,reviewed,us,us
+2020-01-08T07:50:51.844Z,41.2435,16.2853,10,2.7,ml,,140,0.524,0.38,us,us70006wmg,2020-04-02T21:27:53.040Z,"1 km NW of Andria, Italy",earthquake,1.8,2,0.074,24,reviewed,us,us
+2020-01-11T23:47:56.160Z,37.7554,20.896,10,4.3,mb,,135,1.001,0.94,us,us70006yjx,2020-04-02T21:28:17.040Z,"2 km E of Ambelókipoi, Greece",earthquake,5.2,1.9,0.16,11,reviewed,us,us
+2020-01-16T23:37:11.454Z,39.0954,16.6951,10,4.3,mb,,91,0.097,1.01,us,us700071de,2020-04-08T19:40:15.040Z,"6 km SW of Pagliarelle, Italy",earthquake,2.7,1.9,0.119,20,reviewed,us,us
+2020-01-17T17:47:37.749Z,37.6623,20.8452,18.14,4.3,mwr,,44,0.986,1.01,us,us600079c2,2020-04-08T19:39:33.040Z,"6 km SSE of Lithakiá, Greece",earthquake,5.3,3.7,0.083,14,reviewed,us,us
+2020-01-19T02:52:09.244Z,38.2582,20.7505,10,5.1,mww,,47,1.424,1,us,us60007aen,2025-12-22T18:26:40.003Z,"9 km E of Sámi, Greece",earthquake,4.9,1.8,0.048,41,reviewed,us,us
+2020-01-19T12:38:13.850Z,41.7762,20.2973,10,4.4,mb,,38,1.01,1.21,us,us60007an8,2020-04-08T19:39:39.040Z,"14 km NW of Peshkopi, Albania",earthquake,4.5,1.9,0.169,10,reviewed,us,us
+2020-01-19T12:52:32.768Z,41.8516,20.1616,10,4.3,mb,,61,0.884,0.67,us,us60007ane,2020-04-08T19:39:39.040Z,"10 km NE of Kurbnesh, Albania",earthquake,4.8,1.9,0.238,5,reviewed,us,us
+2020-01-23T04:32:34.972Z,39.6287,15.7924,258.61,4.4,mb,,56,0.365,0.83,us,us60007dhb,2020-04-11T18:20:39.040Z,"6 km W of Belvedere Marittimo, Italy",earthquake,6.7,5.6,0.08,45,reviewed,us,us
+2020-01-24T07:24:18.855Z,36.7355,5.6011,10,4.9,mww,,48,3.188,0.88,us,us60007eif,2025-12-22T18:27:00.012Z,"17 km WSW of Jijel, Algeria",earthquake,6.6,1.9,0.089,12,reviewed,us,us
+2020-01-27T01:40:21.680Z,41.3783,19.6894,10,4.4,mb,,83,1.098,0.9,us,us60007guj,2020-04-11T18:20:54.040Z,"3 km ESE of Vorë, Albania",earthquake,4.5,1.9,0.203,7,reviewed,us,us
+2020-01-28T05:33:59.996Z,37.7582,20.86,10,4.2,mb,,125,1.026,1.12,us,us70007k3r,2020-04-11T18:21:16.040Z,"1 km W of Ambelókipoi, Greece",earthquake,5.6,1.9,0.199,7,reviewed,us,us
+2020-01-28T07:53:06.892Z,45.9294,16.2006,10,3.3,ml,,161,0.672,0.34,us,us60007i1i,2020-04-11T18:21:01.040Z,"6 km ENE of Kašina, Croatia",earthquake,4,2,0.057,40,reviewed,us,us
+2020-01-28T20:15:08.171Z,41.4656,19.5362,10,5.1,mb,,19,0.985,1.13,us,us60007ifh,2025-12-22T18:27:21.131Z,"12 km NW of Vorë, Albania",earthquake,4.6,1.8,0.035,270,reviewed,us,us
+2020-01-31T21:05:32.436Z,41.4433,19.4321,10,4.4,mb,,51,0.993,0.83,us,us60007lq0,2020-04-18T22:10:06.040Z,"13 km N of Durrës, Albania",earthquake,4.1,1.9,0.19,8,reviewed,us,us
+2020-02-01T21:22:22.803Z,39.2259,20.6196,9.33,4.9,mb,,42,0.801,0.85,us,us60007mby,2020-04-18T22:10:11.040Z,"1 km ESE of Kanaláki, Greece",earthquake,5.6,3.9,0.059,89,reviewed,us,us
+2020-02-06T04:10:14.475Z,44.2152,16.0571,25.48,4,mb,,27,2.209,0.98,us,us70007jn3,2020-04-25T22:18:02.040Z,"19 km ESE of Gra?ac, Croatia",earthquake,2.8,6.2,0.144,13,reviewed,us,us
+2020-02-14T17:54:52.305Z,43.4051,17.7895,5,3.3,ml,,53,1.455,0.7,us,us70007qtc,2020-05-02T22:09:52.040Z,"5 km N of Cim, Bosnia and Herzegovina",earthquake,2.5,1.9,0.052,48,reviewed,us,us
+2020-02-18T13:24:46.056Z,39.4095,20.5159,10,4.2,mb,,95,0.633,0.59,us,us70007vxa,2020-05-02T22:10:36.040Z,"6 km S of Paramythiá, Greece",earthquake,4.8,1.9,0.303,3,reviewed,us,us
+2020-02-21T02:55:18.191Z,36.7277,5.6067,10,4.5,mb,,73,3.182,0.68,us,us70007tzd,2020-05-09T21:41:05.040Z,"17 km SW of Jijel, Algeria",earthquake,4.2,1.9,0.089,37,reviewed,us,us
+2020-02-24T16:03:00.082Z,39.3625,16.1751,10,4.8,mb,,54,0.488,0.66,us,us70007vtm,2022-03-10T05:07:08.812Z,"2 km E of San Vincenzo la Costa, Italy",earthquake,3.4,1.2,0.069,72,reviewed,us,us
+2020-03-15T11:29:06.277Z,39.8078,13.3294,480.17,4.4,mb,,57,1.545,0.66,us,us60008g0w,2020-05-30T22:17:10.040Z,"109 km S of Ventotene, Italy",earthquake,15.2,15.5,0.115,22,reviewed,us,us
+2020-03-16T21:13:25.260Z,42.43,21.0787,10,3,ml,,62,1.345,0.86,us,us60008gu7,2022-08-08T18:44:47.748Z,"3 km E of Shtime, Kosovo",earthquake,2.7,2,0.077,22,reviewed,us,us
+2020-03-17T00:52:56.989Z,39.0506,16.0444,34.52,4.1,mwr,,60,0.57,1.25,us,us60008gwk,2020-05-30T22:17:16.040Z,"4 km WSW of Campora San Giovanni, Italy",earthquake,5.4,1.8,0.069,20,reviewed,us,us
+2020-03-20T21:38:30.319Z,39.2465,20.4578,10,4.6,mb,,71,0.692,1.37,us,us70008d7h,2020-06-06T20:53:59.040Z,"6 km SE of Párga, Greece",earthquake,6.3,1.9,0.07,61,reviewed,us,us
+2020-03-21T00:49:51.370Z,39.3567,20.6383,10,5.7,mww,,14,0.742,0.71,us,us70008db1,2025-12-22T17:57:13.971Z,"14 km NNE of Kanaláki, Greece",earthquake,4.7,1.7,0.037,70,reviewed,us,us
+2020-03-21T03:12:13.102Z,39.3213,20.4937,10,4.3,mb,,97,0.666,1.13,us,us70008ddp,2020-06-06T20:54:01.040Z,"8 km ENE of Párga, Greece",earthquake,4.3,2,0.308,3,reviewed,us,us
+2020-03-22T05:24:03.700Z,45.9072,15.9697,10,5.3,mww,,12,0.794,0.59,us,us70008dx7,2025-12-22T18:31:29.644Z,"5 km E of Gornja Bistra, Croatia",earthquake,3.7,1.8,0.035,79,reviewed,us,us
+2020-03-22T06:01:20.688Z,45.9104,15.9786,10,4.6,mwr,,14,0.787,0.46,us,us70008dxz,2020-06-06T20:54:05.040Z,"6 km E of Gornja Bistra, Croatia",earthquake,4.2,1.8,0.044,49,reviewed,us,us
+2020-03-22T06:41:06.142Z,45.8994,15.9932,10,3.4,ml,,73,0.788,0.99,us,us70008dyd,2020-06-06T20:54:05.040Z,"7 km ESE of Gornja Bistra, Croatia",earthquake,2.2,2,0.049,54,reviewed,us,us
+2020-03-23T10:12:53.839Z,45.9022,15.9524,10,3,ml,,130,0.806,0.89,us,us70008ev4,2020-06-06T20:54:10.040Z,"4 km ESE of Gornja Bistra, Croatia",earthquake,5.3,2,0.06,36,reviewed,us,us
+2020-03-23T19:49:51.411Z,45.8425,16.0078,10,2.8,ml,,102,0.824,0.24,us,us70008ews,2022-08-08T21:31:10.191Z,"3 km NE of Zagreb, Croatia",earthquake,4.5,2,0.066,30,reviewed,us,us
+2020-03-24T15:46:10.909Z,39.3023,20.4593,10,4,mb,,98,0.656,0.89,us,us70008hfv,2020-06-06T20:54:15.040Z,"5 km ENE of Párga, Greece",earthquake,5.2,1.9,0.196,8,reviewed,us,us
+2020-03-24T19:53:49.053Z,45.864,16.0358,10,3.2,ml,,73,0.795,0.44,us,us70008fdg,2020-06-06T20:54:16.040Z,"4 km NNW of Dubrava, Croatia",earthquake,3.3,2,0.053,46,reviewed,us,us
+2020-03-25T04:40:20.224Z,45.8398,15.9958,10,1.5,ml,,124,0.831,0.17,us,us70008g24,2020-06-13T18:44:50.040Z,"3 km NNE of Zagreb, Croatia",earthquake,3.1,2,0.101,13,reviewed,us,us
+2020-03-25T09:49:45.674Z,39.3236,20.5552,10,4.3,mb,,96,0.704,1.15,us,us70008fq0,2020-06-13T18:44:51.040Z,"10 km NNW of Kanaláki, Greece",earthquake,4.5,1.9,0.116,21,reviewed,us,us
+2020-03-26T07:09:25.834Z,35.868,5.7575,10,5,mww,,34,2.92,0.63,us,us70008g9a,2025-12-22T18:31:46.106Z,"21 km WNW of Draa Klalouche, Algeria",earthquake,7.1,1.8,0.041,58,reviewed,us,us
+2020-03-26T07:38:30.292Z,37.3629,20.4899,10,4.5,mb,,55,1.159,0.6,us,us70008g9q,2020-06-13T18:44:48.040Z,"49 km SW of Lithakiá, Greece",earthquake,5.1,1.8,0.066,67,reviewed,us,us
+2020-03-29T02:19:33.688Z,45.8522,15.8983,10,2.1,ml,,96,0.868,0.62,us,us70008jp6,2020-06-13T18:44:50.040Z,"4 km SE of Jablanovec, Croatia",earthquake,3.9,2,0.081,20,reviewed,us,us
+2020-03-29T04:34:25.573Z,37.2638,20.6019,10,4.2,mb,,102,1.059,1.17,us,us70008i45,2020-06-13T18:44:48.040Z,"54 km SSW of Lithakiá, Greece",earthquake,4.3,1.9,0.2,7,reviewed,us,us
+2020-04-03T03:52:03.755Z,39.0816,17.1935,10,4.2,mb,,53,0.352,1.08,us,us70008mad,2020-06-21T00:54:47.040Z,"5 km E of Crotone, Italy",earthquake,5.5,1.9,0.106,25,reviewed,us,us
+2020-04-03T14:18:54.995Z,39.1059,17.1821,10,4.3,mb,,111,0.337,0.64,us,us70008mpu,2020-06-21T00:54:51.040Z,"5 km ENE of Crotone, Italy",earthquake,3.3,1.9,0.111,23,reviewed,us,us
+2020-04-13T16:43:55.476Z,41.5133,19.5601,5.33,4.1,mb,,48,0.942,0.62,us,us70008vjq,2020-06-30T14:03:06.040Z,"13 km WSW of Mamurras, Albania",earthquake,3.3,7.1,0.301,3,reviewed,us,us
+2020-04-16T09:42:53.444Z,44.7,9.4064,10,4.5,mb,,33,0.649,1,us,us70008xgd,2022-03-10T05:12:53.897Z,"2 km SE of Marsaglia, Italy",earthquake,4.2,1.9,0.081,45,reviewed,us,us
+2020-04-16T22:41:19.576Z,37.461,20.5897,10,4.4,mb,,44,1.101,0.91,us,us70008xzz,2020-07-09T14:31:15.040Z,"35 km SW of Lithakiá, Greece",earthquake,4,1.9,0.099,29,reviewed,us,us
+2020-04-18T02:57:26.302Z,41.8347,15.4046,10,4.4,mb,,44,0.265,1.16,us,us70008z3f,2020-07-09T14:31:23.040Z,"3 km ENE of Poggio Imperiale, Italy",earthquake,3.5,1.9,0.162,11,reviewed,us,us
+2020-04-18T20:32:51.893Z,45.2124,14.6832,10,2.2,ml,,105,0.815,0.35,us,us70008zr1,2020-07-09T14:31:27.040Z,"3 km N of Crikvenica, Croatia",earthquake,3.1,2,0.06,36,reviewed,us,us
+2020-04-18T23:36:53.658Z,38.0737,20.3215,21.78,4.1,mb,,48,1.555,1.05,us,us70008zl8,2020-07-09T14:31:27.040Z,"17 km SW of Lixoúri, Greece",earthquake,5,6.2,0.1,27,reviewed,us,us
+2020-04-23T07:20:54.521Z,37.9587,20.2112,10,4.3,mb,,123,1.568,0.88,us,us60009aes,2020-07-11T22:18:54.040Z,"33 km SW of Lixoúri, Greece",earthquake,2.9,1.9,0.088,36,reviewed,us,us
+2020-04-23T07:52:34.212Z,45.8979,16.0605,10,3,ml,,94,0.758,1.12,us,us60009aju,2020-07-11T22:18:54.040Z,"5 km WSW of Kašina, Croatia",earthquake,3.4,1.5,0.059,38,reviewed,us,us
+2020-04-24T11:37:43.735Z,42.9914,17.7981,10,4.2,mb,,46,1.215,0.58,us,us60009bbx,2020-07-11T22:18:57.040Z,"14 km ESE of Metkovi?, Croatia",earthquake,5.4,1.9,0.152,12,reviewed,us,us
+2020-04-26T02:59:03.583Z,40.9236,14.1821,5,2,ml,,123,0.311,0.37,us,us60009cyf,2020-07-11T22:19:09.040Z,"1 km WNW of Villaricca, Italy",earthquake,3.5,2,0.081,20,reviewed,us,us
+2020-04-27T20:15:03.107Z,41.4254,19.5273,10,3.1,ml,,103,1.023,0.62,us,us60009dg4,2020-07-11T22:19:12.040Z,"9 km NNW of Shijak, Albania",earthquake,5.4,2,0.064,32,reviewed,us,us
+2020-05-02T23:49:13.744Z,43.1532,17.9828,10,3.3,ml,,43,1.186,0.58,us,us700099gx,2020-07-18T21:57:32.040Z,"7 km NNE of Stolac, Bosnia and Herzegovina",earthquake,5.1,2,0.056,42,reviewed,us,us
+2020-05-09T10:52:51.812Z,37.3556,20.5372,12.97,4.7,mb,,100,1.121,0.6,us,us70009d8n,2020-07-29T22:14:23.040Z,"47 km SSW of Lithakiá, Greece",earthquake,6.9,5.2,0.075,54,reviewed,us,us
+2020-05-10T03:07:45.293Z,34.8832,14.9461,10,4.6,mb,,113,1.012,0.93,us,us70009gtn,2020-07-29T22:14:26.040Z,"111 km SSE of Bir?ebbu?a, Malta",earthquake,4.4,1.9,0.386,4,reviewed,us,us
+2020-05-11T03:03:22.437Z,41.9589,12.4815,10,3.1,ml,,96,0.653,0.75,us,us70009dwd,2020-07-29T22:14:30.040Z,"7 km NNW of Rome, Italy",earthquake,3.4,2,0.066,30,reviewed,us,us
+2020-05-13T09:09:45.636Z,45.2017,14.7263,10,3.5,ml,,95,0.846,0.65,us,us70009f86,2020-08-02T00:32:26.040Z,"3 km NE of Crikvenica, Croatia",earthquake,3.8,1.4,0.049,54,reviewed,us,us
+2020-05-13T17:03:41.200Z,34.9012,15.0397,10,4,mb,,120,1.024,1.15,us,us70009ff2,2020-08-02T00:32:20.040Z,"112 km SSE of Bir?ebbu?a, Malta",earthquake,5.9,1.9,0.164,10,reviewed,us,us
+2020-05-16T08:29:44.153Z,37.8558,20.9128,10,4.4,mb,,90,1.051,1.11,us,us70009hws,2020-08-02T00:30:23.040Z,"7 km NNE of Gaïtánion, Greece",earthquake,6.6,1.7,0.143,14,reviewed,us,us
+2020-05-16T23:22:59.858Z,38.7794,20.5007,10,4.2,mb,,96,1.08,1.21,us,us70009ifq,2020-08-02T00:29:49.040Z,"18 km WSW of Lefkáda, Greece",earthquake,4.7,1.9,0.176,9,reviewed,us,us
+2020-05-20T23:43:16.920Z,35.1594,20.2775,13.45,5.7,mww,,22,2.416,0.52,us,us70009m4x,2025-12-22T18:34:34.303Z,"224 km SW of Methóni, Greece",earthquake,6.7,3.4,0.048,42,reviewed,us,us
+2020-05-23T07:54:27.121Z,44.8125,17.3091,10.5,2.9,ml,,120,0.109,0.38,us,us70009p1k,2020-08-08T18:17:52.040Z,"7 km SE of Trn, Bosnia and Herzegovina",earthquake,4.9,6.2,0.059,38,reviewed,us,us
+2020-05-28T13:05:57.200Z,37.3229,20.52,10,4.7,mb,,136,1.13,1.14,us,us6000a10i,2020-08-15T20:19:43.040Z,"51 km SSW of Lithakiá, Greece",earthquake,6.1,1.9,0.166,11,reviewed,us,us
+2020-06-01T22:27:03.588Z,35.0707,20.2196,13.67,4.1,mb,,194,2.516,1.22,us,us6000a3zv,2020-08-15T20:20:02.040Z,"235 km SW of Methóni, Greece",earthquake,9.1,6.8,0.235,5,reviewed,us,us
+2020-06-05T02:25:51.200Z,37.3235,20.5874,10,4.4,mb,,101,1.077,0.94,us,us6000a6ay,2020-08-18T17:58:52.040Z,"48 km SSW of Lithakiá, Greece",earthquake,5.6,1.4,0.106,26,reviewed,us,us
+2020-06-07T00:27:08.654Z,37.2958,20.5482,10,4.4,mb,,105,1.105,1.11,us,us6000a7b3,2020-08-18T17:59:00.040Z,"53 km SSW of Lithakiá, Greece",earthquake,6.1,1.9,0.17,10,reviewed,us,us
+2020-06-08T15:21:51.813Z,41.5268,19.5919,3.74,4.7,mb,,36,0.935,0.75,us,us6000a7vx,2020-08-18T17:59:06.040Z,"10 km SW of Mamurras, Albania",earthquake,4.4,4.4,0.063,75,reviewed,us,us
+2020-06-08T19:29:01.815Z,37.2955,20.4769,10,4.2,mb,,137,1.161,0.73,us,us6000a80m,2020-08-18T17:59:07.040Z,"56 km SSW of Lithakiá, Greece",earthquake,5.4,2,0.167,10,reviewed,us,us
+2020-06-09T06:39:06.414Z,37.2278,20.7094,10,4.5,mb,,102,0.972,0.65,us,us6000acxe,2020-08-18T17:59:09.040Z,"55 km S of Lithakiá, Greece",earthquake,4.8,1.7,0.204,7,reviewed,us,us
+2020-06-09T16:42:58.783Z,37.3859,20.5485,10,4.4,mb,,135,1.117,0.94,us,us6000a8mr,2020-08-18T17:59:10.040Z,"44 km SW of Lithakiá, Greece",earthquake,5.3,1.9,0.127,18,reviewed,us,us
+2020-06-10T02:15:54.602Z,45.8413,16.0255,14.12,2.2,ml,,92,0.817,0.52,us,us6000a923,2020-08-22T19:14:40.040Z,"3 km WNW of Dubrava, Croatia",earthquake,4.1,8.5,0.071,26,reviewed,us,us
+2020-06-10T03:24:24.080Z,37.28,20.4774,10,4.5,mb,,102,1.16,0.67,us,us6000a92u,2020-08-22T19:14:40.040Z,"57 km SSW of Lithakiá, Greece",earthquake,5.7,1.9,0.086,40,reviewed,us,us
+2020-06-17T15:51:44.831Z,45.883,16.0347,10,3,ml,,93,0.781,0.51,us,us6000adrm,2020-08-30T00:00:42.040Z,"5 km NNW of Dubrava, Croatia",earthquake,4.1,2,0.056,42,reviewed,us,us
+2020-06-18T23:27:45.536Z,45.85,16.0556,10,1.9,ml,,119,0.797,0.29,us,us6000ael6,2020-08-30T00:00:48.040Z,"1 km NNW of Dubrava, Croatia",earthquake,5.1,2,0.091,16,reviewed,us,us
+2020-06-23T06:25:41.301Z,46.0477,6.8619,10,3.4,ml,,69,0.438,1.11,us,us6000ah13,2020-08-30T00:01:07.040Z,"11 km ESE of Samoëns, France",earthquake,3.5,2,0.053,46,reviewed,us,us
+2020-06-23T14:33:00.585Z,39.8497,19.7512,10,4.4,mb,,42,0.141,1.15,us,us6000ah8p,2020-08-30T00:01:08.040Z,"8 km NW of Acharávi, Greece",earthquake,4.8,1.9,0.134,18,reviewed,us,us
+2020-06-26T16:56:13.328Z,45.5723,17.9952,10,3.2,ml,,82,1.003,0.5,us,us7000aced,2020-09-05T17:35:23.040Z,"3 km ESE of Zdenci, Croatia",earthquake,3.9,1.8,0.059,38,reviewed,us,us
+2020-07-01T04:02:58.064Z,45.8609,16.0833,10,2.1,ml,,107,0.776,0.19,us,us7000ag6v,2020-09-11T22:13:46.040Z,"3 km NNE of Dubrava, Croatia",earthquake,4.1,2,0.085,18,reviewed,us,us
+2020-07-04T07:59:39.392Z,35.7124,6.2539,10,4.5,mb,,72,2.516,0.49,us,us7000ahu7,2022-08-08T23:33:06.539Z,"18 km NNE of Batna, Algeria",earthquake,7,1.9,0.092,35,reviewed,us,us
+2020-07-06T09:24:51.725Z,35.9524,17.0184,10,4.4,mb,,114,2.472,0.98,us,us7000aimt,2020-09-11T22:14:19.040Z,"187 km ESE of Portopalo di Capo Passero, Italy",earthquake,7,1.9,0.203,7,reviewed,us,us
+2020-07-07T09:45:08.580Z,43.2237,17.8498,10,4.2,mb,,37,1.306,0.74,us,us7000ajec,2020-09-11T22:14:25.040Z,"5 km SW of Blagaj, Bosnia and Herzegovina",earthquake,4.4,1.2,0.215,6,reviewed,us,us
+2020-07-13T12:06:54.446Z,46.3195,12.6148,10,4.3,mb,,29,0.089,0.7,us,us7000amqk,2020-09-19T20:58:16.040Z,"9 km SSW of Forni di Sotto, Italy",earthquake,3.5,1.9,0.238,5,reviewed,us,us
+2020-07-17T02:50:57.771Z,46.2964,13.5798,11.1,4,mb,,26,0.146,0.9,us,us7000aq3d,2020-09-26T16:58:33.040Z,"5 km SSE of Bovec, Slovenia",earthquake,3.9,5.9,0.52,1,reviewed,us,us
+2020-07-17T08:12:44.146Z,36.462,6.2391,10,4.6,mb,,60,2.619,0.74,us,us7000aq6y,2020-09-26T16:58:33.040Z,"2 km WNW of Mila, Algeria",earthquake,2.9,1.9,0.088,38,reviewed,us,us
+2020-07-21T13:32:29.616Z,38.1203,20.4653,10,4.4,mb,,145,1.492,1.17,us,us7000asa6,2022-08-08T23:40:06.432Z,"7 km SSW of Argostólion, Greece",earthquake,5.9,1.8,0.102,29,reviewed,us,us
+2020-07-22T16:28:51.512Z,39.6694,19.7639,10,2.7,ml,,97,0.049,0.84,us,us6000b2a3,2020-10-03T17:32:15.040Z,"8 km WNW of Kontokáli, Greece",earthquake,6.6,2,0.097,14,reviewed,us,us
+2020-07-23T17:23:47.146Z,41.4818,19.4308,9.77,4.1,mb,,51,0.955,1.02,us,us6000b2sv,2020-10-03T17:32:17.040Z,"17 km N of Durrës, Albania",earthquake,3,7.8,0.302,3,reviewed,us,us
+2020-07-25T01:38:06.213Z,38.1306,20.3809,10,4.7,mb,,39,1.55,1.04,us,us6000b3tx,2020-10-03T17:32:21.040Z,"9 km SSW of Lixoúri, Greece",earthquake,5.6,1.8,0.056,98,reviewed,us,us
+2020-07-26T14:16:01.740Z,40.9533,19.7445,10,4.5,mb,,51,1.239,0.99,us,us6000b4e8,2020-10-03T17:32:25.040Z,"3 km ENE of Lushnjë, Albania",earthquake,5.5,1.9,0.097,37,reviewed,us,us
+2020-08-07T06:15:37.835Z,36.5497,6.2708,10,5,mww,,44,2.619,0.76,us,us6000bag6,2025-12-22T18:39:56.128Z,"3 km NNE of Sidi Mérouane, Algeria",earthquake,6.8,1.9,0.058,29,reviewed,us,us
+2020-08-07T11:13:34.544Z,36.5773,6.3168,10,4.5,mb,,49,2.592,0.76,us,us6000baiw,2020-10-21T22:03:55.040Z,"8 km NE of Sidi Mérouane, Algeria",earthquake,3.6,1.8,0.07,60,reviewed,us,us
+2020-08-08T19:44:45.363Z,47.2359,10.5853,2.27,3.6,ml,,40,0.236,0.74,us,us6000bb6z,2020-10-21T22:03:59.040Z,"5 km SE of Gramais, Austria",earthquake,2.4,7.2,0.046,62,reviewed,us,us
+2020-08-09T06:11:17.630Z,37.7442,21.0316,10,4.1,mb,,124,0.907,0.7,us,us6000bbcc,2020-10-30T12:04:48.743Z,"12 km ESE of Zakynthos, Greece",earthquake,6.4,2,0.26,4,reviewed,us,us
+2020-08-15T01:12:30.489Z,44.1142,18.2347,10,2.9,ml,,139,0.984,0.7,us,us6000bf2s,2020-10-24T20:08:52.040Z,"8 km N of Gornja Breza, Bosnia and Herzegovina",earthquake,4.8,2,0.056,42,reviewed,us,us
+2020-08-15T18:26:15.093Z,44.789,17.2902,9.37,2.8,ml,,119,0.085,0.42,us,us6000bfgp,2020-10-24T20:08:55.040Z,"7 km ENE of Starcevica, Bosnia and Herzegovina",earthquake,3.1,6,0.057,40,reviewed,us,us
+2020-08-16T18:37:15.858Z,44.1577,18.0582,10,3.4,ml,,42,0.861,1.01,us,us6000bfnv,2020-10-24T20:08:57.040Z,"5 km WNW of Kakanj, Bosnia and Herzegovina",earthquake,4.7,2,0.055,44,reviewed,us,us
+2020-08-22T10:25:41.367Z,41.5314,19.5833,15.76,4.2,mb,,49,0.929,0.68,us,us6000bizv,2020-10-31T19:06:16.040Z,"10 km WSW of Mamurras, Albania",earthquake,6.3,3.5,0.199,7,reviewed,us,us
+2020-08-24T23:02:08.662Z,39.9168,15.608,276.85,4.2,mb,,28,0.177,0.89,us,us7000bccs,2020-10-31T19:06:25.040Z,"12 km SW of Maratea, Italy",earthquake,6.7,5.8,0.096,34,reviewed,us,us
+2020-08-26T00:41:02.115Z,46.0427,6.8968,3.23,2.3,ml,,155,0.425,0.28,us,us7000bd1s,2022-08-09T00:05:06.225Z,"12 km WSW of Martigny-Combe, Switzerland",earthquake,5.4,5.3,0.091,16,reviewed,us,us
+2020-08-29T00:18:28.267Z,39.6763,20.3328,10,4.7,mb,,24,0.415,0.93,us,us7000ben2,2020-11-07T18:48:32.040Z,"8 km NNE of Filiátes, Greece",earthquake,5.3,1.8,0.049,127,reviewed,us,us
+2020-09-05T23:24:31.394Z,38.8683,21.0037,10,4.3,mb,,85,1.26,1.33,us,us7000bip3,2020-11-17T19:44:42.040Z,"5 km ENE of Monastiráki, Greece",earthquake,2.8,1.9,0.177,9,reviewed,us,us
+2020-09-12T16:46:05.438Z,41.7331,19.7462,10,4.3,mb,,43,0.784,1.36,us,us7000bmgw,2020-11-21T20:10:38.040Z,"5 km SW of Rubik, Albania",earthquake,4.6,1.9,0.169,10,reviewed,us,us
+2020-09-20T10:59:03.383Z,44.2016,15.9793,10,4,mb,,28,1.021,0.75,us,us7000bqgv,2020-11-28T21:31:57.040Z,"15 km SE of Gra?ac, Croatia",earthquake,4.6,1.9,0.173,9,reviewed,us,us
+2020-09-22T00:37:51.680Z,45.8566,16.0106,10,2.2,ml,,102,0.812,0.56,us,us6000bzj9,2020-11-28T21:32:02.040Z,"4 km WNW of Dubrava, Croatia",earthquake,3.5,2,0.077,22,reviewed,us,us
+2020-09-23T23:25:09.198Z,40.9687,19.7553,10,4.4,mb,,39,1.255,1.28,us,us6000c0c1,2020-12-05T21:02:55.040Z,"5 km NE of Lushnjë, Albania",earthquake,4.6,1.9,0.107,25,reviewed,us,us
+2020-09-24T05:10:20.070Z,38.8823,20.5387,10,4.7,mb,,76,1.009,0.95,us,us6000c0er,2020-12-05T21:02:56.040Z,"15 km WNW of Lefkáda, Greece",earthquake,6.4,1.9,0.108,26,reviewed,us,us
+2020-09-24T19:21:39.356Z,40.9809,19.7837,10,4.6,mb,,35,1.266,0.95,us,us6000c0rq,2020-12-05T21:02:57.040Z,"7 km SSE of Peqin, Albania",earthquake,5.6,1.7,0.193,8,reviewed,us,us
+2020-09-24T22:38:51.224Z,38.9107,15.5894,211.73,4.2,mb,,51,0.691,1.01,us,us6000c36g,2020-12-05T21:03:08.040Z,"36 km NW of Santa Domenica, Italy",earthquake,6.4,7.4,0.152,12,reviewed,us,us
+2020-09-30T01:01:01.504Z,35.6619,14.4192,11.43,4.4,mb,,70,0.194,0.58,us,us6000c2z5,2020-12-12T22:28:24.040Z,"19 km SSW of ?urrieq, Malta",earthquake,5.6,4.4,0.096,31,reviewed,us,us
+2020-10-07T22:13:05.216Z,41.4658,19.5704,10,4.6,mb,,42,0.99,0.77,us,us6000c6kg,2020-12-19T17:22:39.040Z,"10 km NW of Vorë, Albania",earthquake,4.1,1.9,0.102,29,reviewed,us,us
+2020-10-07T23:44:57.310Z,41.5363,19.5193,13.39,4.2,mb,,48,0.913,0.63,us,us6000c6kv,2020-12-19T17:22:39.040Z,"15 km WSW of Mamurras, Albania",earthquake,3.2,5.5,0.159,11,reviewed,us,us
+2020-10-09T14:36:33.395Z,41.5072,19.4599,10,4.5,mb,,50,0.933,0.68,us,us6000c72t,2020-12-19T17:22:41.040Z,"20 km NNW of Shijak, Albania",earthquake,3.4,1.9,0.221,6,reviewed,us,us
+2020-10-20T02:36:45.451Z,36.9864,20.9012,10,4.6,mb,,55,0.841,0.68,us,us6000c9sx,2020-12-29T23:07:53.040Z,"63 km WSW of Filiatrá, Greece",earthquake,5.2,1.5,0.129,18,reviewed,us,us
+2020-10-21T23:00:14.335Z,37.2797,20.4414,10,4.4,mb,,81,1.188,0.92,us,us6000cb27,2021-01-09T20:05:17.040Z,"59 km SW of Lithakiá, Greece",earthquake,1.8,1.9,0.135,16,reviewed,us,us
+2020-10-21T23:00:54.450Z,37.3185,20.5134,9.85,5.2,mww,,25,1.135,0.6,us,us6000cb28,2025-12-22T18:44:50.382Z,"52 km SSW of Lithakiá, Greece",earthquake,6.2,3.5,0.053,34,reviewed,us,us
+2020-10-24T20:48:17.762Z,38.7417,14.1364,34.94,4.3,mb,,76,1.282,0.59,us,us6000ccr1,2021-01-09T20:05:24.040Z,"63 km WNW of Leni, Italy",earthquake,3.8,6.8,0.178,9,reviewed,us,us
+2020-10-25T19:35:44.663Z,47.0146,9.1408,5,4,mwr,,91,0.558,0.91,us,us6000cd1u,2021-01-09T20:05:26.040Z,"5 km ESE of Ennenda, Switzerland",earthquake,3.2,2,0.048,42,reviewed,us,us
+2020-10-26T20:47:57.338Z,45.5052,6.7861,10,2.3,ml,,103,0.459,0.5,us,us6000cdjm,2021-01-09T20:05:29.040Z,"6 km E of Belle-Plagne, France",earthquake,2.7,2,0.105,12,reviewed,us,us
+2020-11-01T13:15:41.906Z,44.3087,15.4606,10,4.6,mb,,19,1.308,0.67,us,us7000c8yb,2021-01-18T23:01:57.040Z,"2 km NE of Starigrad, Croatia",earthquake,3.9,1.8,0.083,43,reviewed,us,us
+2020-11-11T03:54:14.890Z,41.6751,20.7949,10,5,mww,,17,1.368,0.76,us,us7000cd8k,2025-12-22T19:05:24.362Z,"11 km SSW of Vrutok, North Macedonia",earthquake,4.9,1.8,0.045,47,reviewed,us,us
+2020-11-11T10:59:37.523Z,41.6306,20.7015,10,4.1,mb,,36,1.337,0.52,us,us7000cdcg,2021-01-27T17:28:37.040Z,"8 km ENE of Rostusa, North Macedonia",earthquake,4.9,1.9,0.174,9,reviewed,us,us
+2020-11-11T14:25:14.093Z,41.6646,20.6628,10,4.9,mb,,20,1.294,0.52,us,us7000cddw,2021-01-27T17:28:37.040Z,"8 km NE of Rostusa, North Macedonia",earthquake,4,1.8,0.048,138,reviewed,us,us
+2020-11-22T00:34:17.272Z,37.3289,20.3421,42.48,4.4,mb,,136,1.272,0.71,us,us6000csit,2021-02-03T17:49:40.040Z,"61 km SW of Lithakiá, Greece",earthquake,5,15.5,0.31,3,reviewed,us,us
+2020-11-22T03:53:08.474Z,36.6442,6.8625,10,5.1,mww,,37,2.205,1.25,us,us6000crds,2025-12-22T18:45:43.690Z,"24 km WSW of Azzaba, Algeria",earthquake,6.5,1.8,0.048,41,reviewed,us,us
+2020-11-22T11:10:32.132Z,36.6127,6.6853,10,4.3,mb,,81,2.325,0.91,us,us6000crg3,2021-02-03T17:50:26.040Z,"18 km NNE of Didouche Mourad, Algeria",earthquake,7.8,1.9,0.189,8,reviewed,us,us
+2020-11-25T00:52:01.140Z,34.7177,19.3259,10,4.1,mb,,173,3.236,1.24,us,us7000ckeh,2021-02-06T18:28:35.040Z,"268 km NNW of T?krah, Libya",earthquake,5.7,1.9,0.198,7,reviewed,us,us
+2020-12-06T01:50:03.891Z,40.1517,13.0087,459.86,4,mb,,59,1.977,1.07,us,us7000cniy,2021-02-12T22:39:35.040Z,"79 km SSW of Ventotene, Italy",earthquake,12.2,12.5,0.156,11,reviewed,us,us
+2020-12-06T07:19:42.645Z,41.497,19.5428,10,4.5,mb,,36,0.955,0.72,us,us7000cnkw,2022-08-09T01:41:28.758Z,"14 km W of Fushë-Krujë, Albania",earthquake,4.2,1.9,0.092,35,reviewed,us,us
+2020-12-16T02:18:01.425Z,38.0842,20.3354,10,4.4,mb,,120,1.552,1.09,us,us7000crf7,2021-02-27T23:24:49.040Z,"15 km SW of Lixoúri, Greece",earthquake,2.4,1.9,0.218,6,reviewed,us,us
+2020-12-17T15:59:19.921Z,45.3687,9.2044,10,4.1,mb,,102,1.108,0.78,us,us7000cru1,2021-02-27T23:25:13.040Z,"0 km SW of Opera, Italy",earthquake,3.8,1.5,0.303,3,reviewed,us,us
+2020-12-19T00:53:12.938Z,40.0874,19.8769,11.55,4.1,mb,,39,0.379,0.83,us,us7000csar,2021-02-27T23:26:02.040Z,"11 km E of Himarë, Albania",earthquake,5.1,6.3,0.144,13,reviewed,us,us
+2020-12-19T10:57:42.755Z,38.12,16.0114,15.4,4.1,mb,,62,0.167,0.66,us,us7000csey,2021-02-27T23:26:08.040Z,"5 km WSW of San Luca, Italy",earthquake,4.7,5.3,0.158,11,reviewed,us,us
+2020-12-22T20:27:23.419Z,36.9548,14.4067,23.02,4.5,mb,,44,0.269,1.03,us,us6000d1yt,2021-02-27T23:23:47.040Z,"7 km NNW of Scoglitti, Italy",earthquake,4.8,4.9,0.07,64,reviewed,us,us
+2020-12-28T05:28:07.913Z,45.4413,16.1877,10,4.8,mwr,,13,0.988,0.56,us,us6000d3kv,2025-12-22T19:04:23.081Z,"8 km W of Petrinja, Croatia",earthquake,3.5,1.6,0.046,45,reviewed,us,us
+2020-12-28T06:49:56.224Z,45.4238,16.2895,10,4.3,mwr,,45,0.925,0.61,us,us6000d3lf,2022-07-23T13:40:35.904Z,"1 km S of Petrinja, Croatia",earthquake,4.1,1.9,0.051,37,reviewed,us,us
+2020-12-29T11:19:54.762Z,45.4244,16.2573,10,6.4,mww,,13,0.941,0.75,us,us6000d3zh,2025-12-22T19:05:20.622Z,"2 km WSW of Petrinja, Croatia",earthquake,4.4,1.8,0.033,89,reviewed,us,us
+2020-12-29T11:23:46.151Z,45.3879,16.2421,10,4.9,mb,,68,0.924,0.93,us,us6000d6ft,2021-03-06T23:20:16.040Z,"6 km SW of Petrinja, Croatia",earthquake,3.6,1.9,0.177,10,reviewed,us,us
+2020-12-29T11:29:05.687Z,45.3665,16.2696,10,4.5,mb,,56,0.895,0.74,us,us6000d6fv,2021-03-06T23:20:17.040Z,"8 km SSW of Petrinja, Croatia",earthquake,2.3,1.9,0.382,2,reviewed,us,us
+2020-12-29T12:34:43.540Z,45.4504,16.204,10,4.4,mb,,31,0.986,0.48,us,us6000d3zz,2021-03-06T23:20:17.040Z,"Croatia region",earthquake,3.6,1.8,0.12,20,reviewed,us,us
+2020-12-29T14:36:56.473Z,45.1886,11.0546,10,4.6,mb,,25,0.47,0.51,us,us6000d40l,2021-03-06T23:20:19.040Z,"0 km NNW of Nogara, Italy",earthquake,3.9,1.8,0.073,55,reviewed,us,us
+2020-12-30T05:15:05.010Z,45.454,16.1814,10,4.4,mwr,,20,1,0.57,us,us6000d48z,2021-03-06T23:20:35.040Z,"8 km WNW of Petrinja, Croatia",earthquake,1.7,1.8,0.041,57,reviewed,us,us
+2020-12-30T05:26:42.121Z,45.5266,16.16,10,4.3,mwr,,15,1.036,0.83,us,us6000d497,2021-03-06T23:20:35.040Z,"7 km SSW of Lekenik, Croatia",earthquake,4.6,1.8,0.045,48,reviewed,us,us
+2020-12-31T08:15:46.036Z,45.5277,16.1641,10,3.7,ml,,69,1.034,0.87,us,us6000d4ii,2021-03-06T23:20:54.040Z,"7 km SSW of Lekenik, Croatia",earthquake,3.9,2,0.052,48,reviewed,us,us
+2021-01-02T18:00:42.572Z,45.4512,16.2853,11.51,3.4,ml,,70,0.947,0.57,us,us6000d52g,2022-08-09T02:16:02.995Z,"1 km NNW of Petrinja, Croatia",earthquake,1.9,7.4,0.051,50,reviewed,us,us
+2021-01-03T08:19:57.944Z,45.7205,16.1689,10,2.7,ml,,95,0.86,0.45,us,us6000d57y,2021-03-13T22:58:59.040Z,"4 km ENE of Novo ?i?e, Croatia",earthquake,2.8,1.9,0.06,36,reviewed,us,us
+2021-01-04T06:49:54.424Z,45.4155,16.2628,10,4.4,mb,,23,0.932,0.72,us,us6000d5di,2022-07-23T13:42:13.317Z,"3 km SW of Petrinja, Croatia",earthquake,3.8,1.5,0.161,11,reviewed,us,us
+2021-01-05T06:11:42.468Z,45.4625,16.28,10.31,3.3,ml,,71,0.958,0.41,us,us6000d5pk,2021-03-13T22:59:20.040Z,"2 km NNW of Petrinja, Croatia",earthquake,4.9,8,0.053,46,reviewed,us,us
+2021-01-06T17:01:43.679Z,45.4322,16.2422,10,4.7,mwr,,24,0.955,0.75,us,us6000d66s,2022-07-23T13:43:21.442Z,"3 km W of Petrinja, Croatia",earthquake,3.7,1.8,0.041,57,reviewed,us,us
+2021-01-07T11:06:46.087Z,45.4828,16.2423,9.54,4,mb,,40,0.991,0.75,us,us6000d6ff,2022-08-09T02:20:28.198Z,"6 km NW of Petrinja, Croatia",earthquake,4.3,4.2,0.156,11,reviewed,us,us
+2021-01-08T06:55:02.812Z,37.7518,21.1145,10,4.3,mb,,121,0.862,0.67,us,us7000d132,2021-03-20T21:22:42.040Z,"10 km S of Arkoúdi, Greece",earthquake,3,2,0.201,7,reviewed,us,us
+2021-01-09T21:29:09.958Z,45.406,16.3169,5.39,4.2,mwr,,20,0.899,0.63,us,us6000d73g,2022-07-23T13:45:21.940Z,"4 km SSE of Petrinja, Croatia",earthquake,2.6,4,0.042,54,reviewed,us,us
+2021-01-10T23:28:01.560Z,45.4703,16.2109,9.59,3.8,mb,,49,0.997,0.76,us,us6000d7bt,2022-01-04T11:26:35.625Z,"7 km WNW of Petrinja, Croatia",earthquake,3.1,6.7,0.36,2,reviewed,us,us
+2021-01-12T07:26:33.870Z,40.0828,19.7021,10,4.5,mb,,47,0.376,1.09,us,us6000d7nf,2021-03-20T21:24:37.040Z,"4 km WSW of Himarë, Albania",earthquake,5.2,1.9,0.15,13,reviewed,us,us
+2021-01-15T12:01:37.377Z,45.5036,15.9667,10,4.4,mb,,73,1.119,0.56,us,us7000d0aq,2021-03-27T21:04:33.040Z,"8 km ESE of Lasinja, Croatia",earthquake,3,1.9,0.143,14,reviewed,us,us
+2021-01-20T02:39:08.603Z,40.8777,20.3252,10,4.4,mb,,38,1.232,1.08,us,us7000d1j4,2021-03-27T21:05:35.040Z,"11 km E of Gramsh, Albania",earthquake,2.7,1.9,0.143,14,reviewed,us,us
+2021-01-25T13:35:27.847Z,37.7273,20.8862,29.51,4.6,mb,,54,0.991,0.93,us,us7000d34m,2021-04-13T17:07:33.040Z,"3 km SSE of Ambelókipoi, Greece",earthquake,5.5,2.6,0.129,20,reviewed,us,us
+2021-01-26T14:32:42.093Z,41.4988,19.4656,2.94,4.4,mb,,34,0.942,0.96,us,us7000d3f3,2021-04-13T17:07:40.040Z,"19 km NNW of Shijak, Albania",earthquake,4,4.7,0.13,21,reviewed,us,us
+2021-01-27T21:46:07.436Z,43.3316,13.8238,16.58,3.4,ml,,89,0.447,1.03,us,us6000dchr,2021-04-13T17:04:28.040Z,"8 km ENE of Civitanova Marche, Italy",earthquake,2.1,5.1,0.057,41,reviewed,us,us
+2021-02-03T19:55:00.901Z,39.4132,20.1342,10,4.4,mb,,38,0.397,0.99,us,us6000de99,2021-04-16T19:03:18.040Z,"5 km ESE of Lefkímmi, Greece",earthquake,4.7,1.9,0.13,17,reviewed,us,us
+2021-02-22T12:04:06.461Z,45.7971,10.9632,10.94,4.3,mb,,36,0.541,0.44,us,us6000dk2l,2021-05-04T14:16:16.040Z,"2 km SSE of Brentonico, Italy",earthquake,1.7,5.2,0.178,9,reviewed,us,us
+2021-02-24T01:51:05.845Z,35.6733,5.1456,10,4.7,mb,,50,3.419,0.73,us,us6000dkjr,2021-05-04T14:16:46.040Z,"24 km SSW of Salah Bey, Algeria",earthquake,5.7,1.8,0.055,99,reviewed,us,us
+2021-02-24T09:58:29.362Z,45.4812,16.2324,10,3.9,mwr,,34,0.995,0.82,us,us6000dkmi,2021-05-04T14:16:51.040Z,"6 km NW of Petrinja, Croatia",earthquake,3.9,1.9,0.071,19,reviewed,us,us
+2021-02-24T22:07:17.252Z,42.717,18.0711,10.5,4.3,mb,,30,0.924,0.75,us,us7000ddfp,2021-05-04T14:17:02.040Z,"4 km NNW of Mokošica, Croatia",earthquake,4.1,5,0.109,24,reviewed,us,us
+2021-02-28T12:26:02.380Z,37.8234,20.7651,10,4.5,mb,,138,1.124,0.57,us,us7000dec9,2021-05-13T22:37:38.040Z,"0 km SE of Katastárion, Greece",earthquake,5.9,1.9,0.11,24,reviewed,us,us
+2021-02-28T16:21:16.285Z,37.8161,20.7279,10,4,mb,,142,1.145,0.9,us,us7000dfjn,2021-05-13T22:37:56.040Z,"3 km WSW of Katastárion, Greece",earthquake,6.2,2,0.212,6,reviewed,us,us
+2021-03-01T07:13:37.272Z,39.4264,15.8204,248.32,4.3,mb,,69,0.566,0.61,us,us7000deid,2021-05-13T22:39:08.040Z,"southern Italy",earthquake,6.5,4.9,0.106,25,reviewed,us,us
+2021-03-03T04:37:15.127Z,45.4227,16.0656,13.87,4.2,mb,,45,1.04,0.56,us,us7000df1q,2021-05-13T22:41:41.040Z,"9 km N of Glina, Croatia",earthquake,4.4,5.7,0.186,8,reviewed,us,us
+2021-03-11T08:52:32.038Z,38.8146,20.4858,10,4.5,mb,,54,1.99,0.57,us,us7000di2y,2021-05-21T19:49:25.040Z,"19 km W of Lefkáda, Greece",earthquake,3.1,1.9,0.084,41,reviewed,us,us
+2021-03-12T21:17:09.532Z,41.6223,20.7274,10,4.6,mb,,32,1.358,0.74,us,us7000diy4,2021-05-26T22:06:24.040Z,"10 km E of Rostusa, North Macedonia",earthquake,5.1,1.8,0.061,81,reviewed,us,us
+2021-03-12T21:28:42.856Z,41.6507,20.6874,10,4.2,mb,,48,1.317,0.75,us,us7000diy7,2021-05-26T22:06:24.040Z,"8 km ENE of Rostusa, North Macedonia",earthquake,5.3,1.9,0.124,18,reviewed,us,us
+2021-03-15T18:33:44.998Z,35.2868,6.2506,10,4.6,mb,,54,2.564,0.97,us,us7000djkd,2021-05-26T22:07:44.040Z,"9 km WNW of Arris, Algeria",earthquake,4.8,1.9,0.063,75,reviewed,us,us
+2021-03-17T21:49:52.929Z,36.4899,6.7463,10,4.5,mb,,76,2.236,0.88,us,us7000dkdu,2021-05-26T22:08:41.040Z,"10 km ENE of Didouche Mourad, Algeria",earthquake,5.1,1.9,0.078,49,reviewed,us,us
+2021-03-18T00:04:06.698Z,36.9206,5.2014,8,6,mww,,20,3.06,0.45,us,us7000dker,2025-12-22T18:54:25.814Z,"21 km NNE of Bejaïa, Algeria",earthquake,6.9,1.8,0.033,86,reviewed,us,us
+2021-03-18T00:14:21.893Z,36.9455,5.2122,10,4.6,mb,,85,3.038,0.61,us,us6000dwmk,2021-05-26T22:08:43.040Z,"23 km NNE of Bejaïa, Algeria",earthquake,6.1,1.7,0.141,15,reviewed,us,us
+2021-03-18T00:17:05.186Z,36.9107,5.3143,10,5,mww,,38,3.092,0.55,us,us7000dkfb,2025-12-22T18:54:28.452Z,"26 km NE of Bejaïa, Algeria",earthquake,6.4,1.8,0.073,18,reviewed,us,us
+2021-03-18T00:33:27.553Z,36.8702,5.23,10,4.7,mb,,63,3.114,0.55,us,us7000dkfe,2021-05-26T22:08:44.040Z,"18 km NE of Bejaïa, Algeria",earthquake,6.3,1.8,0.07,62,reviewed,us,us
+2021-03-18T16:21:43.274Z,36.9558,5.2711,10,4.4,mb,,90,3.039,0.87,us,us7000dkml,2021-05-26T22:08:57.040Z,"27 km NE of Bejaïa, Algeria",earthquake,6.4,1.6,0.097,35,reviewed,us,us
+2021-03-19T02:48:22.267Z,36.5637,6.7925,10,3.9,mb,,74,2.227,1.26,us,us7000dku9,2021-06-02T15:23:53.040Z,"18 km NE of Didouche Mourad, Algeria",earthquake,5.5,2,0.257,4,reviewed,us,us
+2021-03-23T00:08:03.773Z,40.09,20.9964,10,4.4,mb,,52,1.145,0.92,us,us6000dvl1,2021-06-02T15:22:15.040Z,"20 km ENE of Kónitsa, Greece",earthquake,5.4,1.4,0.131,17,reviewed,us,us
+2021-03-24T23:23:54.166Z,36.8879,5.2734,10,4.5,mb,,68,3.105,0.48,us,us6000dw71,2021-06-02T15:22:42.040Z,"northern Algeria",earthquake,6.3,1.9,0.127,18,reviewed,us,us
+2021-03-25T02:37:14.465Z,36.8311,5.1854,10,4.6,mb,,52,3.144,0.66,us,us6000dw83,2022-08-09T04:23:39.357Z,"12 km NE of Bejaïa, Algeria",earthquake,6.8,1.9,0.114,23,reviewed,us,us
+2021-03-27T13:47:55.267Z,42.4479,16.0496,7,5.5,mww,,30,1.651,0.88,us,us6000dx0m,2025-12-22T18:55:12.770Z,"55 km N of Peschici, Italy",earthquake,4.6,1.8,0.043,53,reviewed,us,us
+2021-03-27T14:01:03.857Z,42.4478,16.074,10,4.4,mb,,41,1.662,1.1,us,us6000dx0n,2021-06-08T17:58:48.040Z,"56 km N of Peschici, Italy",earthquake,4.5,1.9,0.156,13,reviewed,us,us
+2021-03-30T07:35:42.674Z,42.4699,16.0532,5,4.3,mwr,,41,1.659,0.65,us,us6000dxka,2021-06-08T17:59:11.040Z,"58 km N of Peschici, Italy",earthquake,1.7,1.9,0.05,38,reviewed,us,us
+2021-04-01T14:33:33.714Z,36.4139,7.1942,10,4.8,mb,,89,1.871,1.04,us,us6000dy9p,2021-06-08T17:59:44.040Z,"21 km WSW of Guelma, Algeria",earthquake,5.3,1.9,0.074,56,reviewed,us,us
+2021-04-05T05:02:33.968Z,40.1867,19.8297,10,4.3,mb,,80,0.333,0.56,us,us6000dz2z,2021-06-12T21:37:15.040Z,"11 km NE of Himarë, Albania",earthquake,4.7,1.9,0.142,15,reviewed,us,us
+2021-04-06T08:54:21.522Z,45.2099,16.2781,10,4.7,mb,,37,0.791,0.94,us,us6000dzdc,2021-06-12T21:37:43.040Z,"16 km NNW of Dvor, Croatia",earthquake,3.6,1.6,0.092,36,reviewed,us,us
+2021-04-07T02:06:07.228Z,41.5234,19.5141,10,4.1,mb,,53,0.925,0.94,us,us6000dzjv,2021-06-12T21:37:57.040Z,"16 km WSW of Mamurras, Albania",earthquake,4.7,1.9,0.213,6,reviewed,us,us
+2021-04-10T22:53:58.571Z,38.3053,20.7079,7.33,4.5,mb,,43,1.461,1.05,us,us6000e0pl,2021-06-19T21:24:58.040Z,"6 km S of Itháki, Greece",earthquake,4.1,4.6,0.081,44,reviewed,us,us
+2021-04-11T00:17:13.556Z,38.2472,20.6236,10,4.2,mb,,125,1.484,1.01,us,us6000e0pz,2021-06-19T21:24:59.040Z,"2 km W of Sámi, Greece",earthquake,3.5,1.9,0.136,15,reviewed,us,us
+2021-04-13T21:23:22.050Z,39.9063,20.0674,6.03,2.9,ml,,97,0.057,0.12,us,us6000e1c7,2022-01-05T07:09:06.387Z,"5 km SSW of Delvinë, Albania",earthquake,5.5,5.8,0.074,24,reviewed,us,us
+2021-04-15T04:33:34.890Z,42.4764,16.0722,19.4,4.6,mb,,70,1.675,0.33,us,us6000e1pg,2021-06-19T21:25:40.040Z,"59 km N of Peschici, Italy",earthquake,5.3,5.4,0.172,10,reviewed,us,us
+2021-04-20T21:15:40.113Z,45.8625,16.047,13.95,3,ml,,72,0.791,0.71,us,us6000e3bs,2022-08-09T04:44:05.102Z,"3 km NNW of Dubrava, Croatia",earthquake,4.6,7.5,0.054,45,reviewed,us,us
+2021-04-24T16:17:38.794Z,36.9693,20.9832,10,4.3,mb,,104,0.781,1.19,us,us6000e4ee,2021-07-07T18:34:35.040Z,"57 km WSW of Filiatrá, Greece",earthquake,5.2,1.8,0.161,11,reviewed,us,us
+2021-04-27T15:45:40.657Z,42.8839,17.8958,9.16,3.3,ml,,69,1.104,0.38,us,us7000dxvm,2022-08-09T04:51:24.909Z,"6 km NE of Podgora, Croatia",earthquake,5.1,9.1,0.057,40,reviewed,us,us
+2021-05-01T19:18:03.434Z,38.9178,14.8202,291.95,4,mb,,57,1.067,0.79,us,us7000dzbx,2021-07-10T20:14:54.040Z,"37 km N of Malfa, Italy",earthquake,7.9,7.5,0.113,21,reviewed,us,us
+2021-05-03T02:07:11.071Z,39.0679,13.8322,413.43,4.1,mb,,61,1.648,1.05,us,us7000dzlj,2021-07-10T20:15:06.040Z,"68 km NE of Ustica, Italy",earthquake,6.1,11.7,0.087,36,reviewed,us,us
+2021-05-06T19:59:30.523Z,44.9349,17.294,2.28,3.2,ml,,120,0.201,0.43,us,us7000e0sx,2022-01-05T07:10:07.197Z,"2 km N of Laktaši, Bosnia and Herzegovina",earthquake,2.9,7,0.053,46,reviewed,us,us
+2021-05-07T03:08:07.432Z,37.6674,19.7637,10,4.3,mb,,130,1.788,0.99,us,us7000e0w6,2021-07-23T18:08:15.040Z,"83 km SW of Lixoúri, Greece",earthquake,5.2,1.9,0.218,7,reviewed,us,us
+2021-05-07T03:29:52.367Z,45.9962,14.4713,7.93,2.3,ml,,75,0.571,0.39,us,us7000e0wl,2022-08-09T04:57:07.407Z,"4 km ESE of Vnanje Gorice, Slovenia",earthquake,3.1,7.2,0.069,28,reviewed,us,us
+2021-05-11T21:31:01.845Z,40.5284,20.9853,10,4.8,mww,,23,0.994,0.97,us,us7000e277,2021-12-07T15:33:16.952Z,"11 km S of Bilisht, Albania",earthquake,4.6,1.8,0.045,48,reviewed,us,us
+2021-05-15T07:56:02.685Z,43.3128,12.5915,10.76,4.1,mb,,67,0.069,0.73,us,us7000e3cn,2021-07-24T21:07:08.040Z,"1 km SE of Cipolleto, Italy",earthquake,4.8,5.4,0.234,6,reviewed,us,us
+2021-06-04T02:03:40.644Z,37.2006,20.5585,35,4.2,mb,,81,1.091,1.04,us,us7000e9ku,2021-08-24T21:35:53.040Z,"62 km SSW of Lithakiá, Greece",earthquake,2.7,2,0.167,10,reviewed,us,us
+2021-06-08T03:59:53.202Z,43.666,16.07,14.92,4.4,mb,,30,1.346,0.73,us,us7000eb00,2025-05-11T06:45:54.451Z,"12 km E of Brodarica, Croatia",earthquake,5,4.9,0.126,18,reviewed,us,us
+2021-06-14T12:46:31.202Z,39.7736,20.4106,10,4.4,mb,,37,0.333,0.88,us,us7000ecy2,2021-08-26T21:59:18.040Z,"Greece-Albania border region",earthquake,3.3,1.7,0.123,19,reviewed,us,us
+2021-06-25T11:02:32.186Z,37.9163,20.7906,15,4.2,mwr,,94,1.164,0.79,us,us6000epng,2021-09-09T22:04:52.040Z,"9 km NNE of Katastárion, Greece",earthquake,5.2,1.7,0.086,13,reviewed,us,us
+2021-06-25T11:13:39.249Z,37.9003,20.8834,10,4.2,mb,,119,1.097,0.39,us,us6000epni,2021-09-09T22:04:53.040Z,"12 km NNE of Vanáton, Greece",earthquake,2.7,1.9,0.121,19,reviewed,us,us
+2021-06-25T23:18:46.907Z,42.4922,18.5227,10,4.4,mb,,22,0.549,1.06,us,us6000epuy,2021-09-09T22:04:58.040Z,"3 km NNE of Igalo, Montenegro",earthquake,3.9,1.9,0.08,47,reviewed,us,us
+2021-06-28T22:58:19.617Z,37.3326,14.7429,23.83,2.9,ml,,97,0.322,0.34,us,us6000eqnt,2021-09-09T22:05:44.040Z,"0 km NNW of Palagonia, Italy",earthquake,5.2,12.4,0.091,16,reviewed,us,us
+2021-06-30T15:44:58.109Z,38.992,20.5075,10,4,mb,,125,0.234,1.38,us,us6000er5e,2021-09-09T22:06:11.040Z,"21 km W of Préveza, Greece",earthquake,5.5,1.8,0.233,5,reviewed,us,us
+2021-07-08T01:16:56.257Z,37.923,20.9532,10,4.4,mb,,69,0.895,0.81,us,us6000et16,2021-09-10T20:07:31.040Z,"16 km NNE of Gaïtánion, Greece",earthquake,4.8,1.9,0.154,12,reviewed,us,us
+2021-07-13T13:07:34.823Z,39.7228,12.9941,471.33,4.2,mb,,49,2.148,0.47,us,us7000elie,2021-09-17T22:50:10.040Z,"113 km N of Ustica, Italy",earthquake,11.4,6.9,0.103,28,reviewed,us,us
+2021-07-19T19:21:28.085Z,36.6973,5.6209,10,4.6,mb,,69,3.162,0.84,us,us7000eni2,2022-08-09T06:18:36.529Z,"18 km SW of Jijel, Algeria",earthquake,6.4,1.9,0.054,103,reviewed,us,us
+2021-07-22T16:49:37.769Z,39.8139,20.6756,22.49,4.6,mb,,38,0.524,1.1,us,us6000ey1q,2021-09-25T21:08:35.040Z,"4 km WSW of Asprángeloi, Greece",earthquake,3.8,4.2,0.064,81,reviewed,us,us
+2021-07-23T22:52:27.208Z,39.5192,15.4311,263.31,4.4,mb,,58,0.559,0.71,us,us6000eyiz,2021-10-03T05:21:31.040Z,"38 km WSW of Diamante, Italy",earthquake,6.7,5.5,0.085,40,reviewed,us,us
+2021-07-26T21:09:59.724Z,38.7203,20.5218,10,4.1,mb,,97,1.226,1.07,us,us6000ezb5,2022-07-31T03:36:09.270Z,"20 km SW of Lefkáda, Greece",earthquake,6,2,0.233,5,reviewed,us,us
+2021-07-27T20:00:44.569Z,41.7756,19.5298,15.07,4.1,mb,,37,0.683,0.71,us,us6000ezlp,2021-10-03T05:22:33.040Z,"6 km SW of Shëngjin, Albania",earthquake,4.8,5,0.112,22,reviewed,us,us
+2021-08-01T23:27:19.300Z,45.4702,16.3163,10,4.1,mb,,76,0.947,0.67,us,us6000f1bx,2021-10-14T01:05:17.040Z,"4 km NNE of Petrinja, Croatia",earthquake,2.1,2,0.301,3,reviewed,us,us
+2021-08-08T21:10:23.054Z,44.8351,17.3491,9.11,4,mb,,39,0.145,0.54,us,us6000f3fw,2021-10-23T15:45:54.040Z,"8 km SSE of Laktaši, Bosnia and Herzegovina",earthquake,5.7,6.1,0.195,7,reviewed,us,us
+2021-08-16T23:58:56.595Z,45.4755,16.2341,10,4.6,mb,,21,1.064,0.69,us,us6000f7dp,2021-10-29T14:46:23.040Z,"6 km NW of Petrinja, Croatia",earthquake,4.3,1.9,0.066,69,reviewed,us,us
+2021-08-17T10:21:44.992Z,38.6858,14.6325,292.58,4.2,mb,,60,1.234,0.51,us,us6000f7h8,2021-10-29T14:46:24.040Z,"21 km NW of Malfa, Italy",earthquake,7.9,7.2,0.11,23,reviewed,us,us
+2021-08-19T05:30:20.569Z,39.0711,15.7206,203.96,4.8,mb,,56,0.814,0.79,us,us6000f885,2021-10-29T14:46:30.040Z,"31 km WSW of Amantea, Italy",earthquake,4.8,5.1,0.037,229,reviewed,us,us
+2021-08-28T02:10:03.941Z,38.7946,20.4899,14.03,3,ml,,109,1.148,1.05,us,us7000f53n,2021-11-06T20:28:57.040Z,"19 km WSW of Lefkáda, Greece",earthquake,4.6,5.4,0.074,24,reviewed,us,us
+2021-08-31T04:14:16.786Z,38.1839,14.1642,10,4.2,mb,,68,0.729,0.71,us,us7000f61w,2021-11-06T20:28:41.040Z,"18 km N of Finale, Italy",earthquake,5.1,1.9,0.167,10,reviewed,us,us
+2021-09-08T11:28:39.320Z,44.315,17.8873,11.28,4.3,mb,,35,0.664,0.57,us,us7000f97d,2021-11-17T17:28:47.040Z,"10 km SSW of Željezno Polje, Bosnia and Herzegovina",earthquake,3,5.4,0.177,9,reviewed,us,us
+2021-09-11T20:49:36.606Z,40.3471,19.5,10,4.2,mb,,71,0.604,1.16,us,us7000fadq,2021-11-23T15:10:05.040Z,"3 km NE of Orikum, Albania",earthquake,5.3,1.9,0.237,5,reviewed,us,us
+2021-09-14T10:40:39.744Z,37.7181,20.3777,10,4.5,mb,,52,1.344,0.53,us,us7000fb0d,2021-11-23T15:11:54.040Z,"35 km WSW of Katastárion, Greece",earthquake,6.5,1.9,0.113,23,reviewed,us,us
+2021-09-15T02:19:44.290Z,42.2591,19.4647,21.46,4.1,mb,,37,0.227,1.28,us,us7000fb99,2022-08-08T14:26:11.736Z,"5 km NNE of Koplik, Albania",earthquake,3.2,7.6,0.126,17,reviewed,us,us
+2021-09-15T12:26:54.443Z,42.2522,19.4574,18.88,4.3,mb,,29,0.229,1.03,us,us7000fbeg,2021-11-23T15:12:30.040Z,"4 km NNE of Koplik, Albania",earthquake,4.1,5.3,0.168,10,reviewed,us,us
+2021-09-20T01:01:09.979Z,44.5625,18.1833,10,3.4,ml,,141,0.737,0.82,us,us7000fcs8,2021-12-03T15:01:35.040Z,"6 km ENE of Maglaj, Bosnia and Herzegovina",earthquake,5.1,2,0.052,48,reviewed,us,us
+2021-09-21T14:04:37.846Z,41.4836,19.9323,10,4,mb,,46,0.145,0.91,us,us7000fd4t,2021-12-03T15:01:42.040Z,"11 km ESE of Krujë, Albania",earthquake,5.6,2,0.517,2,reviewed,us,us
+2021-10-03T15:42:17.491Z,46.6685,10.8035,10,2.5,ml,,140,0.375,0.75,us,us6000frc4,2022-08-08T12:19:43.427Z,"5 km NNE of Silandro, Italy",earthquake,1.6,1.9,0.06,36,reviewed,us,us
+2021-10-05T02:05:52.468Z,39.2797,20.6114,10,4.3,mb,,107,0.763,0.7,us,us6000frrp,2021-12-10T21:14:10.040Z,"5 km N of Kanaláki, Greece",earthquake,3.6,2,0.216,6,reviewed,us,us
+2021-10-05T05:39:25.163Z,46.0321,7.4204,5,4.1,mb,,47,0.341,0.74,us,us6000frtq,2021-12-10T21:14:10.040Z,"10 km SSW of Evolène, Switzerland",earthquake,4.3,1.9,0.184,8,reviewed,us,us
+2021-10-06T19:57:33.511Z,43.6811,16.8584,10,4.9,mb,,16,1.092,1.16,us,us6000fsew,2021-12-10T21:14:15.040Z,"10 km E of Otok, Croatia",earthquake,4.2,1.8,0.059,89,reviewed,us,us
+2021-10-07T02:22:39.422Z,39.3829,20.7016,10,4.2,mb,,111,0.734,1.14,us,us6000fsi8,2021-12-10T21:14:16.040Z,"10 km NW of Pappadátes, Greece",earthquake,3.9,1.9,0.187,8,reviewed,us,us
+2021-10-17T20:13:31.521Z,41.7893,19.6551,29.98,4.4,mwr,,36,0.468,0.91,us,us6000fvhn,2021-12-25T22:58:43.040Z,"1 km ENE of Lezhë, Albania",earthquake,1.7,5.1,0.061,26,reviewed,us,us
+2021-10-18T12:54:18.594Z,42.9218,13.1128,10,4.3,mb,,32,0.088,0.65,us,us6000fvmd,2021-12-25T22:58:46.040Z,"2 km ESE of Visso, Italy",earthquake,4,1.9,0.16,11,reviewed,us,us
+2021-10-23T01:17:20.518Z,38.8151,20.5569,10,4.1,mb,,94,1.147,0.98,us,us6000fwwi,2022-01-08T17:42:01.040Z,"12 km W of Lefkáda, Greece",earthquake,4.4,2,0.198,8,reviewed,us,us
+2021-10-29T06:10:34.525Z,41.5207,20.3353,10,4.7,mb,,41,0.395,0.47,us,us7000fpni,2022-01-14T17:58:41.040Z,"9 km ENE of Bulqizë, Albania",earthquake,3.5,1.9,0.086,41,reviewed,us,us
+2021-10-29T10:23:28.515Z,41.5557,20.271,10,4.2,mb,,36,0.37,0.51,us,us7000fpq7,2022-01-14T17:58:42.040Z,"8 km NNE of Bulqizë, Albania",earthquake,4.2,1.9,0.167,11,reviewed,us,us
+2021-10-29T10:53:08.462Z,43.8485,12.9676,17.6,4.1,mwr,,43,0.668,0.59,us,us7000fpqa,2022-01-14T17:58:42.040Z,"central Italy",earthquake,3.2,3.9,,,reviewed,us,zamg
+2021-11-02T23:25:46.418Z,43.9764,20.8848,10,3.9,mb,,44,1.949,0.74,us,us7000fqzl,2022-01-14T17:58:55.040Z,"5 km SSW of Kragujevac, Serbia",earthquake,4.4,1.7,0.295,3,reviewed,us,us
+2021-11-12T15:08:26.857Z,41.4333,20.1996,10,4.6,mb,,30,0.267,1.11,us,us7000ftj6,2022-01-22T20:51:47.040Z,"6 km SSW of Bulqizë, Albania",earthquake,5.3,1.9,0.111,24,reviewed,us,us
+2021-11-17T23:19:44.618Z,42.4628,15.8428,16.9,4.2,mb,,27,0.711,0.62,us,us7000fuyf,2022-01-22T20:52:00.040Z,"47 km NE of Isole Tremiti, Italy",earthquake,4.5,6.9,0.263,4,reviewed,us,us
+2021-11-18T21:04:58.340Z,39.5583,20.5049,10,4.3,mb,,63,0.504,0.64,us,us7000fv9n,2022-01-22T20:52:07.040Z,"9 km N of Paramythiá, Greece",earthquake,4.6,1.9,0.105,26,reviewed,us,us
+2021-11-19T13:27:05.164Z,38.212,20.3652,13.14,4.8,mb,,93,1.611,0.67,us,us7000fvfu,2022-01-29T22:54:59.040Z,"6 km W of Lixoúri, Greece",earthquake,5.4,4.6,0.058,93,reviewed,us,us
+2021-11-25T21:05:07.431Z,38.7297,21.2347,43.39,4.3,mb,,96,1.495,0.47,us,us7000fx3f,2022-01-29T22:56:00.040Z,"5 km WNW of Lepenoú, Greece",earthquake,4.8,14.3,0.376,2,reviewed,us,us
+2021-11-28T02:52:34.197Z,38.6587,14.3447,10,4.5,mb,,56,1.187,0.58,us,us7000fxly,2022-02-05T23:04:23.040Z,"43 km WNW of Leni, Italy",earthquake,5.4,1.8,0.103,28,reviewed,us,us
+2021-12-01T22:44:13.996Z,38.5721,14.973,225.42,4.4,mb,,77,1.205,0.8,us,us6000g8aq,2022-02-05T23:03:45.040Z,"8 km N of Canneto, Italy",earthquake,5.9,7.4,0.092,34,reviewed,us,us
+2021-12-08T07:49:49.946Z,39.0623,20.6514,10,4.5,mb,,67,0.959,1.29,us,us6000gaeg,2022-02-12T23:06:40.040Z,"12 km SW of Néos Oropós, Greece",earthquake,5.3,1.9,0.156,12,reviewed,us,us
+2021-12-17T23:28:02.195Z,37.8054,20.9944,10,4.4,mb,,68,0.969,1.09,us,us6000gd9p,2022-03-01T16:37:15.040Z,"9 km ENE of Zakynthos, Greece",earthquake,4.6,1.9,0.09,36,reviewed,us,us
+2021-12-18T10:34:47.765Z,45.6559,9.5873,37.73,4.5,mb,,56,0.658,0.53,us,us6000gdds,2023-09-17T11:28:49.379Z,"1 km WNW of Dalmine, Italy",earthquake,4.4,7.5,0.172,10,reviewed,us,us
+2021-12-23T21:33:44.421Z,37.3584,15.0589,10,4.3,mb,,87,0.571,0.58,us,us6000gex4,2022-03-01T16:39:59.040Z,"9 km NNE of Carlentini, Italy",earthquake,2.9,1.9,0.201,7,reviewed,us,us
+2021-12-24T01:17:13.379Z,39.7507,20.5982,10,4.3,mb,,65,0.478,1.02,us,us6000geyk,2022-03-05T23:10:35.040Z,"11 km WNW of Rodotópi, Greece",earthquake,4.9,1.9,0.154,12,reviewed,us,us
+2021-12-24T01:55:39.671Z,38.7153,20.7278,35,4.4,mb,,121,1.292,1.29,us,us6000geyt,2022-03-05T23:10:35.040Z,"12 km S of Lefkáda, Greece",earthquake,5.2,2,0.219,7,reviewed,us,us
+2021-12-24T23:59:55.857Z,47.3748,6.8239,9.23,4.1,mb,,88,0.871,0.76,us,us6000gf4p,2024-04-06T07:54:58.378Z,"2 km WSW of Blamont, France",earthquake,3.8,5.9,0.262,4,reviewed,us,us
+2021-12-28T19:25:15.758Z,36.7381,6.8615,11.57,4.3,mb,,90,2.245,0.93,us,us7000g9yv,2022-04-28T11:40:35.388Z,"15 km SSW of Skikda, Algeria",earthquake,2,4.9,0.169,14,reviewed,us,us
+2022-01-02T10:57:56.598Z,37.1136,20.9688,16.33,4.3,mb,,139,0.767,0.66,us,us7000g8gs,2022-03-12T22:19:01.040Z,"54 km W of Filiatrá, Greece",earthquake,4.8,6.2,0.142,14,reviewed,us,us
+2022-01-10T15:59:03.243Z,37.4051,20.3878,10,4.5,mb,,60,1.246,0.97,us,us7000gd7b,2022-03-19T22:07:36.040Z,"52 km SW of Lithakiá, Greece",earthquake,3.7,1.9,0.171,10,reviewed,us,us
+2022-01-14T21:37:56.479Z,42.0442,20.0645,10,4.3,mwr,,27,0.71,0.71,us,us7000gc41,2022-08-06T14:08:30.229Z,"4 km ESE of Fushë-Arrëz, Albania",earthquake,3.3,1.8,0.049,40,reviewed,us,us
+2022-01-20T09:19:58.095Z,38.8121,16.0609,10,4.4,mwr,,56,0.566,0.47,us,us7000gdhg,2022-04-01T17:40:21.040Z,"10 km NNE of Briatico, Italy",earthquake,4,1.8,0.06,27,reviewed,us,us
+2022-01-22T12:57:20.109Z,38.6898,20.411,10,4.2,mb,,116,1.23,0.58,us,us7000ge7g,2022-04-09T20:18:49.040Z,"29 km WSW of Lefkáda, Greece",earthquake,5.5,1.9,0.176,9,reviewed,us,us
+2022-02-02T06:05:19.135Z,39.3763,20.0991,8.11,2.9,ml,,100,0.508,0.2,us,us7000gh92,2022-08-06T12:07:38.766Z,"5 km SSE of Lefkímmi, Greece",earthquake,4.3,2.8,0.081,20,reviewed,us,us
+2022-02-05T19:36:08.879Z,37.4182,20.3719,38.6,4.3,mb,,101,2.475,0.51,us,us7000gia1,2024-01-17T22:26:34.237Z,"52 km SW of Lithaki?, Greece",earthquake,7.3,11.2,0.168,10,reviewed,us,us
+2022-02-06T01:36:38.358Z,43.7664,10.2641,10,4.3,mb,,62,0.752,0.54,us,us7000gic1,2022-04-19T17:38:40.040Z,"6 km W of Migliarino, Italy",earthquake,5.2,1.9,0.201,8,reviewed,us,us
+2022-02-06T16:37:10.661Z,37.2641,20.4997,10,4.2,mb,,223,2.641,0.49,us,us7000gihp,2022-04-19T17:38:48.040Z,"58 km SSW of Lithakiá, Greece",earthquake,10.9,2,0.2,9,reviewed,us,us
+2022-02-09T18:55:12.103Z,44.8177,10.7571,10,4.2,mb,,44,0.492,0.74,us,us7000gjfy,2022-04-19T17:39:21.040Z,"2 km SSW of Campagnola Emilia, Italy",earthquake,4,1.8,0.2,7,reviewed,us,us
+2022-02-09T20:00:56.574Z,44.7809,10.7829,10,4.6,mb,,39,0.451,0.84,us,us7000gjgg,2022-04-19T17:39:21.040Z,"1 km N of Correggio, Italy",earthquake,4.3,1.8,0.097,32,reviewed,us,us
+2022-02-10T14:17:55.898Z,44.6769,18.5078,10,4.1,mb,,50,0.946,0.88,us,us7000gjn8,2023-03-22T23:32:13.872Z,"3 km SSE of Srebrenik, Bosnia and Herzegovina",earthquake,4.5,1.9,0.26,4,reviewed,us,us
+2022-02-16T17:38:27.219Z,38.9798,20.5947,10,4.3,mb,,90,1.009,1.28,us,us7000gld4,2022-04-30T14:18:20.040Z,"13 km W of Préveza, Greece",earthquake,5.3,1.9,0.148,13,reviewed,us,us
+2022-02-16T21:21:11.849Z,38.9421,20.577,10,4.3,mb,,70,1.037,1.01,us,us7000glg3,2022-04-30T14:18:20.040Z,"15 km W of Préveza, Greece",earthquake,2.7,1.9,0.142,14,reviewed,us,us
+2022-02-17T01:48:48.154Z,38.9622,20.5678,10,4.4,mb,,38,1.016,0.74,us,us7000gliz,2022-04-30T14:18:21.040Z,"15 km W of Préveza, Greece",earthquake,4.7,1.9,0.104,27,reviewed,us,us
+2022-02-18T13:58:35.320Z,38.9505,21.1077,10,4.4,mb,,59,1.263,0.98,us,us7000glxt,2022-04-30T14:18:26.040Z,"6 km W of Kríkellos, Greece",earthquake,4.4,1.9,0.109,24,reviewed,us,us
+2022-02-24T21:54:05.600Z,37.2923,15.8837,10,4,mb,,113,0.966,0.91,us,us6000h160,2022-05-04T13:40:27.040Z,"58 km ENE of Siracusa, Italy",earthquake,5.5,1.9,0.212,6,reviewed,us,us
+2022-02-25T02:29:04.684Z,44.0449,16.1759,10,3,ml,,90,1.008,0.5,us,us6000gzzh,2022-05-04T13:40:31.040Z,"1 km WNW of Knin, Croatia",earthquake,5,2,0.048,58,reviewed,us,us
+2022-03-04T21:17:52.966Z,38.6428,15.675,175.54,4.3,mb,,53,0.418,0.74,us,us6000h25u,2022-05-07T21:32:54.040Z,"15 km W of San Nicolò, Italy",earthquake,6.1,5.1,0.093,33,reviewed,us,us
+2022-03-07T01:41:34.669Z,40.7761,20.4612,10,4.4,mb,,44,0.728,1.09,us,us6000h2ms,2022-05-14T21:52:19.040Z,"21 km SW of Pogradec, Albania",earthquake,4.9,2,0.203,7,reviewed,us,us
+2022-03-12T17:03:22.558Z,45.7171,6.2859,2.69,4.5,mb,,62,0.72,0.72,us,us6000h41e,2022-05-27T14:55:19.040Z,"3 km S of Faverges, France",earthquake,2.6,5.5,0.135,16,reviewed,us,us
+2022-03-19T09:59:30.497Z,36.847,5.1868,10,5.2,mww,,27,3.539,0.4,us,us6000h5zu,2023-09-09T20:42:59.134Z,"13 km NE of Bejaïa, Algeria",earthquake,3.8,1.8,0.052,36,reviewed,us,us
+2022-03-19T18:19:33.812Z,39.7265,20.6544,25.59,4.3,mb,,46,0.526,0.83,us,us7000gwui,2022-05-28T18:35:31.040Z,"6 km WNW of Rodotópi, Greece",earthquake,4.2,7,0.161,11,reviewed,us,us
+2022-03-29T01:48:19.423Z,39.0444,13.9997,399.75,4.2,mb,,53,1.597,0.59,us,us7000gxzp,2022-08-06T07:44:58.320Z,"79 km ENE of Ustica, Italy",earthquake,6.1,7.4,0.064,69,reviewed,us,us
+2022-03-29T12:13:51.319Z,38.8337,21.2267,10,4.2,mb,,62,1.412,0.48,us,us7000gy2t,2022-06-04T20:42:18.040Z,"5 km NE of Stános, Greece",earthquake,3.3,1.9,0.083,41,reviewed,us,us
+2022-03-30T18:01:34.452Z,38.5206,14.7334,261.18,4.3,mb,,72,0.948,0.9,us,us7000gyhg,2022-06-04T20:42:25.040Z,"8 km WSW of Leni, Italy",earthquake,7.6,6.5,0.153,12,reviewed,us,us
+2022-04-09T15:10:42.600Z,37.5773,20.8945,10,4.6,mb,,138,0.912,0.98,us,us7000h0ws,2022-06-20T22:07:34.040Z,"16 km SSE of Lithakiá, Greece",earthquake,5.7,1.9,0.085,41,reviewed,us,us
+2022-04-09T15:13:19.785Z,37.611,21.0569,20.6,4.6,mb,,98,0.815,0.78,us,us7000h1vf,2022-06-20T22:08:05.040Z,"23 km SE of Ambelókipoi, Greece",earthquake,5.6,5.1,0.098,31,reviewed,us,us
+2022-04-10T00:58:05.067Z,42.3551,20.1656,10,4.2,mb,,23,0.674,0.71,us,us7000h0zq,2022-06-20T22:07:38.040Z,"16 km SW of Junik, Kosovo",earthquake,4.6,1.8,0.118,20,reviewed,us,us
+2022-04-11T18:53:52.643Z,38.6282,20.4871,10,4.4,mb,,77,1.305,0.74,us,us7000h1bg,2022-06-20T22:07:51.040Z,"29 km SW of Lefkáda, Greece",earthquake,5.3,1.3,0.114,22,reviewed,us,us
+2022-04-13T06:03:24.909Z,34.7454,6.2619,10,4.2,mb,,77,2.709,1.37,us,us7000h3cs,2022-06-20T22:08:35.040Z,"23 km WNW of Zeribet el Oued, Algeria",earthquake,6.6,1.9,0.131,20,reviewed,us,us
+2022-04-15T01:34:39.483Z,37.3294,15.7674,10,4.6,mb,,104,0.934,1.33,us,us7000h2e0,2022-06-20T22:08:26.040Z,"49 km ENE of Augusta, Italy",earthquake,4.5,1.9,0.136,18,reviewed,us,us
+2022-04-19T15:49:07.097Z,44.2817,11.5396,6.5,4,mb,,62,0.41,0.31,us,us7000h3ce,2022-06-26T01:19:45.040Z,"2 km NNW of Fontanelice, Italy",earthquake,4.1,4.7,0.233,7,reviewed,us,us
+2022-04-22T21:07:48.316Z,43.0742,18.1803,10,5.7,mww,,16,1.023,0.9,us,us6000hfqj,2024-05-23T17:54:15.977Z,"15 km NNE of Ljubinje, Bosnia and Herzegovina",earthquake,4.7,1.8,0.039,63,reviewed,us,us
+2022-04-23T02:20:27.958Z,43.0873,18.0175,10,4.3,mb,28,99,1.127,0.9,us,us6000hfrw,2022-07-05T03:39:30.040Z,"4 km E of Stolac, Bosnia and Herzegovina",earthquake,5.2,1.1,0.116,21,reviewed,us,us
+2022-04-23T02:34:22.198Z,42.9761,18.1188,10,4.3,mb,32,49,1.003,1.24,us,us6000hfry,2022-07-05T03:39:31.040Z,"3 km NE of Ljubinje, Bosnia and Herzegovina",earthquake,4.8,1.9,0.265,4,reviewed,us,us
+2022-04-23T16:44:56.089Z,36.3502,19.5771,10,4.7,mb,71,71,2.058,0.79,us,us6000hfvc,2022-07-05T03:39:44.040Z,"188 km SW of Lithakiá, Greece",earthquake,6.4,1.8,0.092,36,reviewed,us,us
+2022-04-24T02:16:46.175Z,36.9935,21.0616,10,4,mb,42,104,0.714,1.01,us,us6000hfyw,2022-07-05T03:39:53.040Z,"49 km WSW of Filiatrá, Greece",earthquake,3.2,1.9,0.164,12,reviewed,us,us
+2022-04-24T04:27:53.134Z,43.0513,18.1424,10,4.8,mww,121,19,1.031,0.9,us,us6000hfzd,2022-07-05T03:39:56.040Z,"12 km NNE of Ljubinje, Bosnia and Herzegovina",earthquake,4.8,1.8,0.098,10,reviewed,us,us
+2022-05-02T13:37:41.176Z,44.667,7.0936,10,3.3,ml,27,75,0.485,0.55,us,us7000h6d7,2022-08-09T06:35:10.631Z,"6 km SW of Crissolo, Italy",earthquake,3,2,0.062,34,reviewed,us,us
+2022-05-03T15:50:49.842Z,43.6656,11.284,7.42,3.5,ml,27,91,0.144,0.36,us,us7000h6tk,2022-07-09T21:39:55.040Z,"1 km NW of Strada in Chianti, Italy",earthquake,2.4,7.7,0.063,33,reviewed,us,us
+2022-05-03T20:14:21.337Z,43.6888,11.2258,10,3.3,ml,36,60,0.165,0.81,us,us7000h6ut,2023-11-04T15:18:10.877Z,"2 km WNW of Impruneta, Italy",earthquake,2.5,2,0.063,33,reviewed,us,us
+2022-05-04T19:13:50.160Z,42.0096,20.2023,8.44,4.2,mb,38,52,0.709,0.8,us,us7000h736,2022-07-09T21:39:59.040Z,"16 km ESE of Fushë-Arrëz, Albania",earthquake,3.6,8.1,0.374,2,reviewed,us,us
+2022-05-12T18:34:47.979Z,43.9411,20.3422,10,3.1,ml,26,42,0.297,0.46,us,us6000hkn2,2022-07-22T18:30:49.040Z,"5 km N of ?a?ak, Serbia",earthquake,4.5,1.1,0.06,36,reviewed,us,us
+2022-05-12T21:12:04.312Z,43.672,11.2558,7.93,3.5,ml,38,55,0.148,0.69,us,us6000hkpc,2023-11-04T15:21:13.496Z,"1 km S of Impruneta, Italy",earthquake,4.8,7.1,0.062,34,reviewed,us,us
+2022-05-27T07:11:27.875Z,41.9272,20.9628,10,3.2,ml,25,58,1.007,0.28,us,us7000hd06,2022-08-02T19:50:36.040Z,"3 km SE of Kamenjane, North Macedonia",earthquake,4.4,2,0.077,22,reviewed,us,us
+2022-06-05T13:21:06.438Z,41.2752,19.4821,10,4.3,mb,36,38,0.295,0.4,us,us7000hf5i,2022-08-13T21:51:34.040Z,"5 km SSE of Durrës, Albania",earthquake,2.5,1.9,0.2,11,reviewed,us,us
+2022-06-06T04:16:26.960Z,41.814,19.1703,6.19,4.5,mb,99,24,0.619,0.75,us,us7000hf9k,2022-08-13T21:51:36.040Z,"13 km SSW of Ulcinj, Montenegro",earthquake,5,5,0.079,47,reviewed,us,us
+2022-06-09T11:18:00.404Z,43.0652,13.9813,10,4.3,mwr,78,26,0.677,0.76,us,us7000hg5l,2022-08-13T21:51:45.040Z,"11 km ENE of Cupra Marittima, Italy",earthquake,5,1.9,0.059,28,reviewed,us,us
+2022-06-24T07:01:36.832Z,44.8746,16.9209,10.87,3.3,ml,24,43,0.225,0.31,us,us7000hjul,2022-08-28T03:20:58.040Z,"2 km SE of Omarska, Bosnia and Herzegovina",earthquake,4,8.1,0.053,46,reviewed,us,us
+2022-06-30T06:07:14.935Z,43.4961,17.5352,54.503,4.3,mwr,93,35,1.278,0.64,us,us6000hyqe,2022-09-03T21:03:19.040Z,"12 km NNE of Ko?erin, Bosnia and Herzegovina",earthquake,5.53,5.892,0.047,44,reviewed,us,us
+2022-07-11T00:51:48.616Z,42.8434,20.5158,10,2.9,ml,11,172,1.014,0.42,us,us6000i1h8,2022-09-24T21:25:59.040Z,"7 km NNE of Istok, Kosovo",earthquake,2.5,2,0.074,24,reviewed,us,us
+2022-07-13T19:18:53.841Z,41.1528,20.2091,10,4.1,mb,34,43,0.325,0.91,us,us6000i26d,2022-09-24T21:25:43.040Z,"11 km ENE of Elbasan, Albania",earthquake,5.39,1.977,0.371,2,reviewed,us,us
+2022-07-17T06:21:55.836Z,39.2141,20.9036,10,4.2,mb,55,138,0.964,0.58,us,us6000i36d,2022-09-27T16:56:55.040Z,"2 km ENE of Filippiáda, Greece",earthquake,6.15,1.952,0.136,17,reviewed,us,us
+2022-07-24T10:33:07.022Z,45.4646,16.2045,11.536,4,mb,45,32,0.997,0.55,us,us7000ht4d,2022-10-01T22:09:47.040Z,"7 km WNW of Petrinja, Croatia",earthquake,3.15,4.525,0.164,10,reviewed,us,us
+2022-07-30T21:57:16.655Z,38.8461,20.9391,3.837,4.2,mb,33,86,1.103,0.9,us,us6000i6uh,2022-10-12T14:48:57.040Z,"0 km SW of Monastiráki, Greece",earthquake,4.49,6.897,0.264,4,reviewed,us,us
+2022-07-31T03:07:13.275Z,38.8844,20.9798,10,4.3,mb,56,66,1.066,0.97,us,us6000i6vz,2022-10-12T14:49:03.040Z,"4 km NE of Monastiráki, Greece",earthquake,5.19,1.868,0.137,16,reviewed,us,us
+2022-07-31T17:32:40.365Z,38.8644,20.963,10,4.3,mb,53,86,1.082,0.87,us,us6000i707,2022-10-12T14:49:17.040Z,"Greece",earthquake,2.98,1.816,0.102,27,reviewed,us,us
+2022-08-01T00:04:44.377Z,45.4685,16.219,9.826,3.7,mb,23,42,0.992,0.34,us,us6000i72j,2022-10-12T14:49:25.040Z,"6 km WNW of Petrinja, Croatia",earthquake,4.29,6.828,0.356,2,reviewed,us,us
+2022-08-14T10:47:57.331Z,38.6825,20.4936,10,4.4,mb,54,98,1.256,0.69,us,us6000iarq,2022-10-28T02:25:52.040Z,"24 km SW of Lefkáda, Greece",earthquake,3.85,1.887,0.1,29,reviewed,us,us
+2022-08-16T16:34:40.037Z,39.2513,20.6123,14.477,4.5,mb,90,98,0.786,0.74,us,us6000ibdc,2022-10-28T02:26:29.040Z,"2 km NNE of Kanaláki, Greece",earthquake,4.97,4.31,0.116,22,reviewed,us,us
+2022-08-20T18:12:14.110Z,44.797,10.6102,10,2.8,ml,17,78,0.517,0.81,us,us6000icdz,2022-11-01T15:12:34.040Z,"0 km SW of Cadelbosco di Sotto, Italy",earthquake,3.45,2.001,0.071,26,reviewed,us,us
+2022-08-21T04:52:48.555Z,37.4833,13.1535,10.379,4.1,mb,22,112,1.978,1.15,us,us6000ich3,2022-11-01T15:12:38.040Z,"6 km ESE of Sciacca, Italy",earthquake,4.64,6.836,0.261,4,reviewed,us,us
+2022-08-23T04:57:31.351Z,37.6326,21.0842,10,3.2,ml,15,127,0.809,0.27,us,us7000i1yf,2022-11-01T15:13:59.040Z,"23 km SE of Ambelókipoi, Greece",earthquake,3.57,2.008,0.074,24,reviewed,us,us
+2022-08-23T13:38:31.643Z,40.0617,19.8593,10,4.4,mb,51,90,0.211,0.91,us,us6000id0l,2022-11-01T15:13:02.040Z,"10 km ESE of Himarë, Albania",earthquake,4.24,1.888,0.109,26,reviewed,us,us
+2022-08-23T22:29:41.976Z,46.26,7.6997,8.189,2.7,ml,20,79,0.296,0.29,us,us7000i37t,2022-11-01T15:14:25.040Z,"4 km S of Turtmann, Switzerland",earthquake,4.8,7.254,0.064,32,reviewed,us,us
+2022-08-30T03:49:34.548Z,38.6584,20.4475,10,4.6,mb,79,99,1.268,1.14,us,us7000i3l9,2022-11-06T04:37:45.040Z,"Greece",earthquake,5.8,1.819,0.075,53,reviewed,us,us
+2022-09-01T11:57:42.971Z,47.1173,9.4506,7.041,3.8,mb,31,68,0.339,0.86,us,us7000i4af,2022-11-06T04:36:26.040Z,"2 km WSW of Sevelen, Switzerland",earthquake,2.51,2.342,0.294,3,reviewed,us,us
+2022-09-03T09:53:10.842Z,42.3297,15.9045,10,4.3,mb,44,36,1.52,0.5,us,us7000i4ws,2022-11-15T19:06:02.040Z,"40 km NE of Isole Tremiti, Italy",earthquake,4.67,1.368,0.267,5,reviewed,us,us
+2022-09-03T16:57:35.594Z,37.362,21.1889,10,4.2,mb,32,156,0.615,1.01,us,us7000i4y1,2022-11-15T19:06:02.040Z,"39 km SW of Epitálio, Greece",earthquake,4.29,1.901,0.152,12,reviewed,us,us
+2022-09-07T16:28:12.620Z,36.574,7.1699,10,4.2,mb,23,165,1.951,0.4,us,us7000i627,2022-11-15T19:06:14.040Z,"19 km SSE of Azzaba, Algeria",earthquake,7.02,1.959,0.304,3,reviewed,us,us
+2022-09-08T05:34:34.516Z,34.4952,10.0753,10,4.1,mb,17,142,1.371,0.28,us,us7000i8a4,2022-11-15T19:06:19.040Z,"21 km N of Skhira, Tunisia",earthquake,8.12,1.961,0.234,5,reviewed,us,us
+2022-09-08T07:36:23.175Z,37.8942,20.0987,10.482,5.5,mww,163,37,1.618,0.54,us,us6000ii2v,2025-04-18T13:42:12.485Z,"45 km SW of Lixoúri, Greece",earthquake,5.91,3.751,0.037,72,reviewed,us,us
+2022-09-09T09:53:30.021Z,38.8864,21.1507,10,4.1,mb,40,82,0.934,0.22,us,us6000iidn,2022-11-15T19:05:51.040Z,"3 km NNW of Amfilochía, Greece",earthquake,3.96,1.492,0.151,12,reviewed,us,us
+2022-09-16T00:50:02.533Z,37.3359,21.2583,46.393,4.2,mb,34,109,0.555,0.55,us,us7000ia7j,2022-11-19T23:03:53.040Z,"35 km NW of Filiatrá, Greece",earthquake,6.92,11.628,0.186,8,reviewed,us,us
+2022-09-16T12:58:08.563Z,37.4382,21.2622,47.682,4.4,mb,43,99,0.589,0.58,us,us7000i8ig,2022-11-19T23:03:24.040Z,"southern Greece",earthquake,2.45,7.537,0.11,24,reviewed,us,us
+2022-09-18T13:54:38.197Z,40.2026,19.8373,3.324,4.5,mb,40,80,0.346,1.1,us,us7000i93a,2022-11-26T20:57:39.040Z,"Albania",earthquake,2.83,5.238,0.156,13,reviewed,us,us
+2022-09-22T10:24:48.734Z,42.8863,13.6606,10,4.3,mb,52,51,0.405,0.94,us,us7000ia47,2022-11-26T20:57:52.040Z,"1 km S of Appignano del Tronto, Italy",earthquake,5.2,1.872,0.307,3,reviewed,us,us
+2022-09-22T13:40:00.345Z,44.4266,9.0637,10,4.4,mb,38,69,0.344,0.87,us,us7000ia6e,2022-11-26T20:57:53.040Z,"3 km SW of Bargagli, Italy",earthquake,1.89,1.937,0.179,9,reviewed,us,us
+2022-09-22T15:47:58.549Z,44.1339,10.6606,22.516,4.5,mb,72,94,0.314,0.79,us,us7000ia8f,2022-11-26T20:57:53.040Z,"1 km SSW of Abetone, Italy",earthquake,4.01,4.649,0.097,36,reviewed,us,us
+2022-09-25T06:17:59.644Z,46.0143,6.7182,4.672,3.3,ml,18,97,0.534,0.51,us,us7000iaw8,2024-01-18T16:54:12.152Z,"7 km ESE of Ar?ches-la-Frasse, France",earthquake,3.71,7.879,0.064,32,reviewed,us,us
+2022-09-29T04:01:21.072Z,37.8335,19.9785,10,4.4,mb,53,138,1.68,0.75,us,us6000ip64,2022-12-03T22:02:37.040Z,"57 km SW of Lixoúri, Greece",earthquake,5.55,1.873,0.155,12,reviewed,us,us
+2022-10-04T21:41:09.987Z,44.3921,9.0472,8.399,3.1,ml,29,53,0.346,0.64,us,us6000iqv4,2022-12-10T22:53:10.040Z,"2 km NW of Bogliasco, Italy",earthquake,2.6,9.952,0.064,32,reviewed,us,us
+2022-10-12T22:44:54.174Z,38.8225,16.6505,34.666,4.4,mb,88,54,0.366,0.63,us,us6000it5n,2022-12-17T22:53:58.040Z,"3 km SSE of Barone, Italy",earthquake,4.08,1.692,0.076,50,reviewed,us,us
+2022-10-30T03:46:37.723Z,38.0592,20.1446,37.201,4.6,mb,26,143,1.665,0.71,us,us7000ila5,2023-01-12T23:10:35.040Z,"30 km WSW of Lixoúri, Greece",earthquake,7.05,10.217,0.272,4,reviewed,us,us
+2022-10-30T08:49:09.152Z,37.5646,20.1778,10,4.3,mb,53,108,1.444,0.5,us,us7000ilb0,2023-01-12T23:10:36.040Z,"59 km WSW of Katastárion, Greece",earthquake,5.44,1.925,0.117,23,reviewed,us,us
+2022-10-31T21:42:50.853Z,39.8773,15.6395,271.217,5.5,mww,127,40,0.178,0.6,us,us7000ilkv,2023-01-12T23:10:50.040Z,"12 km WSW of Tortora Marina, Italy",earthquake,5.49,4.096,0.036,75,reviewed,us,us
+2022-11-08T15:23:23.651Z,43.6743,8.9959,10,4.5,mb,24,48,0.744,0.45,us,us7000inal,2023-01-21T19:27:15.040Z,"Ligurian Sea",earthquake,3.74,1.851,0.544,3,reviewed,us,us
+2022-11-09T06:07:26.657Z,43.9315,13.3152,8,5.6,mww,147,14,0.881,0.88,us,us7000infp,2023-02-16T07:51:15.850Z,"central Italy",earthquake,4.38,0.527,0.032,92,reviewed,us,us
+2022-11-10T12:35:52.533Z,43.8551,13.3632,10,4.1,mb,48,31,0.85,0.9,us,us7000insu,2023-01-21T19:27:19.040Z,"central Italy",earthquake,4.27,1.85,0.303,3,reviewed,us,us
+2022-11-10T17:54:11.611Z,43.8965,13.4088,7.13,4.3,mb,68,34,0.902,0.66,us,us7000inve,2023-01-21T19:27:20.040Z,"25 km NE of Marotta, Italy",earthquake,3.23,1.902,0.089,44,reviewed,us,us
+2022-11-11T20:41:07.855Z,43.9205,13.3785,3.894,4.2,mb,77,32,0.904,0.65,us,us7000ip52,2023-01-21T19:27:23.040Z,"25 km NE of Marotta, Italy",earthquake,3.04,5.037,0.158,12,reviewed,us,us
+2022-11-20T05:20:30.071Z,43.899,13.3081,10,4.5,mwr,94,20,0.853,0.45,us,us7000ir3c,2023-01-30T06:00:20.040Z,"19 km NE of Marotta, Italy",earthquake,3.96,1.429,0.062,25,reviewed,us,us
+2022-11-20T05:34:46.652Z,37.6943,20.8786,49.377,4.1,mb,33,154,0.979,0.9,us,us7000is4h,2023-01-30T06:00:20.040Z,"5 km ESE of Lithakiá, Greece",earthquake,6.63,10.383,0.175,10,reviewed,us,us
+2022-11-20T09:43:27.477Z,37.6655,21.037,10,4.3,mb,40,112,0.858,0.3,us,us7000ir4q,2023-01-30T06:00:23.040Z,"southern Greece",earthquake,4.04,1.913,0.142,14,reviewed,us,us
+2022-11-20T13:03:34.315Z,36.4721,7.1179,10,4.2,mb,28,141,1.95,0.51,us,us7000is4s,2023-01-30T06:00:24.040Z,"27 km W of Guelma, Algeria",earthquake,5.03,1.912,0.176,10,reviewed,us,us
+2022-11-20T13:31:14.254Z,37.6821,21.0058,10,4.4,mb,54,153,0.888,0.6,us,us7000ir5i,2023-01-30T06:00:24.040Z,"14 km SE of Ambelókipoi, Greece",earthquake,6.27,1.857,0.123,22,reviewed,us,us
+2022-11-22T12:40:33.561Z,36.1568,14.1232,10,4.5,mb,98,64,1.323,0.42,us,us7000iric,2023-01-30T06:00:56.040Z,"13 km NW of G?arb, Malta",earthquake,7.07,1.853,0.084,47,reviewed,us,us
+2022-11-29T23:46:05.443Z,38.095,20.1219,10,4.4,mb,57,98,1.699,0.56,us,us6000j5ml,2023-02-05T23:25:21.040Z,"Greece",earthquake,6.09,1.923,0.105,26,reviewed,us,us
+2022-12-02T20:05:04.968Z,43.0662,18.2361,10,4.5,mb,118,27,0.987,0.68,us,us6000j6ey,2023-02-05T23:26:09.040Z,"17 km NE of Ljubinje, Bosnia and Herzegovina",earthquake,3.03,1.807,0.064,83,reviewed,us,us
+2022-12-03T20:59:09.074Z,36.8869,20.9326,30.82,4.3,mb,113,151,0.846,0.78,us,us6000j6qw,2023-02-11T23:03:04.040Z,"central Mediterranean Sea",earthquake,6.42,6.219,0.075,51,reviewed,us,us
+2022-12-04T07:12:45.924Z,38.4017,14.9648,16.349,4.4,mwr,75,59,1.049,0.45,us,us6000j6ti,2023-02-11T23:03:05.040Z,"Sicily, Italy",earthquake,3.46,4.638,0.073,18,reviewed,us,us
+2022-12-05T14:43:29.273Z,43.5061,12.458,6.412,4.2,mb,29,97,0.248,0.33,us,us6000j70x,2023-02-11T23:03:08.040Z,"4 km N of Monte Grimano, Italy",earthquake,4.97,2.798,0.214,6,reviewed,us,us
+2022-12-08T07:08:18.582Z,43.8785,13.2942,7.629,4.4,mb,60,34,0.832,0.47,us,us6000j7up,2023-02-11T23:03:15.040Z,"17 km NE of Marotta, Italy",earthquake,4.32,4.082,0.162,11,reviewed,us,us
+2022-12-08T20:26:34.391Z,37.0247,14.6762,11.646,4.2,mb,51,147,0.513,1.2,us,us6000j80a,2023-02-11T23:03:18.040Z,"Sicily, Italy",earthquake,8.53,3.054,0.167,10,reviewed,us,us
+2022-12-29T00:23:06.284Z,35.0836,14.2162,10,4.4,mb,42,148,2.383,0.49,us,us7000j0r2,2023-03-07T18:59:56.040Z,"Malta region",earthquake,7.88,1.863,0.109,24,reviewed,us,us
+2022-12-29T12:38:53.696Z,39.4135,15.1807,10,4.2,mb,59,73,0.759,0.79,us,us7000j0tz,2023-03-07T18:59:57.040Z,"61 km WSW of Cittadella del Capo, Italy",earthquake,3.06,1.856,0.142,14,reviewed,us,us
+2022-12-29T15:11:01.515Z,39.4176,15.2556,19.036,4.5,mb,88,53,0.72,0.68,us,us7000j0up,2024-01-18T19:06:52.729Z,"55 km WSW of Cittadella del Capo, Italy",earthquake,1.66,3.998,0.093,36,reviewed,us,us
+2023-01-09T02:50:39.199Z,40.3766,19.4481,15.967,4.1,mb,39,100,0.652,1.34,us,us7000j31z,2023-03-20T06:03:02.040Z,"6 km NNW of Orikum, Albania",earthquake,1.6,5.893,0.174,9,reviewed,us,us
+2023-01-11T01:07:37.711Z,42.9735,18.1489,10,3,ml,12,73,0.983,0.58,us,us7000j3nb,2023-03-20T06:03:21.040Z,"5 km ENE of Ljubinje, Bosnia and Herzegovina",earthquake,4.37,1.998,0.06,36,reviewed,us,us
+2023-01-12T02:02:01.621Z,37.1995,20.9112,35.684,4.3,mb,22,193,0.81,0.85,us,us7000j5t9,2023-03-20T06:03:59.040Z,"58 km S of Lithakiá, Greece",earthquake,3.88,10.373,0.308,3,reviewed,us,us
+2023-01-12T07:06:13.799Z,43.9032,13.4288,10,4,mb,28,56,0.917,0.49,us,us7000j3ua,2023-03-20T06:03:27.040Z,"27 km NE of Senigallia, Italy",earthquake,4.79,1.944,0.233,5,reviewed,us,us
+2023-01-15T21:37:21.763Z,41.4466,19.996,17.416,4.7,mwr,105,37,0.141,0.79,us,us7000j4kh,2023-03-31T19:44:29.040Z,"10 km SW of Klos, Albania",earthquake,3.5,2.248,0.047,43,reviewed,us,us
+2023-01-15T21:45:41.552Z,41.5072,19.9862,10,4.1,mb,32,40,0.185,0.66,us,us7000j4kl,2023-03-31T19:44:29.040Z,"8 km W of Klos, Albania",earthquake,4.68,1.972,0.301,3,reviewed,us,us
+2023-01-16T18:23:23.807Z,41.468,20.0656,9.383,4.3,mb,47,39,0.194,0.84,us,us7000j4rc,2023-03-31T19:44:41.040Z,"4 km SSW of Klos, Albania",earthquake,3.98,4.083,0.154,13,reviewed,us,us
+2023-01-17T19:42:35.108Z,34.9167,14.1587,9.698,4.3,mb,52,102,2.552,0.9,us,us7000j4yv,2023-03-31T19:44:57.040Z,"105 km SSW of ?urrieq, Malta",earthquake,7.43,4.407,0.104,28,reviewed,us,us
+2023-01-18T04:21:57.568Z,34.9232,14.2748,10,5,mww,86,59,4.11,0.63,us,us7000j54l,2023-03-31T19:45:04.040Z,"102 km S of ?urrieq, Malta",earthquake,4.39,1.773,0.086,13,reviewed,us,us
+2023-01-18T14:13:03.269Z,34.9715,14.2761,10,4.6,mb,94,101,4.1,0.26,us,us7000j5a4,2023-03-31T19:45:13.040Z,"97 km S of ?urrieq, Malta",earthquake,7.76,1.869,0.077,50,reviewed,us,us
+2023-01-18T15:54:46.261Z,34.8554,14.2579,10,5.1,mww,193,39,2.609,0.57,us,us7000j59j,2023-03-31T19:45:11.040Z,"110 km S of ?urrieq, Malta",earthquake,2.34,1.814,0.048,41,reviewed,us,us
+2023-01-18T17:00:12.964Z,34.9489,14.1932,10,4.7,mb,76,59,2.518,0.75,us,us7000j59w,2023-03-31T19:45:12.040Z,"101 km SSW of ?urrieq, Malta",earthquake,7.28,0.874,0.078,50,reviewed,us,us
+2023-01-19T06:18:48.348Z,34.657,14.2292,10.157,4.3,mb,15,220,4.14,0.42,us,us6000jjh2,2023-03-31T19:43:35.040Z,"132 km S of ?urrieq, Malta",earthquake,9.93,6.289,0.307,3,reviewed,us,us
+2023-01-23T10:37:52.335Z,34.9739,14.1811,10,5.1,mww,112,46,2.494,0.76,us,us7000j6bz,2023-04-11T18:51:54.040Z,"98 km SSW of ?urrieq, Malta",earthquake,3.06,1.786,0.045,48,reviewed,us,us
+2023-01-23T10:42:10.356Z,34.8666,14.13,9.102,4.4,mb,39,145,2.603,0.42,us,us6000jlxc,2023-04-11T18:51:45.040Z,"111 km SSW of Qrendi, Malta",earthquake,7.57,4.502,0.19,8,reviewed,us,us
+2023-01-24T20:25:34.695Z,34.8772,14.3112,10,5.3,mww,136,57,2.587,0.6,us,us6000jj05,2023-04-11T18:51:29.040Z,"106 km S of ?urrieq, Malta",earthquake,6.98,1.738,0.036,76,reviewed,us,us
+2023-01-24T21:42:41.285Z,34.8523,14.2303,9.938,4,mb,26,208,4.09,0.48,us,us6000jlvs,2023-04-11T18:51:44.040Z,"110 km SSW of ?urrieq, Malta",earthquake,10.94,6.026,0.156,11,reviewed,us,us
+2023-01-24T22:10:34.707Z,34.6292,14.297,10.035,4,mb,16,208,2.834,0.54,us,us6000jlvt,2023-04-11T18:51:44.040Z,"134 km S of ?urrieq, Malta",earthquake,11.2,8.296,0.299,3,reviewed,us,us
+2023-01-25T01:12:51.970Z,34.8866,14.2409,10,4.1,mb,43,156,2.579,0.69,us,us6000jj2f,2023-04-11T18:51:30.040Z,"central Mediterranean Sea",earthquake,8.68,1.924,0.151,12,reviewed,us,us
+2023-01-25T21:51:30.264Z,34.8025,14.2155,10.001,4.1,mb,41,80,2.663,0.87,us,us6000jlyt,2023-04-11T18:51:46.040Z,"116 km SSW of ?urrieq, Malta",earthquake,7.19,2.559,0.145,13,reviewed,us,us
+2023-01-26T10:45:41.139Z,44.2182,12.4353,10,4.3,mb,59,24,0.957,0.74,us,us6000jjcw,2023-04-11T18:51:34.040Z,"3 km NE of Cesenatico, Italy",earthquake,4.57,1.9,0.265,4,reviewed,us,us
+2023-01-28T05:32:50.156Z,44.2129,12.3668,6.196,4.2,mwr,75,32,0.956,0.67,us,us6000jjxr,2023-04-11T18:51:38.040Z,"2 km WNW of Cesenatico, Italy",earthquake,1.82,5.09,0.062,25,reviewed,us,us
+2023-01-29T05:09:11.827Z,37.5621,20.9654,33.543,4.3,mb,83,59,0.855,0.53,us,us6000jk3z,2023-04-13T21:53:08.040Z,"Ionian Sea",earthquake,6.49,4.387,0.088,39,reviewed,us,us
+2023-01-30T01:02:31.990Z,34.8408,14.3173,10,4.2,mb,46,116,2.623,0.86,us,us6000jk8a,2023-04-13T21:53:10.040Z,"110 km S of ?urrieq, Malta",earthquake,8.71,1.874,0.089,35,reviewed,us,us
+2023-01-30T19:55:25.696Z,34.9098,14.2728,10.3,5.3,mww,135,35,2.555,0.67,us,us6000jkea,2023-04-13T21:53:11.040Z,"103 km S of ?urrieq, Malta",earthquake,6.91,3.252,0.039,62,reviewed,us,us
+2023-01-31T00:43:15.559Z,34.8794,14.2319,10,4.5,mb,132,49,2.586,0.78,us,us6000jkfs,2023-04-13T21:53:12.040Z,"107 km SSW of ?urrieq, Malta",earthquake,6.95,1.835,0.055,99,reviewed,us,us
+2023-02-04T06:04:14.851Z,34.9107,14.2405,10,4.7,mb,55,101,4.085,0.51,us,us6000jlch,2023-04-13T21:53:23.040Z,"104 km SSW of ?urrieq, Malta",earthquake,4.72,1.802,0.092,36,reviewed,us,us
+2023-02-09T08:16:06.199Z,43.2238,11.2837,10,2.1,ml,5,226,0.301,1.19,us,us6000jn8r,2023-04-15T21:39:31.040Z,"5 km ESE of Rosia, Italy",earthquake,3.36,1.923,0.115,10,reviewed,us,us
+2023-02-09T10:57:36.082Z,41.0349,20.2787,10,4.2,mb,47,45,0.442,1.01,us,us6000jmq1,2023-04-15T21:39:51.040Z,"18 km SSW of Librazhd-Qendër, Albania",earthquake,5.11,1.883,0.264,6,reviewed,us,us
+2023-02-16T09:47:45.811Z,44.9646,14.7077,10,4.7,mwr,127,14,0.999,0.7,us,us6000jpbt,2023-04-22T21:33:13.040Z,"3 km W of Baška, Croatia",earthquake,3.95,1.527,0.047,44,reviewed,us,us
+2023-02-18T20:14:30.760Z,37.2818,20.8574,10,4.6,mb,36,130,0.858,1.14,us,us6000jpyy,2023-04-22T21:33:20.040Z,"48 km S of Lithakiá, Greece",earthquake,7.26,1.717,0.087,39,reviewed,us,us
+2023-02-19T09:28:54.198Z,34.8812,14.153,10.073,4,mb,20,98,4.022,0.35,us,us6000jry9,2023-04-29T21:57:12.040Z,"109 km SSW of ?urrieq, Malta",earthquake,9.37,4.313,0.212,6,reviewed,us,us
+2023-02-20T01:11:17.214Z,38.7236,14.1456,10,4.5,mb,84,52,1.263,0.5,us,us6000jq7g,2023-04-29T21:57:15.040Z,"62 km WNW of Leni, Italy",earthquake,5.28,1.816,0.069,61,reviewed,us,us
+2023-02-21T00:07:21.282Z,43.2845,13.3723,13.057,4.2,mb,45,44,0.489,0.6,us,us6000jqg3,2023-04-29T21:57:19.040Z,"2 km NE of Pollenza, Italy",earthquake,4.32,4.967,0.263,4,reviewed,us,us
+2023-02-27T21:50:10.517Z,39.7821,13.8609,414.804,4.5,mb,135,63,1.359,0.53,us,us7000jg46,2023-05-08T01:59:47.040Z,"90 km SSW of Anacapri, Italy",earthquake,8.88,6.154,0.05,117,reviewed,us,us
+2023-02-28T17:43:45.088Z,41.0174,19.7343,10,4.2,mb,70,56,0.344,1.06,us,us7000jgaw,2023-05-08T01:59:57.040Z,"3 km SSW of Peqin, Albania",earthquake,3.55,1.868,0.095,36,reviewed,us,us
+2023-03-08T05:33:05.661Z,34.9928,14.1158,10,4.4,mb,57,145,0.906,0.88,us,us7000ji2b,2023-05-15T02:50:08.040Z,"98 km SSW of Qrendi, Malta",earthquake,6.12,1.859,0.143,14,reviewed,us,us
+2023-03-08T18:30:45.652Z,38.7759,14.6792,287.648,4.2,mb,77,79,1.33,0.71,us,us7000ji93,2023-05-15T02:50:00.040Z,"25 km NNW of Malfa, Italy",earthquake,7.82,7.7,0.11,23,reviewed,us,us
+2023-03-08T23:41:49.099Z,36.4788,19.8034,38.4,4.2,mb,38,178,1.84,0.5,us,us7000jibi,2023-05-15T02:49:58.040Z,"165 km SSW of Lithakiá, Greece",earthquake,3.51,9.234,0.12,19,reviewed,us,us
+2023-03-09T15:05:40.913Z,43.267,12.3032,4.946,4.3,mwr,156,33,0.162,0.82,us,us7000jiim,2023-05-15T02:49:44.040Z,"4 km SW of Umbertide, Italy",earthquake,3.95,1.597,0.047,44,reviewed,us,us
+2023-03-09T19:08:07.123Z,43.2824,12.3414,10,4.5,mwr,110,32,0.135,0.79,us,us7000jiky,2023-05-15T02:49:42.040Z,"2 km S of Umbertide, Italy",earthquake,4.85,1.845,0.043,53,reviewed,us,us
+2023-03-09T19:13:57.305Z,43.2648,12.336,2.838,4.2,mb,66,47,0.138,1.01,us,us7000jil2,2023-05-15T02:49:42.040Z,"4 km S of Umbertide, Italy",earthquake,5.39,2.527,0.159,11,reviewed,us,us
+2023-03-21T00:20:13.895Z,38.9742,21.1394,10,4.5,mwr,128,42,0.934,0.9,us,us7000jljx,2023-05-26T21:54:09.040Z,"Greece",earthquake,5.44,1.786,0.065,23,reviewed,us,us
+2023-03-22T07:44:01.648Z,37.798,20.9915,10,4.5,mb,48,121,0.966,0.97,us,us7000jlwa,2023-05-26T21:54:11.040Z,"8 km ENE of Zakynthos, Greece",earthquake,6.16,1.893,0.243,5,reviewed,us,us
+2023-03-22T14:50:33.025Z,47.3957,6.7567,11.8,4.4,mb,67,68,0.865,0.44,us,us7000jlxj,2024-07-09T15:05:49.915Z,"1 km NW of Pont-de-Roide, France",earthquake,3.25,4.825,0.202,8,reviewed,us,us
+2023-03-23T01:43:20.529Z,40.468,20.713,14.367,4.9,mb,101,36,0.802,0.76,us,us7000jm2z,2023-05-26T21:54:13.040Z,"14 km NNE of Ersekë, Albania",earthquake,3.08,3.084,0.06,88,reviewed,us,us
+2023-03-23T02:09:34.565Z,40.4158,20.6663,10,4,mb,40,61,0.739,0.62,us,us7000jm39,2023-05-26T21:54:13.040Z,"8 km N of Ersekë, Albania",earthquake,3.56,1.94,0.183,8,reviewed,us,us
+2023-03-23T03:30:41.839Z,40.4096,20.6264,10,4.5,mb,60,60,0.714,0.67,us,us7000jm3h,2023-05-26T21:54:13.040Z,"9 km NNW of Ersekë, Albania",earthquake,3.32,1.839,0.204,7,reviewed,us,us
+2023-03-25T00:14:33.296Z,35.5823,10.2062,10,4.2,mb,31,114,0.716,0.48,us,us6000k0m3,2023-05-26T21:54:02.040Z,"14 km SW of Sidi el Hani, Tunisia",earthquake,3.88,1.828,0.187,8,reviewed,us,us
+2023-03-28T21:52:45.092Z,41.6656,14.6654,7.432,4.7,mwr,124,31,0.638,0.67,us,us6000k0fj,2023-06-03T22:06:04.040Z,"2 km NNW of Montagano, Italy",earthquake,3.67,2.549,0.048,41,reviewed,us,us
+2023-03-31T18:27:27.864Z,38.6047,14.8384,9.737,4.1,mb,25,116,1.197,0.67,us,us6000k24b,2024-01-18T19:40:26.646Z,"3 km N of Malfa, Italy",earthquake,5.2,4.769,0.214,6,reviewed,us,us
+2023-04-02T00:45:59.712Z,37.8062,21.0953,34.009,4,mb,52,118,0.91,0.85,us,us6000k1f3,2023-06-13T03:13:31.040Z,"4 km SSW of Arkoúdi, Greece",earthquake,6.8,7.243,0.196,7,reviewed,us,us
+2023-04-11T06:06:10.754Z,34.8965,14.1344,9.378,4.2,mb,49,124,0.991,0.54,us,us6000k5am,2023-06-17T21:36:59.040Z,"108 km SSW of Qrendi, Malta",earthquake,5.48,4.693,0.103,26,reviewed,us,us
+2023-04-19T03:52:37.668Z,37.2475,21.2348,46.772,4.2,mb,42,94,0.555,0.56,us,us6000k5fm,2023-07-03T02:47:12.040Z,"32 km WNW of Filiatrá, Greece",earthquake,6.84,7.235,0.141,14,reviewed,us,us
+2023-04-21T12:06:23.167Z,37.4599,15.3713,22.089,4.2,mb,55,100,1.757,0.48,us,us6000k623,2023-07-03T02:46:49.040Z,"21 km ESE of Acitrezza, Italy",earthquake,3.29,5.987,0.115,21,reviewed,us,us
+2023-04-21T22:19:48.676Z,35.0264,15.2188,13.812,5.5,mww,126,50,0.988,0.64,us,us6000k67y,2023-07-03T02:46:46.040Z,"108 km SE of Birżebbuġa, Malta",earthquake,4.5,3.12,0.035,78,reviewed,us,us
+2023-04-25T17:41:27.201Z,34.8794,14.197,8.776,4.1,mb,62,182,0.992,0.8,us,us7000jvuj,2023-07-11T01:44:37.040Z,"108 km SSW of Żurrieq, Malta",earthquake,6.9,4.071,0.089,41,reviewed,us,us
+2023-05-01T02:41:26.060Z,39.4369,15.5156,249.728,5.2,mww,204,33,0.602,0.57,us,us7000jxac,2023-07-15T22:10:43.040Z,"33 km WSW of Cittadella del Capo, Italy",earthquake,6.9,3.848,0.038,66,reviewed,us,us
+2023-05-01T15:06:05.052Z,39.5797,20.5803,21.023,4.3,mb,88,41,1.472,0.97,us,us7000jxcm,2023-07-15T22:10:46.040Z,"13 km NNE of Paramythiá, Greece",earthquake,4.13,4.592,0.103,27,reviewed,us,us
+2023-05-02T01:41:18.950Z,42.5415,19.1921,15.149,2.6,ml,21,75,0.123,0.51,us,us7000jxg6,2023-07-15T22:10:51.040Z,"2 km N of Spuž, Montenegro",earthquake,2.75,4.826,0.077,22,reviewed,us,us
+2023-05-08T04:53:13.197Z,37.5942,20.0143,25.903,4.4,mb,87,61,1.578,0.81,us,us6000kabj,2023-07-22T19:16:21.040Z,"70 km WSW of Katastárion, Greece",earthquake,4.83,5.063,0.077,49,reviewed,us,us
+2023-05-11T22:11:54.051Z,35.2235,15.2761,10,4.1,mb,36,170,0.867,0.69,us,us6000kb90,2023-07-22T19:16:53.040Z,"95 km SE of Birżebbuġa, Malta",earthquake,7.26,1.93,0.185,8,reviewed,us,us
+2023-05-16T06:24:21.041Z,44.5555,6.811,8.462,4.1,mb,36,122,0.505,0.38,us,us6000kc87,2023-07-24T01:16:38.040Z,"16 km W of Pleyne, Italy",earthquake,3.9,5.085,0.174,9,reviewed,us,us
+2023-05-19T15:22:48.265Z,44.713,18.5579,10,4.5,mb,37,50,0.98,0.61,us,us7000k3sg,2023-07-24T01:15:50.040Z,"5 km E of Srebrenik, Bosnia and Herzegovina",earthquake,2.8,1.94,0.313,3,reviewed,us,us
+2023-06-19T02:06:58.749Z,36.6354,4.7031,10,3.8,mb,24,94,3.273,0.78,us,us6000kpns,2023-08-26T20:54:21.040Z,"6 km WSW of el hed, Algeria",earthquake,6.35,1.909,0.294,3,reviewed,us,us
+2023-06-21T15:33:54.291Z,42.1325,15.6759,38.504,4.1,mwr,59,25,0.381,0.75,us,us7000ka4t,2023-08-26T20:54:12.040Z,"14 km E of Isole Tremiti, Italy",earthquake,3.73,4.875,,,reviewed,us,zamg
+2023-06-23T10:56:23.016Z,39.1031,20.5575,10,4.2,mb,36,110,0.888,0.44,us,us7000kaii,2023-08-26T20:54:27.040Z,"14 km SSW of Kanaláki, Greece",earthquake,3.3,1.877,0.159,11,reviewed,us,us
+2023-06-26T09:15:21.303Z,40.2012,20.6142,10,4.3,mwr,64,75,0.57,1.43,us,us7000kb3q,2023-09-08T14:18:42.040Z,"Greece-Albania border region",earthquake,6.13,1.872,0.078,16,reviewed,us,us
+2023-06-30T03:54:20.002Z,42.6054,18.1671,10,4.1,mb,46,34,0.827,1.16,us,us6000kp0v,2023-09-08T14:18:29.040Z,"2 km S of Čibača, Croatia",earthquake,4.21,1.909,0.197,7,reviewed,us,us
+2023-07-11T16:28:04.062Z,43.2829,17.3646,10,3.7,mwr,69,25,1.471,0.81,us,us7000kewy,2023-09-23T19:18:21.580Z,"8 km SSE of Drinovci, Bosnia and Herzegovina",earthquake,3.99,1.877,0.063,24,reviewed,us,us
+2023-07-26T08:20:10.795Z,40.9317,15.377,10,4,mb,35,51,0.621,1.54,us,us6000kvls,2023-09-30T21:36:31.040Z,"2 km WNW of Calitri, Italy",earthquake,4.47,1.799,0.299,3,reviewed,us,us
+2023-07-27T20:07:30.635Z,38.6775,15.569,173.818,4,mb,62,105,1.328,0.72,us,us6000kw01,2023-09-30T21:36:32.040Z,"Sicily, Italy",earthquake,7.16,6.77,0.113,21,reviewed,us,us
+2023-07-29T17:34:24.938Z,45.4781,14.4793,4.16,3.9,mwr,42,30,0.781,0.69,us,us6000kwj4,2023-09-30T21:36:33.040Z,"8 km ENE of Klana, Croatia",earthquake,2.74,6.108,0.05,38,reviewed,us,us
+2023-08-04T20:19:49.592Z,40.1089,19.9655,18.695,4.1,mb,31,84,0.23,0.95,us,us6000kxyd,2023-10-07T21:38:58.040Z,"15 km WNW of Gjirokastër, Albania",earthquake,3.53,4.921,0.197,8,reviewed,us,us
+2023-08-18T04:18:03.924Z,40.7527,13.9933,5,2.8,ml,17,133,0.517,0.59,us,us7000kp5t,2023-10-27T21:39:03.040Z,"1 km WSW of Procida, Italy",earthquake,3.86,1.983,0.069,28,reviewed,us,us
+2023-08-19T09:13:26.110Z,46.8446,20.6875,9.539,3.6,ml,41,42,1.202,0.55,us,us7000kpfs,2023-10-27T21:39:04.040Z,"10 km ESE of Szarvas, Hungary",earthquake,3.85,7.348,0.085,18,reviewed,us,us
+2023-08-19T09:16:37.099Z,46.8358,20.6764,10.59,3.7,ml,26,83,1.207,0.61,us,us7000kpk2,2023-10-27T21:39:04.040Z,"10 km ESE of Szarvas, Hungary",earthquake,4.57,7.299,0.081,20,reviewed,us,us
+2023-08-19T15:54:09.369Z,46.8563,20.6839,10.09,3.4,ml,22,83,1.19,0.63,us,us7000kph4,2023-10-27T21:39:04.040Z,"10 km E of Szarvas, Hungary",earthquake,5.08,4.899,0.081,20,reviewed,us,us
+2023-08-20T01:52:58.097Z,46.8276,20.6207,10,3.5,ml,36,48,1.198,0.52,us,us7000kpjh,2023-10-28T19:15:31.040Z,"6 km SE of Szarvas, Hungary",earthquake,3.59,1.939,0.081,20,reviewed,us,us
+2023-09-02T06:17:53.514Z,40.2459,20.5719,10,4.5,mb,57,74,0.571,0.78,us,us7000kstr,2023-11-04T21:36:17.040Z,"10 km NNW of Leskovik, Albania",earthquake,2.51,1.899,0.089,37,reviewed,us,us
+2023-09-08T14:36:22.518Z,43.9014,13.3816,10,4,mb,48,32,0.892,0.65,us,us7000ku9l,2023-11-17T19:47:51.040Z,"24 km NE of Marotta, Italy",earthquake,4.18,1.895,0.134,15,reviewed,us,us
+2023-09-13T08:38:17.058Z,43.8586,13.3777,10,4.2,mb,60,54,0.86,0.79,us,us7000kvh7,2023-11-18T22:29:33.040Z,"20 km NE of Senigallia, Italy",earthquake,2.93,1.927,0.187,8,reviewed,us,us
+2023-09-16T02:03:20.387Z,38.6656,17.9912,10,4.1,mb,52,106,1.453,0.86,us,us7000kw4f,2023-11-18T22:29:35.040Z,"81 km ESE of Capo Rizzuto, Italy",earthquake,5.39,1.942,0.165,10,reviewed,us,us
+2023-09-18T02:38:03.893Z,44.0545,11.6631,14.926,4.2,mb,37,70,0.576,0.72,us,us7000kwdq,2023-12-02T23:01:06.040Z,"4 km ESE of Marradi, Italy",earthquake,3.59,2.022,0.187,8,reviewed,us,us
+2023-09-18T03:10:14.744Z,44.0201,11.6768,10,5.1,mww,110,26,0.586,0.65,us,us7000kwdw,2023-12-02T23:01:07.040Z,"7 km SE of Marradi, Italy",earthquake,3.84,1.769,0.045,48,reviewed,us,us
+2023-09-21T07:00:51.574Z,38.1688,20.7985,10,4.1,mb,33,88,1.333,0.47,us,us7000kx1r,2024-01-18T20:56:09.140Z,"2 km NE of P?ros, Greece",earthquake,5.47,1.728,0.214,6,reviewed,us,us
+2023-09-23T17:01:35.034Z,42.8575,17.5911,10,4.4,mb,99,31,1.304,0.75,us,us7000kxnx,2023-12-02T23:01:11.040Z,"Adriatic Sea",earthquake,3.69,1.83,0.073,61,reviewed,us,us
+2023-10-02T08:29:44.914Z,43.314,17.4175,10,4.6,mb,102,25,1.444,0.51,us,us6000lc7v,2023-12-14T21:26:51.040Z,"6 km S of Grude, Bosnia and Herzegovina",earthquake,1.83,1.851,0.077,50,reviewed,us,us
+2023-10-02T20:08:25.110Z,40.7176,14.0834,9.579,3.4,mb,21,130,0.483,0.82,us,us6000lcbn,2023-12-14T21:26:51.040Z,"7 km SE of Procida, Italy",earthquake,3.45,7.405,0.491,1,reviewed,us,us
+2023-10-25T13:45:36.109Z,44.9483,11.4353,20.581,3.9,mwr,21,54,0.681,0.34,us,us7000l68x,2024-01-04T04:22:12.040Z,"0 km S of Ficarolo, Italy",earthquake,3.1,4.954,0.063,24,reviewed,us,us
+2023-10-26T22:22:50.655Z,40.5752,13.7238,417.054,4.2,mb,91,51,0.786,0.54,us,us7000l6p1,2024-01-04T04:22:21.040Z,"19 km SW of Sant'Angelo, Italy",earthquake,8.02,6.414,0.089,35,reviewed,us,us
+2023-10-27T02:36:55.970Z,38.3363,15.2314,164.412,4.1,mb,57,86,1.11,0.85,us,us7000l6qg,2024-01-04T04:22:23.040Z,"12 km N of Milazzo, Italy",earthquake,5.73,6.398,0.139,14,reviewed,us,us
+2023-10-28T15:29:22.789Z,44.9959,11.4938,10,4.1,mb,45,26,0.743,0.76,us,us7000l77d,2024-01-04T04:22:39.040Z,"2 km SSW of Bagnolo di Po, Italy",earthquake,4.36,1.973,0.521,1,reviewed,us,us
+2023-11-05T13:50:46.460Z,41.0619,19.9627,19.155,4.1,mb,25,60,0.295,0.95,us,us7000l90s,2024-01-13T23:10:05.040Z,"3 km NNW of Cërrik, Albania",earthquake,4.54,6.252,0.261,5,reviewed,us,us
+2023-11-07T18:30:05.381Z,39.4858,20.4468,18.602,4.5,mb,67,54,1.634,1.06,us,us7000l9ei,2024-01-18T21:16:56.879Z,"5 km WNW of Paramythi?, Greece",earthquake,1.81,3.859,0.091,37,reviewed,us,us
+2023-11-14T16:17:49.698Z,43.0428,13.555,14.118,4,mwr,78,33,0.385,0.88,us,us6000lnce,2024-01-26T16:37:41.040Z,"2 km ESE of Monteleone di Fermo, Italy",earthquake,2.66,4.741,0.058,29,reviewed,us,us
+2023-11-14T22:43:42.381Z,39.0501,14.3804,355.62,4.3,mb,53,51,1.456,0.76,us,us6000lnfx,2024-01-26T16:37:42.040Z,"65 km NW of Malfa, Italy",earthquake,5.94,6.989,0.168,10,reviewed,us,us
+2023-11-20T06:46:28.482Z,39.6907,13.7452,409.477,4.6,mb,98,66,1.479,0.69,us,us6000lpk2,2024-02-01T15:13:41.040Z,"103 km SSW of Anacapri, Italy",earthquake,7.51,6.108,0.036,227,reviewed,us,us
+2023-11-21T05:52:05.341Z,44.4556,6.8591,6.606,4.1,mb,31,91,0.61,0.73,us,us6000lprc,2024-02-01T15:13:41.040Z,"10 km WSW of Acceglio, Italy",earthquake,2.16,4.973,0.174,9,reviewed,us,us
+2023-11-21T10:12:32.207Z,37.4742,20.6715,10,4.3,mb,28,162,1.042,0.38,us,us6000lqiw,2024-02-01T15:13:44.040Z,"30 km SSW of Lithakiá, Greece",earthquake,6.28,1.949,0.202,7,reviewed,us,us
+2023-11-29T05:20:08.432Z,35.1489,21.2362,10,4.4,mb,54,85,2.101,0.5,us,us7000leh7,2024-02-06T21:53:54.040Z,"190 km SSW of Methóni, Greece",earthquake,7.18,1.885,0.12,21,reviewed,us,us
+2023-11-30T12:39:18.880Z,37.8104,20.4122,10,4.2,mwr,73,50,1.359,0.79,us,us7000lerz,2024-02-06T21:53:54.040Z,"30 km W of Katastárion, Greece",earthquake,5.6,1.832,0.093,11,reviewed,us,us
+2023-12-27T05:32:44.484Z,43.4622,16.286,10,2.7,ml,17,78,1.44,0.56,us,us6000m00f,2024-03-02T21:39:31.040Z,"3 km SSE of Okrug Gornji, Croatia",earthquake,3.11,1.99,0.055,44,reviewed,us,us
+2023-12-27T18:56:08.538Z,43.4424,16.2943,10,3.8,mb,29,38,1.455,0.54,us,us6000m01b,2024-03-02T21:39:31.040Z,"5 km N of Grohote, Croatia",earthquake,5.26,1.96,0.359,2,reviewed,us,us
+2023-12-30T20:43:24.532Z,44.3112,17.9273,10.239,4.7,mwr,149,15,0.689,0.73,us,us6000m0pp,2024-03-02T21:39:34.040Z,"9 km S of Željezno Polje, Bosnia and Herzegovina",earthquake,3.31,3.28,0.05,39,reviewed,us,us
+2024-01-05T16:50:34.235Z,43.7704,18.5108,10,2.4,ml,5,159,1.119,0.16,us,us6000m227,2024-03-09T21:39:36.040Z,"6 km SW of Koran, Bosnia and Herzegovina",earthquake,5.65,1.792,0.105,12,reviewed,us,us
+2024-01-05T21:51:59.524Z,39.7428,20.5036,47.485,4.2,mb,42,59,1.6,0.51,us,us6000m23r,2024-03-09T21:39:39.040Z,"19 km SSW of Kalpáki, Greece",earthquake,5.72,6.782,0.094,31,reviewed,us,us
+2024-01-13T23:17:52.407Z,40.9827,19.7687,28.604,4.5,mwr,87,63,0.371,0.89,us,us6000m3k3,2024-07-23T13:50:28.082Z,"7 km NE of Lushnjë, Albania",earthquake,3.67,5.029,0.053,34,reviewed,us,us
+2024-01-21T17:19:37.362Z,44.5389,18.705,10,2.8,ml,21,53,1.023,0.49,us,us6000m5a5,2024-03-29T17:37:55.040Z,"2 km SSE of Solina, Bosnia and Herzegovina",earthquake,5.56,1.983,0.06,36,reviewed,us,us
+2024-01-26T15:00:25.278Z,39.3284,15.3318,272.127,4.4,mb,63,75,0.762,0.79,us,us7000lu20,2024-03-30T22:33:49.040Z,"53 km WSW of Cittadella del Capo, Italy",earthquake,7.05,6.499,0.068,63,reviewed,us,us
+2024-01-28T09:23:23.311Z,40.6984,15.4246,10,4.1,mwr,49,92,0.73,0.91,us,us7000lui0,2024-03-30T22:34:43.040Z,"4 km NNE of San Gregorio Magno, Italy",earthquake,6.33,1.96,0.052,36,reviewed,us,us
+2024-02-05T08:14:53.400Z,35.661,16.7179,10,4.1,mb,13,178,1.793,0.84,us,us7000lx1d,2024-04-20T19:32:56.040Z,"182 km SE of Portopalo di Capo Passero, Italy",earthquake,7.2,1.992,0.301,3,reviewed,us,us
+2024-02-06T03:21:38.020Z,37.8151,20.6786,10,4.2,mb,42,135,1.178,0.6,us,us7000lx8y,2024-04-20T19:33:18.040Z,"7 km WSW of Katastárion, Greece",earthquake,5.83,1.922,0.141,14,reviewed,us,us
+2024-02-06T13:41:48.291Z,36.0198,20.4755,48.784,4.2,mb,59,168,1.643,0.74,us,us7000lxb2,2024-04-20T19:33:26.040Z,"141 km SW of Methóni, Greece",earthquake,7.2,4.501,0.085,43,reviewed,us,us
+2024-02-08T05:32:10.342Z,41.2148,20.2084,10,4.3,mb,53,58,1.405,0.6,us,us7000lxpd,2024-04-20T19:34:05.040Z,"10 km W of Librazhd-Qendër, Albania",earthquake,5.56,1.89,0.16,12,reviewed,us,us
+2024-02-09T12:06:22.712Z,44.6852,10.3074,24.964,4.2,mwr,64,75,0.584,0.53,us,us7000lxz4,2024-04-20T19:34:38.040Z,"1 km ENE of Pilastro, Italy",earthquake,4.9,6.152,,,reviewed,us,zamg
+2024-02-10T15:10:29.017Z,40.7467,15.5501,1.171,4.1,mwr,78,63,0.779,1.03,us,us7000lyb3,2024-04-20T19:35:12.040Z,"1 km SSE of Bella, Italy",earthquake,7.09,4.553,0.078,16,reviewed,us,us
+2024-02-17T00:23:29.997Z,44.675,10.3817,31.637,4.1,mb,37,97,0.535,0.36,us,us7000lzs8,2024-04-24T14:42:04.040Z,"3 km SE of Basilicanova, Italy",earthquake,5.15,5.058,0.186,8,reviewed,us,us
+2024-02-17T11:49:34.474Z,44.1103,11.8128,1.267,3.7,mwr,34,57,0.648,0.39,us,us7000lzuy,2024-04-24T14:41:59.040Z,"5 km SSE of Modigliana, Italy",earthquake,4.72,2.401,0.086,13,reviewed,us,us
+2024-02-19T08:22:04.195Z,43.9809,18.4579,10,4.3,mb,46,42,1.112,0.45,us,us7000m04x,2024-05-02T15:50:10.040Z,"11 km NNE of Hotonj, Bosnia and Herzegovina",earthquake,2.68,1.908,0.142,14,reviewed,us,us
+2024-02-22T06:03:38.809Z,42.8445,17.5782,10,4.1,mb,56,35,1.309,0.57,us,us7000m0q4,2024-05-02T15:50:12.040Z,"9 km SSW of Neum, Bosnia and Herzegovina",earthquake,2.39,1.929,0.135,16,reviewed,us,us
+2024-02-23T09:23:18.326Z,41.883,17.5546,10,4.4,mwr,98,42,1.36,0.43,us,us7000m11g,2024-05-02T15:50:13.040Z,"94 km S of Babino Polje, Croatia",earthquake,2.01,1.842,0.058,29,reviewed,us,us
+2024-02-24T10:00:35.963Z,40.699,19.7131,10,4.1,mb,36,95,0.657,1.08,us,us7000m1b5,2024-05-02T15:50:14.040Z,"4 km SSE of Roskovec, Albania",earthquake,4,1.503,0.165,10,reviewed,us,us
+2024-03-01T05:52:38.788Z,39.8285,15.5315,268.439,4.6,mb,56,113,1.216,0.62,us,us6000mg0c,2024-05-10T21:25:56.040Z,"21 km W of San Nicola Arcella, Italy",earthquake,7.18,7.33,0.164,11,reviewed,us,us
+2024-03-04T19:18:50.144Z,38.3996,20.4608,30.911,4.2,mb,43,86,1.683,0.8,us,us6000mgql,2024-05-15T17:35:06.040Z,"22 km N of Lixoúri, Greece",earthquake,4.93,6.457,0.121,19,reviewed,us,us
+2024-03-05T22:17:30.814Z,38.4804,20.5342,36.764,4.2,mb,53,103,1.703,1.29,us,us7000m47y,2024-05-15T17:35:05.040Z,"20 km NW of Itháki, Greece",earthquake,6.17,9.535,0.141,15,reviewed,us,us
+2024-03-07T00:58:24.403Z,45.8164,16.014,5,2.9,ml,26,51,0.842,0.56,us,us7000m3ta,2024-05-24T22:29:25.870Z,"2 km E of Zagreb, Croatia",earthquake,1.67,2.001,0.052,48,reviewed,us,us
+2024-03-12T04:37:30.566Z,38.7396,14.9629,229.675,4.7,mb,74,39,1.357,0.73,us,us7000m4t4,2024-05-18T21:24:37.040Z,"21 km NNE of Malfa, Italy",earthquake,6.68,5.503,0.056,96,reviewed,us,us
+2024-03-12T09:37:29.211Z,39.0854,14.6877,316.36,4.1,mb,34,117,1.635,0.67,us,us7000m4u4,2024-05-18T21:24:40.040Z,"57 km NNW of Malfa, Italy",earthquake,11.33,9.173,0.123,18,reviewed,us,us
+2024-03-12T22:59:50.103Z,39.9459,12.8364,490.23,4.1,mb,33,63,2.216,0.67,us,us6000mjmd,2024-05-18T21:23:50.040Z,"105 km S of Ponza, Italy",earthquake,8.51,11.647,0.234,5,reviewed,us,us
+2024-03-14T03:06:47.754Z,42.954,18.6883,16.067,5.4,mww,196,29,0.673,0.88,us,us6000mirj,2024-05-18T21:22:47.040Z,"22 km ENE of Bileća, Bosnia and Herzegovina",earthquake,4.3,3.246,0.035,77,reviewed,us,us
+2024-03-22T05:20:40.487Z,39.6534,19.3362,10,4.8,mb,71,45,0.789,0.67,us,us6000mkf2,2024-05-27T14:19:21.040Z,"32 km WSW of Agios Georgis, Greece",earthquake,4.7,1.784,0.071,61,reviewed,us,us
+2024-03-22T19:45:34.076Z,39.5059,20.7159,18.156,4.3,mb,63,85,1.491,0.64,us,us6000mkkw,2024-05-27T14:19:22.040Z,"14 km W of Agía Kyriakí, Greece",earthquake,5.61,3.39,0.114,24,reviewed,us,us
+2024-03-27T21:19:37.385Z,46.3313,12.8741,10.179,4.3,mwr,104,33,0.298,0.62,us,us7000m8em,2024-06-01T21:55:47.040Z,"6 km ENE of Tramonti di Sopra, Italy",earthquake,4.61,4.069,0.047,43,reviewed,us,us
+2024-03-29T07:12:48.063Z,37.3224,21.2557,26.873,5.8,mww,209,32,0.553,1.16,us,us7000m8q9,2024-06-01T21:55:49.040Z,"34 km WNW of Filiatrá, Greece",earthquake,5.89,3.694,0.043,52,reviewed,us,us
+2024-03-29T09:14:58.383Z,36.5665,11.1401,10,4.3,mb,46,136,1.674,0.54,us,us7000m92l,2024-06-01T21:55:50.040Z,"24 km SE of Menzel Heurr, Tunisia",earthquake,6.13,1.902,0.133,16,reviewed,us,us
+2024-04-02T19:07:42.333Z,42.9741,18.6532,13.13,4,mwr,122,29,0.705,0.65,us,us7000m9ep,2024-06-12T21:51:51.040Z,"21 km ENE of Bileća, Bosnia and Herzegovina",earthquake,1.29,4.102,0.069,20,reviewed,us,us
+2024-04-03T10:40:44.920Z,43.005,18.699,18.163,4.4,mwr,171,22,0.708,0.79,us,us7000m9ky,2024-10-05T06:14:42.701Z,"20 km SW of Plužine, Montenegro",earthquake,4.06,3.95,0.057,30,reviewed,us,us
+2024-04-08T21:59:20.950Z,38.8362,21.1327,10,4.4,mb,69,83,0.956,0.94,us,us7000mavg,2024-06-17T02:14:53.040Z,"3 km SW of Amfilochía, Greece",earthquake,4.7,1.812,0.081,44,reviewed,us,us
+2024-04-11T00:54:42.978Z,38.3887,20.4418,10,3.9,mb,25,166,1.611,1.08,us,us7000mbb0,2024-06-17T02:15:07.040Z,"20 km N of Lixoúri, Greece",earthquake,4.88,1.964,0.229,5,reviewed,us,us
+2024-04-14T07:44:24.140Z,40.8609,14.1775,5,2.7,ml,18,197,1.168,0.61,us,us7000mc0m,2024-06-17T02:15:33.040Z,"0 km ENE of Pianura, Italy",earthquake,5.39,1.989,0.064,32,reviewed,us,us
+2024-04-20T12:44:11.463Z,35.2614,4.6777,10,4.3,mb,35,78,3.838,0.54,us,us6000mu0s,2024-06-25T21:02:32.040Z,"51 km SSE of M’sila, Algeria",earthquake,5.01,1.887,0.119,20,reviewed,us,us
+2024-05-01T03:38:47.620Z,44.9652,15.6111,10,4.2,mwr,110,15,1.139,0.6,us,us6000mvdz,2024-07-15T03:58:39.040Z,"4 km SW of Rakovica, Croatia",earthquake,2.47,1.83,0.047,43,reviewed,us,us
+2024-05-01T17:03:52.615Z,44.9831,15.6333,17.815,3.8,mwr,80,18,1.127,0.72,us,us6000mvhh,2024-07-15T03:58:35.040Z,"1 km SW of Rakovica, Croatia",earthquake,4.56,3.879,0.057,30,reviewed,us,us
+2024-05-06T04:27:55.722Z,39.1978,15.1884,274.337,4.3,mb,37,74,0.931,0.89,us,us6000mwme,2024-07-20T22:20:00.040Z,"71 km SW of Cittadella del Capo, Italy",earthquake,7.38,6.474,0.133,16,reviewed,us,us
+2024-05-09T21:25:57.656Z,46.0525,7.4174,10.756,3.2,ml,20,87,0.322,0.42,us,us6000mxke,2024-07-20T22:20:05.040Z,"9 km SW of Evolène, Switzerland",earthquake,3.99,6.784,0.057,40,reviewed,us,us
+2024-05-10T10:48:35.728Z,38.1383,20.2723,43.002,4.2,mb,43,119,1.624,0.37,us,us6000mxpu,2024-07-20T22:20:06.040Z,"16 km WSW of Lixoúri, Greece",earthquake,2.05,10.014,0.124,18,reviewed,us,us
+2024-05-10T12:56:17.097Z,38.0414,20.2637,48.411,4.1,mb,25,175,1.576,1.13,us,us6000mxqe,2024-07-20T22:20:06.040Z,"23 km SW of Lixoúri, Greece",earthquake,7.5,4.26,0.157,11,reviewed,us,us
+2024-05-20T18:10:03.691Z,40.7925,14.1036,9.045,4.1,mb,63,97,0.425,0.76,us,us6000mzvj,2025-06-30T11:12:41.649Z,"2 km E of Bacoli, Italy",earthquake,5.76,4.648,0.117,20,reviewed,us,us
+2024-05-20T19:46:13.319Z,40.7649,14.051,8.769,4.2,mb,33,132,0.473,0.59,us,us6000mzw5,2024-08-06T02:10:23.040Z,"3 km ENE of Procida, Italy",earthquake,4.48,5.074,0.2,7,reviewed,us,us
+2024-05-22T09:34:21.260Z,44.7672,10.2195,35,3,ml,28,60,0.683,0.64,us,us6000n08j,2024-08-06T02:09:55.040Z,"1 km N of Collecchio, Italy",earthquake,4.75,2.004,0.071,26,reviewed,us,us
+2024-05-24T17:35:24.940Z,39.3551,17.0889,10,4,mwr,55,90,1.172,0.81,us,us6000n0sz,2024-08-06T02:10:14.040Z,"3 km WSW of Cirò Marina, Italy",earthquake,5.28,1.914,0.065,23,reviewed,us,us
+2024-05-29T12:07:13.237Z,39.4559,17.0954,10,4.2,mb,24,179,1.124,0.47,us,us7000mnrh,2024-08-06T20:32:47.040Z,"5 km E of Torretta, Italy",earthquake,5.87,1.958,0.167,10,reviewed,us,us
+2024-06-04T00:34:32.581Z,47.0847,8.7955,5,4.2,mb,38,76,0.721,1.09,us,us7000mq5x,2024-08-16T21:59:23.040Z,"2 km NNW of Unteriberg, Switzerland",earthquake,2.67,1.801,0.086,38,reviewed,us,us
+2024-06-17T06:17:56.392Z,37.2812,20.5331,38.868,4.1,mb,52,145,1.116,0.39,us,us7000msy0,2024-08-30T18:17:09.040Z,"55 km SSW of Lithakiá, Greece",earthquake,2.82,9.254,0.107,24,reviewed,us,us
+2024-07-02T12:38:31.128Z,38.0351,20.0417,31.422,4.5,mb,45,139,1.723,0.48,us,us7000my2l,2024-09-12T21:52:31.040Z,"39 km WSW of Lixoúri, Greece",earthquake,4.22,6.048,0.135,16,reviewed,us,us
+2024-07-06T17:34:28.033Z,37.7436,21.1923,8.405,4.9,mww,157,41,0.811,0.62,us,us7000mxgj,2024-09-12T21:52:29.040Z,"12 km SW of Savália, Greece",earthquake,4.33,3.161,0.053,34,reviewed,us,us
+2024-07-07T12:07:57.214Z,40.9414,20.6652,9.431,4.3,mb,32,97,0.729,0.77,us,us7000mxl8,2024-09-12T21:52:30.040Z,"4 km NNE of Pogradec, Albania",earthquake,5.05,7.138,0.308,3,reviewed,us,us
+2024-07-07T14:41:03.920Z,37.7601,21.2469,21.29,4.6,mwr,58,47,0.792,0.65,us,us7000mxlv,2024-09-12T21:52:30.040Z,"7 km SSW of Savália, Greece",earthquake,4.37,4.865,0.08,15,reviewed,us,us
+2024-07-12T06:48:29.298Z,39.3826,20.9207,27.697,4.1,mwr,25,100,1.157,0.42,us,us7000mysk,2024-09-20T16:00:54.040Z,"13 km NE of Pappadátes, Greece",earthquake,4.92,4.981,0.086,13,reviewed,us,us
+2024-07-24T00:42:07.656Z,41.6324,19.3892,16.809,4.4,mwr,106,29,0.456,1.08,us,us6000nf22,2024-10-08T21:49:11.005Z,"25 km WNW of Mamurras, Albania",earthquake,3.96,4.233,0.046,45,reviewed,us,us
+2024-08-01T19:43:20.688Z,39.3949,16.7478,29.993,5.1,mww,115,30,0.935,0.9,us,us6000nhfg,2024-10-11T19:39:08.040Z,"2 km S of Bocchigliero, Italy",earthquake,4.52,2.982,0.045,48,reviewed,us,us
+2024-08-13T06:43:05.383Z,46.1922,16.6379,10,4.1,mwr,78,24,1.307,1.05,us,us6000njt6,2024-10-26T15:47:32.040Z,"5 km W of Rasinja, Croatia",earthquake,4.35,1.863,0.038,65,reviewed,us,us
+2024-08-15T03:33:35.370Z,42.8221,17.6066,10,4,mb,62,31,1.282,1.17,us,us7000n73a,2024-10-26T15:48:35.040Z,"7 km WSW of Ston, Croatia",earthquake,1.74,1.936,0.164,10,reviewed,us,us
+2024-08-17T18:32:43.348Z,37.6849,19.9933,10,4.2,mb,30,129,1.619,1.29,us,us7000n7n2,2024-10-26T15:49:18.040Z,"69 km WSW of Katastárion, Greece",earthquake,6.12,1.965,0.199,7,reviewed,us,us
+2024-08-27T12:47:44.174Z,39.697,17.0972,10,4.4,mb,77,85,0.998,0.49,us,us6000nn1z,2024-11-09T21:18:29.040Z,"25 km NNE of Cariati, Italy",earthquake,5.43,1.915,0.085,40,reviewed,us,us
+2024-09-02T08:22:48.442Z,38.4595,20.4723,38.852,4.1,mb,34,105,1.561,0.35,us,us6000np7t,2024-11-15T16:19:47.040Z,"23 km WNW of Itháki, Greece",earthquake,5.52,14.188,0.185,10,reviewed,us,us
+2024-09-13T05:33:58.567Z,40.9347,19.7255,15.236,4.1,mb,21,73,0.425,0.91,us,us6000nytz,2024-11-21T22:58:54.040Z,"1 km ESE of Lushnjë, Albania",earthquake,3.66,5.784,0.213,6,reviewed,us,us
+2024-09-14T18:47:43.886Z,42.8846,7.2336,7.094,4.1,mwr,40,95,3.002,0.79,us,us7000ndu7,2024-11-21T22:58:57.040Z,"62 km SE of Ramatuelle, France",earthquake,5.62,3.657,0.086,13,reviewed,us,us
+2024-09-21T03:00:12.651Z,38.1096,12.2891,10,3.9,mb,35,84,1.756,1.05,us,us6000ntf7,2024-11-23T23:26:31.040Z,"20 km N of Favignana, Italy",earthquake,6.38,1.9,0.21,6,reviewed,us,us
+2024-09-22T12:23:14.112Z,44.5278,17.6243,7.699,4.1,mwr,66,25,0.384,0.85,us,us6000ntnz,2024-11-23T23:26:49.040Z,"8 km ESE of Maslovare, Bosnia and Herzegovina",earthquake,2.05,4.429,0.059,28,reviewed,us,us
+2024-09-28T12:18:13.410Z,37.2814,21.1868,11.41,4.7,mb,39,52,0.598,1.1,us,us7000ngz5,2024-12-06T19:30:17.040Z,"37 km WNW of Filiatrá, Greece",earthquake,4.49,4.338,0.098,32,reviewed,us,us
+2024-10-01T04:14:22.012Z,39.7388,20.2832,10,4,mwr,57,73,1.436,0.92,us,us7000nhd6,2024-12-14T14:50:51.040Z,"12 km NE of Konispol, Albania",earthquake,5.28,1.89,0.078,16,reviewed,us,us
+2024-10-10T13:59:50.431Z,36.9912,4.4918,10,4.5,mb,37,83,2.906,0.95,us,us6000nxv3,2024-12-23T15:46:36.040Z,"27 km NE of Arhribs, Algeria",earthquake,3.84,1.885,0.127,18,reviewed,us,us
+2024-10-18T00:37:04.750Z,38.4625,20.4796,10,4.3,mwr,55,80,1.555,0.62,us,us6000nzfy,2024-12-26T23:04:05.040Z,"23 km WNW of Itháki, Greece",earthquake,5.01,1.918,0.046,45,reviewed,us,us
+2024-10-25T17:32:44.528Z,40.7963,19.5721,38.881,3.9,mwr,77,67,0.593,0.62,us,us7000nn7m,2025-01-04T23:07:14.040Z,"8 km N of Fier, Albania",earthquake,3.74,9.018,0.083,14,reviewed,us,us
+2024-10-27T19:51:55.593Z,39.285,16.3692,10,4,mb,39,103,0.827,0.71,us,us7000nnif,2025-01-04T23:08:30.040Z,"2 km ENE of Serra Pedace, Italy",earthquake,4.77,1.925,0.149,12,reviewed,us,us
+2024-11-09T00:51:25.515Z,41.8108,14.8565,10,4,mb,47,47,0.666,0.75,us,us7000nqt7,2025-01-24T19:51:26.040Z,"5 km W of Larino, Italy",earthquake,4.86,1.949,0.138,14,reviewed,us,us
+2024-11-15T08:05:48.296Z,39.8411,15.5658,265.157,4.3,mb,54,69,0.245,0.68,us,us7000nry0,2025-01-26T16:30:01.040Z,"18 km W of San Nicola Arcella, Italy",earthquake,8.03,1.889,0.077,47,reviewed,us,us
+2024-11-28T00:04:37.777Z,36.4168,9.4838,10,4.3,mb,29,111,0.624,0.67,us,us7000nult,2025-02-02T00:52:47.040Z,"14 km WNW of Bou Arada, Tunisia",earthquake,4.28,1.943,0.134,16,reviewed,us,us
+2024-11-28T23:54:54.302Z,39.2669,16.4585,10,4.2,mwr,43,90,0.88,0.6,us,us7000nuuw,2025-02-02T00:53:22.040Z,"9 km E of Serra Pedace, Italy",earthquake,4.14,1.291,0.073,18,reviewed,us,us
+2024-12-09T06:33:02.912Z,41.2334,13.6285,10,4.1,mb,37,84,0.737,0.49,us,us7000nx8a,2025-02-18T20:02:50.040Z,"3 km SSE of Formia, Italy",earthquake,5.28,1.946,0.234,5,reviewed,us,us
+2024-12-09T10:41:22.413Z,44.5125,6.9032,10,3.9,mwr,50,48,1.845,0.95,us,us7000nx9v,2025-12-19T13:40:43.666Z,"8 km WNW of Acceglio, Italy",earthquake,5.54,1.917,0.06,27,reviewed,us,us
+2024-12-12T00:46:05.981Z,42.0853,20.5827,10,4.3,mb,57,40,0.913,1.1,us,us7000ny0m,2025-02-18T20:02:55.040Z,"8 km NW of Dragash, Kosovo",earthquake,3.72,1.886,0.088,36,reviewed,us,us
+2024-12-15T03:20:49.865Z,34.8619,8.7354,10,4.4,mb,15,138,1.001,0.43,us,us6000ph76,2025-02-18T20:03:00.040Z,"35 km SSW of Kasserine, Tunisia",earthquake,6.15,1.882,0.19,8,reviewed,us,us
+2024-12-17T17:01:37.019Z,41.5956,20.1935,13.048,3.8,mwr,26,91,0.351,0.51,us,us7000nzl7,2025-02-27T17:30:51.040Z,"11 km NNW of Bulqizë, Albania",earthquake,4.2,5.218,0.086,13,reviewed,us,us
+2024-12-22T12:33:43.719Z,39.7408,20.4017,10,4,mb,17,198,1.524,1.26,us,us7000p0r3,2025-02-27T17:30:55.040Z,"17 km NNE of Filiátes, Greece",earthquake,6.41,1.974,0.232,5,reviewed,us,us
+2024-12-23T12:19:19.534Z,38.6162,15.3782,213.438,4.2,mb,67,59,1.402,1.11,us,us7000p0wb,2025-03-08T22:39:18.040Z,"38 km NNW of Sparta', Italy",earthquake,7.31,7.109,0.115,23,reviewed,us,us
+2025-01-01T01:00:50.839Z,34.6287,16.5823,10,4,mb,12,246,3.361,1.19,us,us6000pgrt,2025-03-17T21:33:57.040Z,"228 km SE of Marsaskala, Malta",earthquake,7.78,2.005,0.211,6,reviewed,us,us
+2025-01-12T13:51:40.660Z,46.3924,12.7916,8.787,3.9,mwr,34,44,0.253,0.98,us,us6000pjjz,2025-03-20T20:55:14.040Z,"2 km S of Ampezzo, Italy",earthquake,2.64,5.924,0.071,19,reviewed,us,us
+2025-01-20T14:21:57.612Z,37.2869,20.9998,47.195,4.1,mb,40,135,0.746,0.59,us,us6000pl84,2025-03-29T22:12:44.040Z,"50 km SSE of Lithakiá, Greece",earthquake,6.37,11.212,0.127,17,reviewed,us,us
+2025-01-24T13:39:00.605Z,41.8275,19.3376,10,4.3,mb,41,45,0.604,1.28,us,us6000pm1c,2025-04-08T22:00:59.040Z,"14 km SE of Ulcinj, Montenegro",earthquake,3.28,1.907,0.116,21,reviewed,us,us
+2025-01-31T07:36:06.367Z,37.4879,20.6265,38.313,4.3,mb,33,54,1.08,0.83,us,us7000pa8b,2025-04-15T20:55:25.040Z,"31 km SW of Lithakiá, Greece",earthquake,4.53,8.164,0.109,24,reviewed,us,us
+2025-02-03T09:45:05.331Z,34.5424,9.6249,10,4.7,mww,105,38,1.208,0.71,us,us7000pazv,2025-04-15T20:55:30.040Z,"20 km W of Mezzouna, Tunisia",earthquake,6.41,1.821,0.078,16,reviewed,us,us
+2025-02-03T23:07:32.851Z,43.3042,11.3608,10.646,2.4,ml,11,138,0.235,0.53,us,us7000pb8c,2025-04-15T20:55:32.040Z,"2 km ESE of Siena, Italy",earthquake,2.68,4.538,0.081,20,reviewed,us,us
+2025-02-04T17:51:58.441Z,40.4467,14.9972,304.774,4.3,mb,76,46,0.669,0.68,us,us7000pbac,2025-04-15T20:55:32.040Z,"1 km SW of Capaccio Scalo, Italy",earthquake,7.22,5.343,0.106,25,reviewed,us,us
+2025-02-06T13:42:37.366Z,39.6282,15.4131,274.635,4.1,mb,48,87,0.479,1.05,us,us7000pbtb,2025-04-26T14:47:03.040Z,"35 km W of Diamante, Italy",earthquake,7.89,2.414,0.14,14,reviewed,us,us
+2025-02-07T15:19:12.809Z,38.4853,14.3824,10,5.2,mb,59,104,1.015,0.8,us,us7000pc4p,2025-04-26T14:47:04.040Z,"39 km WSW of Leni, Italy",earthquake,6.32,1.89,0.041,196,reviewed,us,us
+2025-02-11T17:43:01.135Z,44.3255,15.4995,10,4.6,mww,155,36,1.277,0.73,us,us7000pcwq,2025-04-26T14:47:08.040Z,"5 km NE of Starigrad, Croatia",earthquake,4.85,1.854,0.059,28,reviewed,us,us
+2025-02-12T00:26:02.888Z,44.1483,18.2715,10,2.3,ml,8,88,0.983,0.84,us,us7000pd3z,2025-05-02T16:26:16.040Z,"4 km WSW of Vareš, Bosnia and Herzegovina",earthquake,4.36,2.005,0.091,16,reviewed,us,us
+2025-02-16T14:30:01.898Z,40.6603,14.0371,10,3,ml,14,137,1.354,0.57,us,us7000pe46,2025-05-02T16:26:19.040Z,"10 km S of Procida, Italy",earthquake,3.44,2.004,0.066,30,reviewed,us,us
+2025-02-16T23:19:52.914Z,40.8039,14.1469,10,2.9,ml,15,129,0.391,0.98,us,us7000pe5u,2025-05-02T16:26:20.040Z,"2 km WSW of Bagnoli, Italy",earthquake,3.79,1.996,0.066,30,reviewed,us,us
+2025-02-18T12:40:59.641Z,39.1494,17.104,32.962,4.3,mb,34,101,1.305,0.5,us,us7000pehc,2025-05-02T16:26:21.040Z,"7 km NNW of Crotone, Italy",earthquake,4.96,7.186,0.177,9,reviewed,us,us
+2025-02-18T16:54:32.624Z,37.9629,21.0529,5.926,4.7,mww,208,24,1.045,0.57,us,us7000peij,2025-05-02T16:26:21.040Z,"8 km WNW of Kyllíni, Greece",earthquake,4.56,3.918,0.065,23,reviewed,us,us
+2025-02-25T11:52:49.996Z,45.4631,16.3687,10,4.4,mb,77,16,0.918,0.74,us,us6000pvby,2025-05-06T21:39:13.040Z,"0 km WSW of Sisak, Croatia",earthquake,4.33,1.859,0.117,21,reviewed,us,us
+2025-02-26T18:11:21.714Z,38.6421,15.3939,188.373,4.5,mb,111,58,1.389,0.72,us,us6000pvns,2025-05-08T19:24:41.040Z,"39 km W of San Nicolò, Italy",earthquake,6.62,5.584,0.053,104,reviewed,us,us
+2025-03-04T00:55:41.074Z,42.9102,12.6133,11.31,3.2,ml,27,89,0.359,0.59,us,us6000pwq6,2025-05-08T19:24:46.040Z,"3 km S of Bevagna, Italy",earthquake,3.51,7.502,0.053,46,reviewed,us,us
+2025-03-04T15:00:13.376Z,44.1014,10.0806,10,2.5,ml,13,119,0.458,0.6,us,us6000pwt2,2025-05-08T19:24:46.040Z,"2 km NNW of Carrara, Italy",earthquake,2.22,1.982,0.062,34,reviewed,us,us
+2025-03-13T00:25:01.774Z,40.7838,14.051,8.036,4.2,mb,48,75,0.463,0.64,us,us6000pyh6,2025-05-17T19:19:57.040Z,"1 km S of Monte di Procida, Italy",earthquake,2.63,6.353,0.11,23,reviewed,us,us
+2025-03-14T19:37:15.436Z,41.9796,15.4373,9.637,5,mww,177,24,0.321,0.59,us,us6000pywp,2025-05-17T19:19:58.040Z,"14 km NNE of Lesina, Italy",earthquake,3.72,3.595,0.051,37,reviewed,us,us
+2025-03-14T20:00:09.854Z,41.9963,15.5571,10,3.9,mb,61,52,0.279,0.7,us,us6000pyx0,2025-05-17T19:19:58.040Z,"14 km SSE of Isole Tremiti, Italy",earthquake,1.98,1.903,0.121,18,reviewed,us,us
+2025-03-15T12:32:26.346Z,40.706,14.0702,10,3.2,ml,21,135,1.31,0.9,us,us6000pz15,2025-05-17T19:19:58.040Z,"7 km SE of Procida, Italy",earthquake,5.04,1.999,0.071,26,reviewed,us,us
+2025-03-15T20:45:58.732Z,38.0732,12.2019,10,4,mb,26,78,1.808,0.77,us,us6000pz2t,2025-05-17T19:19:58.040Z,"19 km NW of Favignana, Italy",earthquake,4.54,1.82,0.164,10,reviewed,us,us
+2025-03-18T09:01:26.196Z,40.6596,15.836,17.181,4.3,mwr,128,57,0.661,0.45,us,us6000pzjc,2025-05-17T19:20:00.040Z,"3 km NE of Potenza, Italy",earthquake,4.7,4.14,0.065,23,reviewed,us,us
+2025-03-18T17:44:59.970Z,43.8554,7.3311,10,3.3,ml,31,50,1.641,0.78,us,us6000pzm8,2025-05-17T19:20:01.040Z,"2 km N of Berre-les-Alpes, France",earthquake,6.27,1.994,0.06,36,reviewed,us,us
+2025-03-18T21:24:20.412Z,43.7835,7.2915,10,3.1,ml,23,149,1.691,0.7,us,us6000pzn6,2025-05-17T19:20:01.040Z,"1 km ESE of Tourrette-Levens, France",earthquake,4.27,1.926,0.06,36,reviewed,us,us
+2025-03-20T21:25:24.068Z,43.7581,7.3008,10,2.5,ml,11,203,1.693,0.6,us,us7000pm28,2025-05-29T17:36:30.040Z,"1 km WSW of Cantaron, France",earthquake,7.65,2.008,0.071,26,reviewed,us,us
+2025-03-30T17:35:25.321Z,37.2693,20.3915,35.66,4.2,mb,48,79,1.227,0.98,us,us7000pnwe,2025-06-06T21:12:28.040Z,"63 km SW of Lithakiá, Greece",earthquake,5.78,4.491,0.102,27,reviewed,us,us
+2025-04-09T19:56:01.788Z,34.4944,9.5924,10,4.4,mb,54,102,1.251,0.67,us,us6000q4ze,2025-06-14T18:26:38.040Z,"24 km WSW of Mezzouna, Tunisia",earthquake,7.35,1.888,0.098,30,reviewed,us,us
+2025-04-12T23:38:13.018Z,38.7813,20.474,10,4.1,mb,21,96,1.968,1.12,us,us6000q5nz,2025-06-14T18:26:41.040Z,"20 km WSW of Lefkáda, Greece",earthquake,5.61,1.96,0.214,6,reviewed,us,us
+2025-04-16T01:26:09.884Z,37.625,16.1162,51.185,4.7,mb,115,65,1.41,0.82,us,us6000q6cn,2025-06-27T00:34:08.040Z,"34 km SSE of Palizzi Marina, Italy",earthquake,5.37,5.062,0.058,89,reviewed,us,us
+2025-04-17T21:57:36.548Z,36.0117,14.5875,10,3.3,ml,5,156,0.182,0.75,us,us6000q6z1,2025-06-27T00:34:22.040Z,"13 km NE of Sliema, Malta",earthquake,5.41,2.018,0.128,8,reviewed,us,us
+2025-04-29T12:52:18.369Z,37.3287,20.3842,35.566,4.1,mb,32,105,1.239,0.68,us,us7000pzdd,2025-07-11T15:46:26.040Z,"58 km SW of Lithakiá, Greece",earthquake,6.91,8.684,0.116,20,reviewed,us,us
+2025-05-06T01:40:08.455Z,45.4675,5.889,11.302,3.3,ml,18,103,0.968,0.86,us,us7000pxek,2025-07-12T16:30:46.040Z,"8 km W of Chapareillan, France",earthquake,4.96,7.469,0.074,24,reviewed,us,us
+2025-05-08T01:42:59.171Z,41.8207,12.7418,9.538,2.7,ml,15,125,0.146,1.22,us,us7000pxxr,2025-07-24T21:30:09.040Z,"1 km NNE of Montecompatri, Italy",earthquake,2.58,6.754,0.066,30,reviewed,us,us
+2025-05-10T04:51:34.464Z,38.0915,20.341,42.571,4.1,mb,36,119,1.553,0.99,us,us7000q1ju,2025-07-24T21:30:18.040Z,"14 km SW of Lixoúri, Greece",earthquake,6.39,10.659,0.14,14,reviewed,us,us
+2025-05-11T11:46:53.172Z,42.9684,18.6709,10,4.4,mb,47,37,0.692,0.79,us,us7000pyn6,2025-07-24T21:30:14.040Z,"22 km ENE of Bileća, Bosnia and Herzegovina",earthquake,4.11,1.932,0.13,17,reviewed,us,us
+2025-05-13T10:07:45.361Z,40.8192,14.0745,10,4,mwr,65,104,0.429,0.44,us,us7000pyym,2025-07-24T21:30:16.040Z,"2 km N of Bacoli, Italy",earthquake,5.38,1.912,0.093,11,reviewed,us,us
+2025-05-20T22:37:03.310Z,45.9604,11.135,11.615,2.7,ml,25,79,0.369,0.6,us,us7000q0g6,2025-07-25T17:06:20.040Z,"2 km NE of Besenello, Italy",earthquake,2.28,5.934,0.057,40,reviewed,us,us
+2025-05-22T22:52:00.363Z,42.5041,18.3603,10,4,mb,33,42,0.67,0.82,us,us7000q0z4,2025-08-13T15:14:30.040Z,"12 km WNW of Igalo, Montenegro",earthquake,2.14,1.927,0.123,18,reviewed,us,us
+2025-06-01T16:44:09.160Z,43.181,17.9687,10,3.7,mwr,49,31,1.212,0.66,us,us6000qh9w,2025-08-16T21:54:13.040Z,"10 km ENE of Crnići, Bosnia and Herzegovina",earthquake,2.54,1.935,0.065,23,reviewed,us,us
+2025-06-20T03:59:56.091Z,37.7173,19.8743,10,4.1,mb,54,140,1.718,1.06,us,us6000qldi,2025-09-02T21:23:39.040Z,"73 km SW of Lixoúri, Greece",earthquake,5.91,1.496,0.102,27,reviewed,us,us
+2025-06-21T13:25:52.156Z,37.8993,20.1997,10,4.6,mwr,45,47,1.549,1,us,us6000qlmf,2025-09-02T21:23:40.040Z,"39 km SSW of Lixoúri, Greece",earthquake,4.55,1.818,0.086,13,reviewed,us,us
+2025-06-21T14:56:54.891Z,38.0069,20.1919,51.068,4.2,mb,24,125,1.606,0.88,us,us6000qlmp,2025-09-02T21:23:40.040Z,"30 km SW of Lixoúri, Greece",earthquake,6.34,11.571,0.176,11,reviewed,us,us
+2025-06-24T03:04:54.278Z,41.4194,19.5601,10,4.2,mb,51,56,0.239,0.9,us,us7000q8c1,2025-09-02T21:23:42.040Z,"8 km N of Shijak, Albania",earthquake,2.47,1.888,0.094,32,reviewed,us,us
+2025-06-24T03:51:39.202Z,37.665,19.9335,25.569,4.1,mb,22,142,1.658,0.93,us,us7000q8cd,2025-09-02T21:23:42.040Z,"74 km SW of Lixoúri, Greece",earthquake,6.89,5.208,0.158,11,reviewed,us,us
+2025-06-24T08:48:25.091Z,37.404,19.7513,10,4.3,mb,29,143,1.748,1.1,us,us7000qawi,2025-09-02T21:23:47.040Z,"100 km WSW of Katastárion, Greece",earthquake,6.18,1.942,0.188,8,reviewed,us,us
+2025-06-27T06:59:49.453Z,41.4264,19.5807,10,4.4,mb,49,56,0.227,1.24,us,us7000q91z,2025-09-04T20:40:00.040Z,"7 km WNW of Vorë, Albania",earthquake,4.51,1.896,0.101,28,reviewed,us,us
+2025-07-05T18:55:52.169Z,46.7048,20.0077,7.298,4,mb,31,47,1.217,0.63,us,us7000qav5,2025-09-12T16:23:08.040Z,"9 km NNE of Pálmonostora, Hungary",earthquake,3.49,4.385,0.164,10,reviewed,us,us
+2025-07-05T21:29:46.354Z,37.2716,20.272,36.354,4.1,mb,27,149,1.323,1.37,us,us7000qavt,2025-09-12T16:23:09.040Z,"70 km SW of Lithakiá, Greece",earthquake,6.15,10.799,0.166,10,reviewed,us,us
+2025-07-07T06:20:43.063Z,37.7868,19.8367,25.471,4.5,mb,128,62,1.769,0.69,us,us7000qb3c,2025-09-12T16:23:10.040Z,"69 km SW of Lixoúri, Greece",earthquake,5.38,5.365,0.067,65,reviewed,us,us
+2025-07-08T15:03:36.098Z,37.8343,20.0575,38.519,4.3,mb,46,134,1.623,1.24,us,us7000qbcb,2025-09-12T16:23:12.040Z,"52 km SW of Lixoúri, Greece",earthquake,6.27,10.016,0.103,27,reviewed,us,us
+2025-07-11T12:23:06.371Z,38.1856,20.3753,54.417,4.2,mb,38,116,1.588,1.2,us,us7000qc0n,2025-11-28T20:51:52.561Z,"5 km WSW of Lixo?ri, Greece",earthquake,5.37,11.06,0.176,9,reviewed,us,us
+2025-07-11T16:24:06.690Z,37.2323,20.4701,37.579,4.7,mb,58,48,1.163,0.76,us,us7000qc2k,2025-11-28T20:53:43.192Z,"62 km SSW of Lithaki?, Greece",earthquake,6.54,7.66,0.062,79,reviewed,us,us
+2025-07-12T11:30:37.156Z,38.3179,20.4551,41.345,4.2,mb,31,162,1.628,0.89,us,us7000qc8s,2025-11-28T20:59:03.087Z,"13 km N of Lixo?ri, Greece",earthquake,7.21,9.202,0.125,18,reviewed,us,us
+2025-07-21T10:52:17.295Z,46.591,7.7142,10,4.1,mb,34,92,0.366,1.21,us,us7000qe8u,2025-10-03T18:43:11.040Z,"4 km E of Frutigen, Switzerland",earthquake,3.56,1.922,0.233,5,reviewed,us,us
+2025-07-22T06:43:12.342Z,39.4908,20.7043,7.193,4.4,mwr,86,47,1.351,1.05,us,us6000qu3f,2025-10-03T18:41:27.040Z,"15 km WSW of Agía Kyriakí, Greece",earthquake,5.61,3.972,0.083,14,reviewed,us,us
+2025-07-22T18:54:22.283Z,39.4542,20.6484,22.053,4.1,mb,80,66,1.38,1.08,us,us6000qu7v,2025-10-03T18:41:30.040Z,"11 km E of Paramythiá, Greece",earthquake,5.96,5.361,0.088,35,reviewed,us,us
+2025-08-08T03:25:13.480Z,37.5398,19.8784,35,4,mb,24,139,1.67,1.15,us,us7000qtad,2025-10-25T13:40:32.040Z,"83 km WSW of Katastárion, Greece",earthquake,7.06,1.968,0.232,5,reviewed,us,us
+2025-08-26T04:07:05.732Z,38.2565,11.6084,1.181,4.8,mww,183,35,2.31,0.51,us,us7000qqyn,2025-11-12T16:25:44.040Z,"72 km WNW of Favignana, Italy",earthquake,5.89,3.864,0.049,40,reviewed,us,us
+2025-08-30T07:50:06.108Z,34.5242,16.3568,12.706,4.7,mww,54,90,1.992,0.75,us,us7000qsis,2025-11-19T21:59:44.040Z,"220 km SE of Marsaskala, Malta",earthquake,8.06,4.657,0.065,23,reviewed,us,us
+2025-08-30T16:36:41.528Z,34.5429,7.6272,10,4.2,mb,38,128,1.841,0.82,us,us6000rck6,2025-11-19T21:59:35.040Z,"33 km WNW of Tamaghzah, Tunisia",earthquake,9.92,1.931,0.099,31,reviewed,us,us
+2025-09-17T04:56:00.102Z,38.3634,20.4351,10,4.3,mb,26,125,1.626,0.98,us,us7000qwmc,2025-12-06T16:00:18.040Z,"17 km N of Lixoúri, Greece",earthquake,5.6,1.272,0.153,12,reviewed,us,us
+2025-09-18T20:53:54.567Z,34.5308,7.4845,10,4.3,mb,19,195,1.94,0.5,us,us6000rg84,2025-12-06T16:00:11.040Z,"45 km WNW of Tamaghzah, Tunisia",earthquake,9.42,1.964,0.2,7,reviewed,us,us
+2025-09-20T21:11:40.664Z,42.827,12.4921,10,4.2,mb,48,72,0.436,1.16,us,us7000qxli,2025-12-06T16:00:25.040Z,"4 km SSE of San Terenziano, Italy",earthquake,5.42,1.919,0.199,7,reviewed,us,us
+2025-10-01T02:49:34.870Z,37.6443,20.8097,10,4.3,mb,43,134,1.002,1.01,us,us6000rdxu,2025-12-19T22:49:34.040Z,"8 km SSW of Lithakiá, Greece",earthquake,6.44,1.942,0.107,25,reviewed,us,us
+2025-10-02T21:39:15.864Z,44.1613,17.5248,10,3.7,mb,22,78,0.636,0.53,us,us6000red0,2025-12-19T22:49:46.040Z,"9 km SSW of Turbe, Bosnia and Herzegovina",earthquake,4.62,1.942,0.356,2,reviewed,us,us
+2025-10-03T18:57:00.781Z,45.0199,9.2998,27.129,3,ml,28,74,0.92,0.75,us,us6000remm,2025-12-19T22:49:53.040Z,"1 km SE of Montescano, Italy",earthquake,5.77,12.15,0.062,34,reviewed,us,us
+2025-10-06T10:13:59.075Z,43.9808,13.3879,10,4.9,mb,82,30,0.953,0.89,us,us6000rf24,2025-12-19T22:50:13.040Z,"30 km NE of Marotta, Italy",earthquake,4.09,1.88,0.046,147,reviewed,us,us
+2025-10-08T09:07:09.125Z,36.0796,21.0918,50.162,4.4,mb,39,114,1.285,0.7,us,us6000rk8q,2026-01-01T23:11:14.040Z,"98 km SSW of Methóni, Greece",earthquake,5.12,7.578,0.131,17,reviewed,us,us
+2025-10-19T14:53:31.556Z,35.4394,6.4989,10,4.5,mb,38,151,2.339,0.99,us,us6000rm5j,2026-01-09T15:38:46.040Z,"22 km ESE of Tazoult-Lambese, Algeria",earthquake,7.76,1.902,0.106,26,reviewed,us,us
+2025-10-19T22:59:31.240Z,40.5052,19.8876,10,4.3,mb,29,66,0.841,0.86,us,us6000ri7q,2026-01-09T15:38:41.040Z,"16 km SE of Ballsh, Albania",earthquake,5.03,1.905,0.105,26,reviewed,us,us
+2025-10-21T22:50:17.144Z,46.8285,20.1452,13.94,4.1,mb,30,126,1.104,0.74,us,us6000rijw,2026-01-09T15:38:44.040Z,"5 km SW of Cserkeszőlő, Hungary",earthquake,6.63,3.136,0.157,11,reviewed,us,us
+2025-10-24T12:40:59.094Z,41.0269,14.8167,10,4,mb,23,85,0.189,0.9,us,us6000rj3f,2026-01-15T22:46:50.040Z,"0 km SSE of Torrioni, Italy",earthquake,2.53,1.898,0.365,2,reviewed,us,us
+2025-10-25T19:49:19.047Z,40.9578,14.7014,10,4.4,mb,67,59,0.125,1.15,us,us6000rjh3,2026-01-15T22:46:53.040Z,"3 km WNW of Summonte, Italy",earthquake,3.89,1.403,0.127,18,reviewed,us,us
+2025-10-29T13:19:08.620Z,42.971,18.711,10,4.1,mb,36,72,0.676,0.3,us,us6000rk5l,2026-01-27T17:59:01.040Z,"22 km SSW of Plužine, Montenegro",earthquake,5.46,1.971,0.368,2,reviewed,us,us
+2025-11-17T09:44:50.481Z,38.9802,20.5865,48.657,4.2,mb,33,146,1.364,0.66,us,us6000rnq6,2026-02-10T15:55:12.040Z,"14 km W of Préveza, Greece",earthquake,3.43,8.246,0.263,5,reviewed,us,us
+2025-11-18T00:01:01.778Z,39.183,20.5303,27.76,4,mwr,25,71,1.414,0.62,us,us6000rsqn,2026-02-10T15:55:15.040Z,"8 km SW of Kanaláki, Greece",earthquake,5.48,3.104,0.089,12,reviewed,us,us
+2025-11-18T12:36:05.224Z,40.7299,13.6049,404.05,4.1,mb,59,53,0.789,0.77,us,us6000rnx5,2026-02-10T15:55:13.040Z,"16 km ESE of Ventotene, Italy",earthquake,7.37,6.317,0.123,18,reviewed,us,us
+2025-11-19T09:50:25.462Z,37.9542,20.9645,66.039,4.2,mb,29,163,1.087,0.7,us,us6000rss5,2026-02-20T16:07:36.040Z,"16 km W of Kyllíni, Greece",earthquake,6.54,6.204,0.167,10,reviewed,us,us
+2025-11-22T02:08:15.018Z,37.9341,20.6151,10,4.2,mb,21,184,1.285,0.99,us,us6000rtxd,2026-02-20T16:07:37.040Z,"17 km NW of Katastárion, Greece",earthquake,6.86,1.971,0.264,4,reviewed,us,us
+2025-12-15T09:11:20.344Z,36.5712,16.9247,10,4.2,mb,36,170,2.245,0.86,us,us6000ruyb,2026-03-10T22:18:42.040Z,"156 km ESE of Carrozziere, Italy",earthquake,6.71,1.945,0.187,9,reviewed,us,us
+2025-12-15T23:41:47.437Z,37.4097,20.1314,16.436,5.4,mww,81,47,1.449,0.98,us,us6000rv5e,2026-03-10T22:18:43.040Z,"70 km WSW of Lithakiá, Greece",earthquake,3.18,3.972,0.054,33,reviewed,us,us
+2025-12-16T11:56:39.375Z,37.2812,20.2044,46.918,4.2,mb,33,91,1.377,0.7,us,us7000rnp1,2026-03-10T22:18:49.040Z,"73 km SW of Lithakiá, Greece",earthquake,6.76,10.237,0.136,15,reviewed,us,us
+2025-12-16T14:04:54.159Z,35.4073,20.488,38.482,4,mb,16,235,2.115,0.95,us,us7000rnpb,2026-03-10T22:18:49.040Z,"191 km SW of Methóni, Greece",earthquake,10,11.945,0.183,8,reviewed,us,us
+2025-12-17T22:07:46.126Z,42.6832,17.6545,10,4.4,mb,84,33,1.213,0.98,us,us6000rvk7,2026-03-19T13:56:01.040Z,"9 km SE of Babino Polje, Croatia",earthquake,4.27,1.884,0.076,50,reviewed,us,us
+2026-01-05T13:24:48.013Z,36.4933,9.2573,10,4.4,mb,37,89,0.689,0.79,us,us7000rrnb,2026-04-07T22:12:01.040Z,"4 km NNE of Tabursuq, Tunisia",earthquake,7.24,1.907,0.134,16,reviewed,us,us
+2026-01-06T02:57:52.904Z,37.6824,20.9266,10,4.1,mb,21,147,0.941,0.73,us,us6000s4jx,2026-04-07T22:11:46.040Z,"9 km ESE of Lithakiá, Greece",earthquake,5.13,1.949,0.197,7,reviewed,us,us
+2026-01-06T23:49:59.661Z,37.5127,20.3401,35,4.1,mb,29,166,1.306,0.9,us,us6000s4js,2026-04-07T22:11:46.040Z,"48 km WSW of Lithakiá, Greece",earthquake,6.89,1.969,0.127,17,reviewed,us,us
+2026-01-09T14:28:55.992Z,45.7294,10.6498,10.874,3.2,ml,24,59,0.76,0.64,us,us7000rnut,2026-01-11T15:56:02.929Z,"4 km N of Gargnano, Italy",earthquake,2.41,9.805,0.056,42,reviewed,us,us
+2026-01-10T04:53:12.734Z,37.8907,16.2968,53.99,5.1,mww,71,72,1.598,0.92,us,us7000rnuf,2026-01-28T23:10:11.595Z,"19 km ESE of Weather Station, Italy",earthquake,6.18,6.596,0.069,20,reviewed,us,us
+2026-01-10T08:15:08.588Z,38.2731,20.2966,10,4.3,mb,32,132,1.691,1.15,us,us6000s51y,2026-02-04T08:04:10.040Z,"14 km WNW of Lixoúri, Greece",earthquake,6.13,1.931,0.134,16,reviewed,us,us
+2026-01-12T06:28:50.680Z,45.8589,6.7793,10,3.6,mwr,46,65,0.621,0.43,us,us7000rp4v,2026-03-10T09:08:55.040Z,"4 km SSW of Les Houches, France",earthquake,5.74,1.958,0.089,12,reviewed,us,us
+2026-01-13T08:27:57.858Z,44.436,12.1283,10,4.6,mb,68,25,0.83,0.77,us,us7000rpcy,2026-02-04T13:05:28.848Z,"2 km N of Fornace Zarattini, Italy",earthquake,4.67,1.9,0.126,22,reviewed,us,us
+2026-01-13T08:29:17.557Z,44.4305,12.1227,10,4.3,mb,34,49,0.826,0.84,us,us6000s5j7,2026-02-05T14:29:40.040Z,"1 km NNW of Fornace Zarattini, Italy",earthquake,3.42,1.883,0.237,6,reviewed,us,us
+2026-01-13T18:03:29.061Z,34.5308,9.7188,10,4.2,mb,18,206,1.237,0.75,us,us6000s5it,2026-02-03T15:20:05.040Z,"12 km WSW of Mezzouna, Tunisia",earthquake,8.63,1.918,0.214,6,reviewed,us,us
+2026-01-15T06:02:06.621Z,38.5326,18.0051,10,4.4,mb,69,106,1.579,1.03,us,us7000rpsk,2026-02-08T06:01:10.040Z,"88 km ESE of Capo Rizzuto, Italy",earthquake,5.73,1.315,0.1,29,reviewed,us,us
+2026-01-15T08:14:10.647Z,38.8011,17.9835,10,4.4,mb,42,129,1.324,0.73,us,us6000s1sj,2026-02-08T06:38:13.040Z,"77 km E of Capo Rizzuto, Italy",earthquake,5.95,1.925,0.144,14,reviewed,us,us
+2026-01-15T08:35:15.904Z,38.6578,17.9447,10,4.3,mb,47,130,1.47,0.76,us,us6000s1su,2026-02-08T06:51:35.040Z,"78 km ESE of Capo Rizzuto, Italy",earthquake,6.53,1.947,0.177,9,reviewed,us,us
+2026-01-16T10:28:49.465Z,40.6905,20.5756,10,4,mwr,33,109,0.849,0.6,us,us7000rq27,2026-02-12T09:37:28.040Z,"10 km W of Maliq, Albania",earthquake,3.28,1.372,0.08,15,reviewed,us,us
+2026-01-18T13:54:16.416Z,37.9556,14.9685,10,4.2,mb,22,150,0.688,1.03,us,us6000s6em,2026-03-06T19:08:08.040Z,"4 km N of Santa Domenica Vittoria, Italy",earthquake,5.64,1.952,0.175,10,reviewed,us,us
+2026-01-22T07:39:25.230Z,37.7364,20.74,35.276,4.3,mb,26,148,1.095,0.9,us,us6000s6ye,2026-02-11T09:01:29.040Z,"7 km W of Mouzaki, Greece",earthquake,7.7,7.054,0.188,8,reviewed,us,us
+2026-01-27T17:53:33.529Z,37.4764,20.2364,18.196,4.6,mb,92,52,1.378,0.73,us,us6000s4tv,2026-02-15T17:42:30.040Z,"58 km WSW of Lithakiá, Greece",earthquake,6.79,4.738,0.075,54,reviewed,us,us
+2026-01-29T19:40:11.952Z,39.498,20.3854,10,4.1,mb,37,107,1.585,0.86,us,us6000s8zk,2026-02-15T18:30:44.040Z,"7 km SE of Parapótamos, Greece",earthquake,4.83,1.96,0.157,11,reviewed,us,us
+2026-02-04T18:50:28.793Z,40.7265,20.8819,10,4.1,mb,36,84,0.989,0.89,us,us6000s6ha,2026-02-20T05:12:02.722Z,"14 km NW of Bilisht, Albania",earthquake,5.24,1.97,0.37,2,reviewed,us,us
+2026-02-04T22:11:00.589Z,40.6502,20.8832,10,4.1,mb,27,54,1.04,0.91,us,us6000s6ia,2026-02-25T23:17:22.040Z,"8 km NE of Mborje, Albania",earthquake,2.96,1.896,0.185,8,reviewed,us,us
+2026-02-10T21:05:28.406Z,42.1486,20.8547,10,4.5,mwr,75,39,1.092,0.58,us,us6000s7pd,2026-03-05T02:54:36.361Z,"11 km SE of Prizren, Kosovo",earthquake,4.58,1.838,0.071,19,reviewed,us,us
+2026-02-14T22:48:46.523Z,38.1606,11.8888,10,4.5,mb,25,123,3.166,1.1,us,us7000s0t7,2026-03-06T06:16:47.040Z,"46 km WNW of Favignana, Italy",earthquake,6.01,1.902,0.151,14,reviewed,us,us
+2026-02-17T16:31:27.848Z,43.8452,16.9192,38.572,4.3,mwr,152,15,2.222,0.75,us,us6000s9sn,2026-03-12T21:37:15.741Z,"6 km NNW of Zabrišće, Bosnia and Herzegovina",earthquake,4.72,5.648,0.055,32,reviewed,us,us
+2026-02-21T00:28:44.419Z,40.3887,14.9323,299.395,4.7,mww,119,27,0.699,0.71,us,us6000sajm,2026-03-10T03:43:00.040Z,"5 km WSW of Licinella-Torre di Paestum, Italy",earthquake,6.93,4.884,0.098,10,reviewed,us,us
+2026-02-23T19:29:41.952Z,43.2877,17.4003,10,3.9,mwr,53,28,1.615,0.91,us,us7000rztk,2026-03-13T15:54:11.040Z,"8 km NW of Vitina, Bosnia and Herzegovina",earthquake,5.18,1.885,0.058,29,reviewed,us,us
+2026-02-24T19:00:04.910Z,40.9095,19.6894,10,4.1,mb,28,96,0.456,1.03,us,us7000s01e,2026-04-08T19:05:51.040Z,"3 km SSW of Lushnjë, Albania",earthquake,4.27,1.934,0.12,19,reviewed,us,us
+2026-03-04T00:23:16.590Z,43.8356,16.2202,23.36,3.7,mb,26,49,2.238,0.5,us,us7000s1va,2026-03-25T00:31:04.040Z,"3 km WNW of Ružić, Croatia",earthquake,5.64,7.393,0.206,6,reviewed,us,us
+2026-03-04T06:05:10.539Z,37.4298,15.0241,10,4.5,mb,65,104,2.633,0.89,us,us7000s1xj,2026-03-24T12:59:51.975Z,"8 km SSW of Catania, Italy",earthquake,7.49,1.921,0.106,26,reviewed,us,us
+2026-03-06T13:22:01.963Z,39.8009,17.029,8.44,4.2,mwr,61,100,0.883,0.85,us,us7000s2ht,2026-03-30T14:07:48.040Z,"31 km NE of Mirto, Italy",earthquake,5.03,4.682,0.075,17,reviewed,us,us
+2026-03-08T03:32:31.239Z,39.7204,20.7101,10,5.5,mww,92,31,1.421,0.62,us,us7000s2x6,2026-03-28T00:12:09.021Z,"1 km NW of Rodotópi, Greece",earthquake,5.27,1.806,0.044,50,reviewed,us,us
+2026-03-08T03:36:28.256Z,39.6464,20.5937,10,4.7,mb,46,46,1.488,1.15,us,us7000s2xz,2026-03-18T02:21:18.040Z,"13 km WSW of Rodotópi, Greece",earthquake,5.21,1.823,0.115,23,reviewed,us,us
+2026-03-09T23:03:54.245Z,40.5769,13.9885,378.035,6,mww,161,17,0.632,0.68,us,us7000s39n,2026-03-19T04:01:40.188Z,"15 km SSE of Sant'Angelo, Italy",earthquake,6.82,4.764,0.045,47,reviewed,us,us
+2026-03-13T08:54:59.086Z,40.7276,15.4985,10,2.2,ml,5,133,0.768,1.16,us,us6000sfzz,2026-03-16T13:53:34.873Z,"3 km SSE of Muro Lucano, Italy",earthquake,2.11,1.799,0.115,10,reviewed,us,us
+2026-03-16T17:24:24.087Z,39.7915,20.7085,10,4.3,mwr,44,99,1.404,0.78,us,us6000sgmj,2026-03-28T15:45:23.040Z,"3 km SSW of Asprángeloi, Greece",earthquake,4.25,1.923,0.089,12,reviewed,us,us
+2026-03-17T10:37:01.388Z,39.5271,20.6278,10,4.1,mwr,69,52,1.419,0.35,us,us6000sgu8,2026-04-09T06:18:51.040Z,"11 km ENE of Paramythiá, Greece",earthquake,4.25,1.865,0.086,13,reviewed,us,us
+2026-03-20T09:05:32.112Z,39.5615,20.5423,10,4.7,mwr,88,46,1.493,1.08,us,us6000shrk,2026-03-20T10:32:40.040Z,"10 km NNE of Paramythiá, Greece",earthquake,4.55,1.864,0.093,11,reviewed,us,us
+2026-03-20T09:40:45.926Z,39.6989,20.6614,10,4.9,mww,60,46,1.463,1.08,us,us6000shrw,2026-03-20T18:01:11.340Z,"5 km W of Rodotópi, Greece",earthquake,4.73,1.644,0.071,19,reviewed,us,us
+2026-03-20T09:50:23.870Z,39.5919,20.6369,10,4.2,mb,38,120,1.436,1.37,us,us6000shry,2026-03-20T18:33:09.040Z,"15 km SSW of Rodotópi, Greece",earthquake,1.94,1.937,0.124,18,reviewed,us,us
+2026-03-20T23:31:21.230Z,38.2516,20.2844,10,4.5,mb,67,48,1.685,1.3,us,us6000shzt,2026-03-21T00:11:19.040Z,"14 km WNW of Lixoúri, Greece",earthquake,4.69,1.859,0.07,60,reviewed,us,us
+2026-03-21T01:46:05.619Z,38.4955,14.3678,10,5.2,mb,94,59,1.87,0.74,us,us6000si0l,2026-04-02T21:48:54.055Z,"40 km W of Leni, Italy",earthquake,4.42,1.84,0.037,247,reviewed,us,us
+2026-03-21T01:49:10.169Z,38.5003,14.3653,10,4.3,mb,48,85,1.868,1.28,us,us7000s93s,2026-04-02T22:04:29.040Z,"40 km W of Leni, Italy",earthquake,6.91,1.88,0.102,27,reviewed,us,us
+2026-03-21T05:51:30.587Z,38.1553,20.3059,10,4.3,mb,29,95,1.613,1.14,us,us6000si2s,2026-04-05T08:11:44.040Z,"12 km WSW of Lixoúri, Greece",earthquake,5.3,1.899,0.123,19,reviewed,us,us
+2026-03-21T18:04:58.392Z,38.079,14.5935,60.858,4.1,mb,41,152,2.135,0.95,us,us6000si8l,2026-03-21T18:37:55.040Z,"2 km NNE of Acquedolci, Italy",earthquake,7.38,10.864,0.136,15,reviewed,us,us
+2026-03-24T21:57:02.325Z,39.6362,20.5972,10,4.3,mb,34,84,1.529,0.89,us,us7000s7eq,2026-04-08T03:28:25.040Z,"13 km SW of Rodotópi, Greece",earthquake,5.36,1.826,0.114,22,reviewed,us,us
+2026-03-26T08:40:30.776Z,44.0376,10.9974,72.371,4.2,mb,26,104,0.313,1.11,us,us7000s7r8,2026-03-26T16:31:42.638Z,"6 km WNW of Cantagallo, Italy",earthquake,7.37,4.465,0.131,16,reviewed,us,us
+2026-03-29T03:01:58.010Z,38.0329,20.8173,45.046,4.5,mb,55,84,1.225,1.1,us,us7000s8h1,2026-04-09T00:23:04.040Z,"14 km SSE of Póros, Greece",earthquake,6.67,5.832,0.079,47,reviewed,us,us
+2026-04-03T06:51:16.193Z,39.5749,20.6416,10,4.3,mb,48,46,1.426,0.84,us,us6000smak,2026-04-03T14:31:17.520Z,"16 km NE of Paramythiá, Greece",earthquake,5.56,1.884,0.133,16,reviewed,us,us
+2026-04-04T16:24:22.657Z,39.6618,20.5776,23.533,4.1,mb,44,46,1.506,0.91,us,us6000smln,2026-04-04T18:23:35.040Z,"13 km WSW of Rodotópi, Greece",earthquake,4.21,5.355,0.093,34,reviewed,us,us
+2026-04-06T04:20:50.717Z,39.7119,20.707,10,4.6,mwr,35,62,1.425,0.99,us,us6000smz7,2026-04-06T04:36:12.040Z,"1 km WNW of Rodotópi, Greece",earthquake,3.5,1.906,0.053,34,reviewed,us,us
