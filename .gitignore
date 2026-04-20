@@ -25,6 +25,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# for jupyter 3d plot
+iframe_figures/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
