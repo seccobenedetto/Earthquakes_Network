@@ -1,5 +1,6 @@
 Data taken from https://webservices.ingv.it/fdsnws/event/1/query, searching for earthquakes in Italy,
 using these area coordinates:
 
-[34.459, 47.428] Latitude
-[3.867, 21.27] Longitude
+[34, 48] Latitude
+[3, 22] Longitude
+Magnitude > 1.5

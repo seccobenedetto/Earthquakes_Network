@@ -2,7 +2,6 @@ Data taken from https://earthquake.usgs.gov/earthquakes/search/, searching for e
 using these area coordinates:
 
 
-[34.459, 47.428] Latitude
-[3.867, 21.27] Longitude
-
-
+[24.6, 50.0] Latitude
+[-125.0, -65.0] Longitude
+Magnitude > 1.5
