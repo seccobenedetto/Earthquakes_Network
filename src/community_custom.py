@@ -18,6 +18,12 @@ passed to any downstream function interchangeably:
 
 NMI utilities compare any pair of partitions; the heatmap shows pairwise
 agreement across all methods.
+
+Partition scoring: ``score_partition`` computes nine quality metrics for a
+single partition (modularity Q, conductance, coverage, Ncut, map equation,
+DC-SBM log-likelihood, Surprise, geographic compactness, depth coherence).
+``compare_partitions`` scores all methods and returns a tidy DataFrame;
+``plot_partition_scores`` renders a z-score-normalised heatmap ranked by Q.
 """
 
 import logging
@@ -361,7 +367,7 @@ def run_hdbscan_geo_hybrid(
     clusters cells purely by (projected) (x, y) position.
 
     Useful as the "is the network adding signal beyond spatial proximity?"
-    contrast against the graph-aware methods (Louvain, InfoMap):
+    contrast against the graph-aware methods (Louvain, InfoMap, MM-SBM):
     high NMI with HDBSCAN-geo means the network methods are mostly
     rediscovering geography; moderate NMI means the network captures
     structure beyond spatial clustering.
@@ -1208,6 +1214,80 @@ def plot_nmi_heatmap(nmi_df: pd.DataFrame, tag: str = "", save: bool = True):
 # Partition quality: the four course measures (Modularity, Ncut, InfoMap, NMI)
 # ====================================================================================
 
+def _map_equation_codelength_infomap(
+    G: nx.Graph,
+    partition: Partition,
+    weight: str = "weight",
+    directed: bool = True,
+    seed: int = 42,
+) -> float:
+    """
+    Two-level map-equation codelength (bits) of ``partition`` under InfoMap's flow.
+
+    Rather than reconstructing the random-walk flow by hand – which mixes the
+    teleporting PageRank visit rates with the raw non-teleporting transition
+    matrix, so the visit distribution is not stationary under the operator used
+    for the flow and the codelength does not match the objective InfoMap
+    minimises – this hands the *fixed* partition to InfoMap and reads back the
+    codelength it assigns under one self-consistent flow model. ``run`` is called
+    with ``no_infomap=True`` so InfoMap only encodes the given clustering and
+    performs no community optimisation. Self-loops are dropped and directedness
+    is matched to :func:`run_infomap_hybrid` so every partition is scored on the
+    same flow model as the InfoMap-detected one.
+
+    Parameters
+    ----------
+    G : nx.Graph
+        Weighted network the partition was computed on.
+    partition : dict
+        ``{node: community_id}``. Nodes absent from the partition are ignored.
+    weight : str
+        Edge-weight attribute.
+    directed : bool
+        Directed flow model (match the value used when running InfoMap).
+    seed : int
+        InfoMap seed.
+
+    Returns
+    -------
+    float
+        Codelength in bits, or ``nan`` if the partition covers no linked nodes.
+
+    References
+    ----------
+    Rosvall & Bergstrom 2008, *PNAS* 105(4):1118-1123.
+    """
+    try:
+        from infomap import Infomap
+    except ImportError:
+        raise ImportError("pip install infomap")
+
+    nodes = [n for n in G.nodes() if n in partition]
+    if not nodes:
+        return float("nan")
+    node_set = set(nodes)
+    node_to_int = {n: i for i, n in enumerate(nodes)}
+
+    im = Infomap(directed=directed, silent=True, seed=seed)
+    n_links = 0
+    for u, v, data in G.edges(data=True):
+        if u == v or u not in node_set or v not in node_set:
+            continue
+        w = float(data.get(weight, 1.0))
+        if w <= 0:
+            continue
+        im.add_link(node_to_int[u], node_to_int[v], w)
+        n_links += 1
+    if n_links == 0:
+        return float("nan")
+
+    # contiguous integer module ids for the fixed clustering
+    comm_to_int = {c: i for i, c in enumerate(sorted({partition[n] for n in nodes}))}
+    im.initial_partition = {node_to_int[n]: comm_to_int[partition[n]] for n in nodes}
+    im.run(no_infomap=True)
+    return float(im.codelength)
+
+
 def score_partition_hybrid(
     G: nx.DiGraph,
     partition: Partition,
@@ -1227,8 +1307,21 @@ def score_partition_hybrid(
 
       * Modularity     Q    = Σ_a (P_aa − p_a²)              (maximize)
       * Normalized cut Ncut = 1 − (1/K) Σ_a P_aa / p_a       (minimize)
-      * Map equation   L    = f(q) + Σ_a f([q_a, z_a]),  bits (minimize)
-                       with f(x) = −Σ_j x_j log₂(x_j / Σ_k x_k)
+      * Map equation   L    = two-level codelength, bits     (minimize)
+
+    Modularity and Ncut use the flow above (PageRank visit rates r + community
+    aggregation). The map-equation codelength, however, is evaluated by InfoMap
+    itself (:func:`_map_equation_codelength_infomap`), not reconstructed here.
+    The hand-rolled walk mixes teleporting PageRank visit rates with a raw
+    non-teleporting transition matrix, so r is not stationary under the operator
+    used for the within-community flow (‖r·P − r‖₁ > 0); the resulting codelength
+    does not match the objective InfoMap actually minimises and can rank a
+    balanced partition above InfoMap's own solution on directed, chain-like,
+    dangling-heavy networks (e.g. Abe-Suzuki). Delegating to InfoMap's encoder
+    puts every partition on one self-consistent flow model, so the codelength is
+    comparable across partitions: InfoMap (a greedy stochastic heuristic) sits at
+    or near the minimum, and any partition that beats it genuinely compresses the
+    flow better rather than winning on a model artifact.
 
     The fourth course quality measure, NMI, is pairwise between partitions and is
     reported separately via :func:`compute_nmi_matrix`.
@@ -1252,8 +1345,6 @@ def score_partition_hybrid(
     dict
         ``{"modularity", "ncut", "codelength", "n_communities"}``.
     """
-    from collections import defaultdict
-
     nodes = [n for n in G.nodes() if n in partition]
     if not nodes:
         return {"modularity": np.nan, "ncut": np.nan,
@@ -1309,24 +1400,11 @@ def score_partition_hybrid(
         ratio = np.where(p > 0, P_within / p, 0.0)
     ncut = float(1.0 - ratio.sum() / K) if K > 0 else np.nan
 
-    # exit probabilities q_a = p_a − P_aa
-    q = np.clip(p - P_within, 0.0, None)
-
-    # map equation L = f(q) + Σ_a f([q_a, z_a]) in bits
-    def _f(values) -> float:
-        x = np.array([v for v in values if v > 0], dtype=float)
-        s = x.sum()
-        if s <= 0:
-            return 0.0
-        return float(-np.sum(x * np.log2(x / s)))
-
-    nodes_by_comm: dict[int, list] = defaultdict(list)
-    for n in nodes:
-        nodes_by_comm[idx[partition[n]]].append(r[n])
-
-    L = _f(q)
-    for a in range(K):
-        L += _f([q[a]] + nodes_by_comm[a])
+    # map-equation codelength — evaluated under InfoMap's own self-consistent
+    # flow model rather than the hand-rolled walk above (see docstring)
+    L = _map_equation_codelength_infomap(
+        G, partition, weight=weight, directed=G.is_directed(),
+    )
 
     return {"modularity": Q, "ncut": ncut,
             "codelength": L, "n_communities": K}
@@ -1410,6 +1488,256 @@ def plot_partition_quality_hybrid(
 # ------------------------------------------------------------------------------------
 # Interactive (Plotly) network layouts – zoom / pan / hover
 # ------------------------------------------------------------------------------------
+
+
+# ====================================================================================
+# Mixed-Membership SBM via variational EM (Airoldi et al. 2008)
+# ====================================================================================
+
+
+def run_mmsbm_custom_hybrid(
+    G: nx.Graph,
+    K: int = 10,
+    n_iter: int = 50,
+    alpha: float | None = None,
+    weight_mode: str = "poisson",
+    tol: float = 1e-4,
+    seed: int = 42,
+    init: str = "louvain",
+    verbose: bool = True,
+) -> tuple[np.ndarray, Partition]:
+    """
+    Mixed-Membership Stochastic Blockmodel via variational EM
+    (Airoldi, Blei, Fienberg & Xing 2008).
+
+    Each node :math:`p` carries a Dirichlet-distributed membership vector
+    :math:`\\pi_p \\in \\Delta^{K-1}`, and each ordered pair :math:`(p, q)`
+    has latent block assignments :math:`z_{p \\to q}, z_{p \\leftarrow q}
+    \\sim \\mathrm{Mult}(\\pi)`. The edge :math:`A_{pq}` is drawn from
+    :math:`\\mathrm{Bernoulli}(B[z_{p \\to q}, z_{p \\leftarrow q}])`
+    (``weight_mode='binary'``) or :math:`\\mathrm{Poisson}(B[z, z'])`
+    on :math:`\\log(1 + w_{pq})`-transformed edge weights (``weight_mode='poisson'``,
+    default). The log1p transform compresses the ~6-decade hybrid weight range
+    into a numerically stable ~0–11 range while preserving relative ordering.
+
+    Variational EM follows the original paper (eqs. 3, 5, 7) with full
+    materialisation of the per-pair multinomials :math:`\\phi_{p \\to q}`
+    and :math:`\\phi_{p \\leftarrow q}` as :math:`(N, N, K)` tensors –
+    memory cost :math:`\\sim N^2 K` floats. For the hybrid 30 km Italy
+    giant (:math:`N \\approx 1{,}800`) at :math:`K=10` this is :math:`\\sim`
+    260 MB, runnable in a notebook. For larger networks, consider the
+    stochastic-variational variant of Gopalan & Blei (2013).
+
+    Parameters
+    ----------
+    G : nx.Graph or nx.DiGraph
+        Network. Edge weights used iff ``weight_mode='poisson'``.
+    K : int
+        Number of blocks. For cross-validation with graph-tool's
+        ``OverlapBlockState``, set this to graph-tool's auto-selected
+        block count (read from its output CSV).
+    n_iter : int
+        Maximum variational EM iterations.
+    alpha : float or None
+        Dirichlet concentration hyperparameter. Default ``1/K`` encourages
+        sparse memberships (most mass on one or two blocks).
+    weight_mode : {'binary', 'poisson'}, default ``'poisson'``
+        * ``'binary'`` – Bernoulli edge likelihood on the 0/1 adjacency.
+          Loses the hybrid's continuous weight information but is the
+          canonical Airoldi 2008 formulation.
+        * ``'poisson'`` – Poisson likelihood on ``log1p(weight)``. Preserves
+          relative weight ordering across the hybrid's ~6-decade range
+          (min ≈ 0.02, max ≈ 4.8e4) by compressing to ~0–11, which keeps
+          Poisson rates numerically stable. This matches the prof's algorithm
+          slide (MM-SBM: weighted=YES) for the hybrid network.
+    tol : float
+        Convergence threshold (currently advisory only – fixed
+        ``n_iter`` is used).
+    seed : int
+        RNG seed for initialisation.
+    verbose : bool
+        Print iteration summary (entropy of mean π, block matrix extrema).
+
+    Returns
+    -------
+    pi : np.ndarray, shape (N, K)
+        Expected membership probabilities under the variational posterior:
+        :math:`\\hat\\pi_{p, k} = \\gamma_{p, k} / \\sum_k \\gamma_{p, k}`.
+    hard_partition : dict
+        ``{node_id: int}`` mapping (argmax of :math:`\\hat\\pi`) – suitable
+        for NMI comparison against single-membership methods.
+
+    References
+    ----------
+    Airoldi E.M., Blei D.M., Fienberg S.E. & Xing E.P. (2008). Mixed
+    Membership Stochastic Blockmodels. *Journal of Machine Learning
+    Research*, 9, 1981-2014.
+
+    Gopalan P. & Blei D.M. (2013). Efficient discovery of overlapping
+    communities in massive networks. *PNAS*, 110(36), 14534-14539.
+    """
+    from scipy.special import digamma
+
+    rng = np.random.default_rng(seed)
+    nodes = list(G.nodes())
+    N = len(nodes)
+    node2idx = {n: i for i, n in enumerate(nodes)}
+
+    if alpha is None:
+        alpha = 1.0 / K
+    if weight_mode not in ("binary", "poisson"):
+        raise ValueError(f"weight_mode must be 'binary' or 'poisson', got {weight_mode!r}")
+
+    # ── Adjacency matrix (directed; A[i,j] = edge i → j) ─────────────────────
+    A = np.zeros((N, N), dtype=np.float32)
+    for u, v, d in G.edges(data=True):
+        i, j = node2idx[u], node2idx[v]
+        if weight_mode == "binary":
+            A[i, j] = 1.0
+        else:
+            A[i, j] = float(np.log1p(d.get("weight", 1.0)))
+
+    if verbose:
+        mem_mb = (N * N * K * 4 * 2) / 1024**2  # phi_send + phi_recv
+        log.info("MMSB-EM: N=%d, K=%d, weight_mode=%s, est. memory %.0f MB",
+                 N, K, weight_mode, mem_mb)
+        log.info("  adjacency: %d edges, A.sum()=%.3g, A.mean()=%.4f",
+                 int((A > 0).sum()), float(A.sum()), float(A.mean()))
+
+    # ── Initial hard labels for symmetry breaking ────────────────────────────
+    # Pure-random γ init traps the EM in a degenerate fixed point: when B is
+    # uniform across blocks, the E-step cannot differentiate r values, so the
+    # M-step keeps B uniform forever. We seed with a hard partition from
+    # spectral / Louvain / random, then soften it.
+    if init == "spectral":
+        # K-means on top-K eigenvectors of the symmetrized adjacency
+        from sklearn.cluster import KMeans
+        from scipy.sparse.linalg import eigsh
+        from scipy.sparse import csr_matrix
+        A_sym = (A + A.T) / 2.0
+        # Add self-loops to ensure connectivity for the eigensolver
+        np.fill_diagonal(A_sym, A_sym.sum(axis=1) / max(N, 1) + 1e-6)
+        try:
+            k_eig = min(K, N - 1)
+            _, vecs = eigsh(csr_matrix(A_sym.astype(np.float64)), k=k_eig, which="LA")
+            init_labels = KMeans(n_clusters=K, random_state=seed, n_init=10).fit_predict(vecs)
+        except Exception as e:
+            log.warning("spectral init failed (%s), falling back to random", e)
+            init_labels = rng.integers(0, K, size=N)
+    elif init == "louvain":
+        try:
+            import leidenalg, igraph as ig
+            G_und = G.to_undirected()
+            G_und.remove_edges_from(nx.selfloop_edges(G_und))
+            g_ig = ig.Graph(directed=False)
+            g_ig.add_vertices(N)
+            g_ig.add_edges([(node2idx[u], node2idx[v]) for u, v in G_und.edges()])
+            part = leidenalg.find_partition(
+                g_ig, leidenalg.RBConfigurationVertexPartition, seed=seed
+            )
+            init_labels = np.array(part.membership)
+            # If Louvain found more/fewer than K, remap via K-means on indicator embedding
+            if init_labels.max() + 1 != K:
+                from sklearn.cluster import KMeans
+                one_hot = np.eye(init_labels.max() + 1)[init_labels]
+                init_labels = KMeans(n_clusters=K, random_state=seed, n_init=10).fit_predict(one_hot)
+        except Exception as e:
+            log.warning("louvain init failed (%s), falling back to random", e)
+            init_labels = rng.integers(0, K, size=N)
+    else:  # "random"
+        init_labels = rng.integers(0, K, size=N)
+
+    # ── Variational parameters ───────────────────────────────────────────────
+    # γ_p: high concentration on the initial label, small mass on others. Soft
+    # enough that the EM can move nodes between blocks; hard enough that B is
+    # immediately differentiated across blocks.
+    gamma = np.full((N, K), alpha, dtype=np.float32)
+    gamma[np.arange(N), init_labels] += 10.0
+    gamma += rng.random((N, K)).astype(np.float32) * 0.1
+
+    # φ[i, j, k] = ξ_{i→j, k} = per-pair multinomial – i's block when interacting
+    # with j (the *sender* indicator for endpoint i). The receiver indicator for
+    # the same pair is φ[j, i, k] = ξ_{j→i, k} – same tensor, transposed. There
+    # is no separate "receive" tensor in Airoldi's formulation.
+    # Initialise φ from the hard labels too (peaked at init_labels[i]).
+    phi = np.full((N, N, K), 0.01, dtype=np.float32)
+    for k in range(K):
+        mask = (init_labels == k)
+        phi[mask, :, k] = 0.9
+    phi /= phi.sum(axis=2, keepdims=True)
+
+    # Block interaction matrix – diagonal-dominant init so that block-pair
+    # likelihoods differ from the start (constant-B init traps the EM in a
+    # symmetric degenerate fixed point where all blocks are interchangeable).
+    mean_density = float(A.mean()) if weight_mode == "binary" else max(float(A.mean()), 1e-3)
+    B = np.full((K, K), mean_density * 0.5, dtype=np.float64)
+    np.fill_diagonal(B, mean_density * 3.0)
+    B *= 1.0 + rng.uniform(-0.1, 0.1, size=(K, K))
+    if weight_mode == "binary":
+        B = np.clip(B, 1e-3, 1.0 - 1e-3)
+    else:
+        B = np.maximum(B, 1e-3)
+
+    # ── EM loop ──────────────────────────────────────────────────────────────
+    for it in range(n_iter):
+        Elog_pi = digamma(gamma) - digamma(gamma.sum(axis=1, keepdims=True))  # (N, K)
+
+        # E-step: update φ[i, j, r] = ξ_{i→j, r}.
+        # The receiver multinomial for the same pair is φ[j, i, s] = ξ_{j→i, s}.
+        # `einsum('jis,rs->ijr', phi, logB)` computes Σ_s ξ_{j→i,s} · logB[r,s].
+        if weight_mode == "binary":
+            logB   = np.log(B + 1e-10)
+            log1mB = np.log(1.0 - B + 1e-10)
+            log_phi = (
+                Elog_pi[:, None, :]
+                + A[:, :, None]         * np.einsum('jis,rs->ijr', phi, logB)
+                + (1.0 - A)[:, :, None] * np.einsum('jis,rs->ijr', phi, log1mB)
+            )
+        else:  # poisson
+            logB = np.log(B + 1e-10)
+            log_phi = (
+                Elog_pi[:, None, :]
+                + A[:, :, None] * np.einsum('jis,rs->ijr', phi, logB)
+                - np.einsum('jis,rs->ijr', phi, B)
+            )
+
+        log_phi -= log_phi.max(axis=2, keepdims=True)  # numerical stability
+        phi = np.exp(log_phi).astype(np.float32)
+        phi /= phi.sum(axis=2, keepdims=True)
+
+        # ── M-step ───────────────────────────────────────────────────────────
+        # γ_{p,k} = α + Σ_q φ[p, q, k]   – Airoldi eq. 7
+        gamma = (alpha + phi.sum(axis=1)).astype(np.float32)
+
+        # B[r, s] = Σ_{ij} A[i,j] · φ[i,j,r] · φ[j,i,s] / Σ_{ij} φ[i,j,r] · φ[j,i,s]
+        # – Airoldi eq. 6 (Bernoulli) / analogous for Poisson rate
+        phi_T = phi.transpose(1, 0, 2)  # phi_T[i, j, s] = phi[j, i, s] = ξ_{j→i, s}
+        numer = np.einsum('ijr,ijs->rs', phi * A[..., None], phi_T)
+        denom = np.einsum('ijr,ijs->rs', phi, phi_T)
+        B = (numer + 1e-10) / (denom + 1e-10)
+        if weight_mode == "binary":
+            B = np.clip(B, 1e-6, 1.0 - 1e-6)
+        else:
+            B = np.maximum(B, 1e-6)
+
+        if verbose and (it % 5 == 0 or it == n_iter - 1):
+            pi_tmp = gamma / gamma.sum(axis=1, keepdims=True)
+            mean_entropy = float(
+                -np.sum(pi_tmp * np.log(pi_tmp + 1e-10), axis=1).mean()
+            )
+            log.info(
+                "  iter %3d/%d  mean π entropy=%.3f  B range=[%.3g, %.3g]",
+                it + 1, n_iter, mean_entropy, float(B.min()), float(B.max()),
+            )
+
+    # ── Final: π = expected membership, hard partition = argmax ─────────────
+    pi = gamma / gamma.sum(axis=1, keepdims=True)
+    hard_partition = {nodes[i]: int(np.argmax(pi[i])) for i in range(N)}
+    if verbose:
+        log.info("MMSB-EM done: %d unique argmax blocks (of K=%d possible)",
+                 len(set(hard_partition.values())), K)
+    return pi, hard_partition
+
 
 # ==============================================================================
 # Temporal modularity evolution (sliding-window Q around a main shock)
